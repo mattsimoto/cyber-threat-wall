@@ -3,140 +3,88 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Cyber Threat Wall — a filterable view of vulnerabilities in CISA's Known Exploited Vulnerabilities catalog, enriched with NVD data." />
-  <title>Cyber Threat Wall</title>
+  <meta name="description" content="Cyber Threat Wall turns CISA KEV, NVD and EPSS data into a visual market of actively exploited vulnerabilities." />
+  <meta property="og:title" content="Cyber Threat Wall — See where exploitation risk is moving" />
+  <meta property="og:description" content="A live visual market of vulnerabilities confirmed by CISA to be exploited in the wild." />
+  <title>Cyber Threat Wall — See Where Exploitation Risk Is Moving</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="topbar">
-    <div>
-      <div class="eyebrow">CISA KEV + NVD</div>
+    <div class="brand-block">
+      <div class="eyebrow">CISA KEV + NVD + FIRST EPSS</div>
       <h1>Cyber Threat Wall</h1>
-      <p class="subtitle">Vulnerabilities known to be actively exploited, ranked by remediation urgency.</p>
+      <p class="tagline">See where exploitation risk is moving.</p>
+      <p class="subtitle">A live visual market of vulnerabilities confirmed by CISA to be exploited in the wild, enriched with severity, exploitation probability, ransomware activity and remediation urgency.</p>
     </div>
-    <div class="status-panel">
-      <div><span class="status-dot"></span><span id="dataStatus">Loading data…</span></div>
-      <div id="lastUpdated" class="muted"></div>
+    <div class="header-actions">
+      <div class="mode-toggle segmented" aria-label="Audience view">
+        <button id="analystModeBtn" class="active" type="button">Analyst</button>
+        <button id="executiveModeBtn" type="button">Executive</button>
+      </div>
+      <div class="status-panel">
+        <div><span class="status-dot"></span><span id="dataStatus">Loading data…</span></div>
+        <div id="lastUpdated" class="muted"></div>
+      </div>
     </div>
   </header>
 
   <main>
+    <section id="ticker" class="ticker" aria-label="Threat market ticker"></section>
     <section id="stats" class="stats" aria-label="Summary statistics"></section>
+    <section id="headlineIntel" class="headline-intel" aria-label="Threat intelligence highlights"></section>
 
-    <section class="controls" aria-label="Filters">
-      <div class="search-wrap">
-        <label for="search">Search</label>
-        <input id="search" type="search" placeholder="CVE, vendor, product, vulnerability…" autocomplete="off" />
+    <section id="moversSection" class="section-block">
+      <div class="section-heading">
+        <div><span class="eyebrow">Threat Market</span><h2>Market Movers</h2></div>
+        <div class="timeframe segmented"><button class="active" data-window="24h">24H</button><button data-window="7d">7D</button></div>
       </div>
+      <div id="movers" class="movers-grid"></div>
+    </section>
 
-      <div>
-        <label for="vendorFilter">Vendor</label>
-        <select id="vendorFilter"><option value="">All vendors</option></select>
-      </div>
-
-      <div>
-        <label for="severityFilter">CVSS</label>
-        <select id="severityFilter">
-          <option value="">All severities</option>
-          <option value="critical">Critical 9.0+</option>
-          <option value="high">High 7.0–8.9</option>
-          <option value="medium">Medium 4.0–6.9</option>
-          <option value="unknown">Not scored</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="ageFilter">Added to KEV</label>
-        <select id="ageFilter">
-          <option value="">Any time</option>
-          <option value="7">Last 7 days</option>
-          <option value="30">Last 30 days</option>
-          <option value="90">Last 90 days</option>
-          <option value="365">Last year</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="ransomwareFilter">Ransomware</label>
-        <select id="ransomwareFilter">
-          <option value="">All</option>
-          <option value="known">Known use</option>
-          <option value="unknown">Not known / unknown</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="dueFilter">Federal due status</label>
-        <select id="dueFilter">
-          <option value="">All</option>
-          <option value="overdue">Overdue</option>
-          <option value="soon">Due within 7 days</option>
-          <option value="open">Future due date</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="sortBy">Rank by</label>
-        <select id="sortBy">
-          <option value="threat">Threat score</option>
-          <option value="newest">Newest KEV additions</option>
-          <option value="cvss">CVSS score</option>
-          <option value="due">Due date</option>
-          <option value="vendor">Vendor</option>
-        </select>
-      </div>
-
-      <div class="view-toggle">
-        <label>View</label>
-        <div class="segmented">
-          <button id="wallViewBtn" class="active" type="button">Wall</button>
-          <button id="tableViewBtn" type="button">Table</button>
-        </div>
+    <section id="executiveView" class="executive-view hidden">
+      <div class="section-heading"><div><span class="eyebrow">Leadership Brief</span><h2>What changed and why it matters</h2></div></div>
+      <div id="executiveBrief" class="brief-grid"></div>
+      <div class="intel-two-col">
+        <section class="panel"><h3>Vendor Exposure</h3><div id="vendorLeaders"></div></section>
+        <section class="panel"><h3>Threat Trend</h3><div id="trendChart"></div></section>
       </div>
     </section>
 
-    <section class="results-bar">
-      <div><strong id="resultCount">0</strong> vulnerabilities shown</div>
-      <button id="clearFilters" class="link-button" type="button">Clear filters</button>
+    <section id="analystView">
+      <section class="controls" aria-label="Filters">
+        <div class="search-wrap"><label for="search">Search</label><input id="search" type="search" placeholder="CVE, vendor, product, weakness…" autocomplete="off" /></div>
+        <div><label for="vendorFilter">Vendor</label><select id="vendorFilter"><option value="">All vendors</option></select></div>
+        <div><label for="technologyFilter">Technology</label><select id="technologyFilter"><option value="">All technology</option></select></div>
+        <div><label for="severityFilter">CVSS</label><select id="severityFilter"><option value="">All severities</option><option value="critical">Critical 9.0+</option><option value="high">High 7.0–8.9</option><option value="medium">Medium 4.0–6.9</option><option value="unknown">Not scored</option></select></div>
+        <div><label for="epssFilter">EPSS</label><select id="epssFilter"><option value="">Any probability</option><option value="90">90th percentile+</option><option value="75">75th percentile+</option><option value="50">50th percentile+</option></select></div>
+        <div><label for="ageFilter">Added to KEV</label><select id="ageFilter"><option value="">Any time</option><option value="3">Last 72 hours</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option></select></div>
+        <div><label for="ransomwareFilter">Ransomware</label><select id="ransomwareFilter"><option value="">All</option><option value="known">Known use</option><option value="unknown">Not known / unknown</option></select></div>
+        <div><label for="exploitFilter">Exploit traits</label><select id="exploitFilter"><option value="">All</option><option value="remote">Network exploitable</option><option value="public">Public exploit reference</option><option value="noauth">No privileges required</option></select></div>
+        <div><label for="dueFilter">Federal due status</label><select id="dueFilter"><option value="">All</option><option value="overdue">Overdue</option><option value="soon">Due within 7 days</option><option value="open">Future due date</option></select></div>
+        <div><label for="sortBy">Rank by</label><select id="sortBy"><option value="signal">Threat Signal</option><option value="rising">Fastest rising</option><option value="newest">Newest KEV additions</option><option value="epss">EPSS probability</option><option value="cvss">CVSS score</option><option value="due">Due date</option><option value="vendor">Vendor</option></select></div>
+        <div class="view-toggle"><label>View</label><div class="segmented"><button id="wallViewBtn" class="active" type="button">Wall</button><button id="tableViewBtn" type="button">Table</button></div></div>
+      </section>
+
+      <section class="results-bar"><div><strong id="resultCount">0</strong> vulnerabilities shown <span id="activeContext"></span></div><button id="clearFilters" class="link-button" type="button">Clear filters</button></section>
+      <section id="wall" class="wall" aria-live="polite"></section>
+      <section id="tableWrap" class="table-wrap hidden"><table><thead><tr><th>Rank</th><th>CVE</th><th>Signal</th><th>Move</th><th>CVSS</th><th>EPSS</th><th>Vendor / Product</th><th>Added</th><th>Ransomware</th></tr></thead><tbody id="tableBody"></tbody></table></section>
     </section>
 
-    <section id="wall" class="wall" aria-live="polite"></section>
-
-    <section id="tableWrap" class="table-wrap hidden">
-      <table>
-        <thead>
-          <tr>
-            <th>Rank</th><th>CVE</th><th>Threat</th><th>CVSS</th><th>Vendor / Product</th>
-            <th>Added</th><th>Due</th><th>Ransomware</th>
-          </tr>
-        </thead>
-        <tbody id="tableBody"></tbody>
-      </table>
+    <section class="section-block trends-section">
+      <div class="section-heading"><div><span class="eyebrow">History</span><h2>Threat Market Trends</h2></div></div>
+      <div id="trendCards" class="trend-cards"></div>
     </section>
 
     <section class="methodology">
-      <h2>How ranking works</h2>
-      <p>
-        Every item on this wall is in CISA's Known Exploited Vulnerabilities catalog. The Threat Score is a
-        transparent prioritization aid based on KEV status, NVD CVSS score, how recently CISA added the CVE,
-        the federal remediation due date, and whether CISA reports known ransomware campaign use.
-      </p>
-      <p class="muted">
-        This dashboard is for vulnerability research and prioritization. CISA and NVD remain the authoritative sources.
-      </p>
+      <h2>Signal, not a substitute for asset context</h2>
+      <p>Every item is in CISA's Known Exploited Vulnerabilities catalog. <strong>Threat Signal</strong> is a transparent prioritization aid combining confirmed exploitation, NVD CVSS severity, FIRST EPSS exploitation probability, KEV recency, ransomware use and CISA remediation urgency. Organizational risk still depends on whether and how your environment uses the affected product.</p>
+      <p class="muted">Primary sources remain authoritative. Cyber Threat Wall is an open-source research and prioritization interface.</p>
     </section>
   </main>
 
-  <dialog id="detailDialog">
-    <button id="closeDialog" class="dialog-close" aria-label="Close">×</button>
-    <div id="detailContent"></div>
-  </dialog>
-
-  <footer>
-    <span>Data: CISA Known Exploited Vulnerabilities + NIST National Vulnerability Database</span>
-    <span>Open source on GitHub</span>
-  </footer>
-
+  <dialog id="detailDialog"><button id="closeDialog" class="dialog-close" aria-label="Close">×</button><div id="detailContent"></div></dialog>
+  <footer><span>Data: CISA KEV · NIST NVD · FIRST EPSS</span><span><a href="https://github.com/mattsimoto/cyber-threat-wall" target="_blank" rel="noopener">Open source on GitHub ↗</a></span></footer>
   <script src="app.js"></script>
 </body>
 </html>
