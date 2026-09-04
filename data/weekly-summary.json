@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-04T16:28:13.283184+00:00",
+  "generatedAt": "2026-09-04T20:51:51.114330+00:00",
   "periodStart": "2026-08-29",
   "periodEnd": "2026-09-04",
-  "newKEVs": 9,
+  "newKEVs": 10,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
@@ -30,6 +30,10 @@
       "count": 1
     },
     {
+      "vendor": "Google",
+      "count": 1
+    },
+    {
       "vendor": "BerriAI",
       "count": 1
     }
@@ -49,6 +53,10 @@
     },
     {
       "technology": "Storage / Backup",
+      "count": 1
+    },
+    {
+      "technology": "Browsers",
       "count": 1
     }
   ],
@@ -181,6 +189,27 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-82078"
     },
     {
+      "cveID": "CVE-2026-85046",
+      "vendorProject": "Google",
+      "product": "Chromium V8",
+      "technology": "Browsers",
+      "vulnerabilityName": "Google Chromium V8 Type Confusion Vulnerability",
+      "dateAdded": "2026-09-04",
+      "dueDate": "2026-09-18",
+      "threatSignal": 65,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.8,
+      "epss": 0.00462,
+      "epssPercentile": 0.38423,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-85046"
+    },
+    {
       "cveID": "CVE-2026-59822",
       "vendorProject": "BerriAI",
       "product": "LiteLLM",
@@ -245,10 +274,10 @@
     }
   ],
   "observations": [
-    "CISA added 9 actively exploited vulnerabilities during the last 7 days.",
+    "CISA added 10 actively exploited vulnerabilities during the last 7 days.",
     "Identity / Access is the most represented technology category among this week's new KEVs (3).",
     "SonicWall has the most new KEV entries this week (2).",
     "Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
   ],
-  "executiveSummary": "CISA added 9 actively exploited vulnerabilities during the last 7 days. Identity / Access is the most represented technology category among this week's new KEVs (3). SonicWall has the most new KEV entries this week (2). Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
+  "executiveSummary": "CISA added 10 actively exploited vulnerabilities during the last 7 days. Identity / Access is the most represented technology category among this week's new KEVs (3). SonicWall has the most new KEV entries this week (2). Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
 }
