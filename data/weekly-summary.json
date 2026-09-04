@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-09-04T16:28:13.283184+00:00",
+  "periodStart": "2026-08-29",
+  "periodEnd": "2026-09-04",
+  "newKEVs": 9,
+  "ransomwareLinkedNewKEVs": 0,
+  "topVendors": [
+    {
+      "vendor": "SonicWall",
+      "count": 2
+    },
+    {
+      "vendor": "PaperCut",
+      "count": 2
+    },
+    {
+      "vendor": "JFrog",
+      "count": 1
+    },
+    {
+      "vendor": "Sangoma",
+      "count": 1
+    },
+    {
+      "vendor": "Kestra",
+      "count": 1
+    },
+    {
+      "vendor": "Kludex",
+      "count": 1
+    },
+    {
+      "vendor": "BerriAI",
+      "count": 1
+    }
+  ],
+  "topTechnologies": [
+    {
+      "technology": "Identity / Access",
+      "count": 3
+    },
+    {
+      "technology": "Other",
+      "count": 3
+    },
+    {
+      "technology": "Network Edge / VPN",
+      "count": 2
+    },
+    {
+      "technology": "Storage / Backup",
+      "count": 1
+    }
+  ],
+  "topMovers": [],
+  "highestSignals": [
+    {
+      "cveID": "CVE-2026-82329",
+      "vendorProject": "JFrog",
+      "product": "Artifactory",
+      "technology": "Identity / Access",
+      "vulnerabilityName": "JFrog Artifactory Improper Authentication Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-05",
+      "threatSignal": 71,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.8,
+      "epss": 0.07666,
+      "epssPercentile": 0.94175,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. ",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-82329"
+    },
+    {
+      "cveID": "CVE-2026-9586",
+      "vendorProject": "Sangoma",
+      "product": "Switchvox",
+      "technology": "Storage / Backup",
+      "vulnerabilityName": "Sangoma Switchvox SQL Injection Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-05",
+      "threatSignal": 70,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.3,
+      "epss": 0.11845,
+      "epssPercentile": 0.95804,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Sangoma Switchvox contains a SQL injection vulnerability which allows an unauthenticated remote attacker to execute arbitrary SQL statements against the backend PostgreSQL database using a single crafted request, including database operations and remote code execution.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-9586"
+    },
+    {
+      "cveID": "CVE-2026-49869",
+      "vendorProject": "Kestra",
+      "product": "Kestra OSS",
+      "technology": "Other",
+      "vulnerabilityName": "Kestra OSS OS Command Injection Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-05",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 10.0,
+      "epss": 0.01917,
+      "epssPercentile": 0.78477,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-49869"
+    },
+    {
+      "cveID": "CVE-2026-83548",
+      "vendorProject": "SonicWall",
+      "product": "SMA1000 Appliances",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-05",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 10.0,
+      "epss": 0.0071,
+      "epssPercentile": 0.51151,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-83548"
+    },
+    {
+      "cveID": "CVE-2026-48710",
+      "vendorProject": "Kludex",
+      "product": "Starlette",
+      "technology": "Other",
+      "vulnerabilityName": "Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-16",
+      "threatSignal": 67,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 6.5,
+      "epss": 0.36257,
+      "epssPercentile": 0.98372,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on the reconstructed URL\u2019s path. This vulnerability could be chaned with CVE-2026-42271.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-48710"
+    },
+    {
+      "cveID": "CVE-2026-82078",
+      "vendorProject": "PaperCut",
+      "product": "NG/MF",
+      "technology": "Other",
+      "vulnerabilityName": "PaperCut NG/MF Unsafe Reflection Vulnerability",
+      "dateAdded": "2026-08-31",
+      "dueDate": "2026-09-14",
+      "threatSignal": 66,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.4,
+      "epss": 0.01691,
+      "epssPercentile": 0.75527,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "PaperCut NG/MF contains an unsafe reflection vulnerability that allows an attacker to manipulate system configuration parameters and execute arbitrary Java bytecode residing on the application classpath under the security context of the PaperCut server process. This vulnerability can be chained with CVE-2026-81578.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-82078"
+    },
+    {
+      "cveID": "CVE-2026-59822",
+      "vendorProject": "BerriAI",
+      "product": "LiteLLM",
+      "technology": "Identity / Access",
+      "vulnerabilityName": "BerriAI LiteLLM Improper Authentication Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-16",
+      "threatSignal": 65,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.8,
+      "epss": 0.0087,
+      "epssPercentile": 0.56413,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-59822"
+    },
+    {
+      "cveID": "CVE-2026-83549",
+      "vendorProject": "SonicWall",
+      "product": "SMA1000 Appliances",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
+      "dateAdded": "2026-09-02",
+      "dueDate": "2026-09-05",
+      "threatSignal": 65,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 7.8,
+      "epss": 0.01625,
+      "epssPercentile": 0.74522,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "SonicWall SMA1000 Appliances contains an OS command injection vulnerability that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-83549"
+    },
+    {
+      "cveID": "CVE-2026-81578",
+      "vendorProject": "PaperCut",
+      "product": "NG/MF",
+      "technology": "Identity / Access",
+      "vulnerabilityName": "PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
+      "dateAdded": "2026-08-31",
+      "dueDate": "2026-09-14",
+      "threatSignal": 65,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.8,
+      "epss": 0.01617,
+      "epssPercentile": 0.74393,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "PaperCut NG/MF contains a missing authentication for critical function vulnerability which allows an unauthenticated remote attacker to modify certain system configurations. This vulnerability can be chained with CVE-2026-82078.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-81578"
+    }
+  ],
+  "observations": [
+    "CISA added 9 actively exploited vulnerabilities during the last 7 days.",
+    "Identity / Access is the most represented technology category among this week's new KEVs (3).",
+    "SonicWall has the most new KEV entries this week (2).",
+    "Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
+  ],
+  "executiveSummary": "CISA added 9 actively exploited vulnerabilities during the last 7 days. Identity / Access is the most represented technology category among this week's new KEVs (3). SonicWall has the most new KEV entries this week (2). Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
+}

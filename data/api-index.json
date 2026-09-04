@@ -1,0 +1,15 @@
+{
+  "name": "Cyber Threat Wall public data endpoints",
+  "generatedAt": "2026-09-04T16:28:13.283184+00:00",
+  "endpoints": {
+    "fullThreatWall": "data/threat-wall.json",
+    "latestMovers": "data/latest-movers.json",
+    "newSinceYesterday": "data/new-since-yesterday.json",
+    "vendors": "data/vendors.json",
+    "weeklySummary": "data/weekly-summary.json",
+    "history": "data/history.json",
+    "rssLatestMovers": "feed/latest-movers.xml",
+    "rssNewKEVs": "feed/new-kevs.xml",
+    "rssWeeklySummary": "feed/weekly-summary.xml"
+  }
+}
