@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "generatedAt": null,
+    "note": "Run scripts/sync_data.py or the Update threat data GitHub Action to populate this file."
+  },
+  "vulnerabilities": []
+}
