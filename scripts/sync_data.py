@@ -102,10 +102,12 @@ def threat_signal(v):
     if str(v.get("knownRansomwareCampaignUse","")).lower()=="known":score+=10; factors.append("Known ransomware use +10")
     return min(100,score),factors
 
-def nearest_snapshot(snaps,target):
+def nearest_snapshot(snaps,target,max_distance_days):
     eligible=[]
     for s in snaps:
-        try:d=date.fromisoformat(s["date"]); eligible.append((abs((d-target).days),d,s))
+        try:
+            d=date.fromisoformat(s["date"]); distance=abs((d-target).days)
+            if distance<=max_distance_days:eligible.append((distance,d,s))
         except Exception:pass
     if not eligible:return None
     eligible.sort(key=lambda x:(x[0],-x[1].toordinal())); return eligible[0][2]
@@ -131,7 +133,7 @@ def main():
     output.sort(key=lambda x:(x.get("threatSignal",0),x.get("dateAdded","")),reverse=True)
     current_ranks={v["cveID"]:i+1 for i,v in enumerate(output)}; current_signals={v["cveID"]:v["threatSignal"] for v in output}; today=date.today()
     history=read_json(HISTORY_FILE,{"snapshots":[]}); snaps=history.get("snapshots") or []; previous=[s for s in snaps if s.get("date")!=today.isoformat()]
-    snap24=nearest_snapshot(previous,today-timedelta(days=1)); snap7=nearest_snapshot(previous,today-timedelta(days=7))
+    snap24=nearest_snapshot(previous,today-timedelta(days=1),1); snap7=nearest_snapshot(previous,today-timedelta(days=7),1)
     for v in output:
         c=v["cveID"]; rank=current_ranks[c]
         r24=(snap24 or {}).get("ranks",{}).get(c); r7=(snap7 or {}).get("ranks",{}).get(c)
