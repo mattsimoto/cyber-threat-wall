@@ -1,12 +1,16 @@
 {
-  "generatedAt": "2026-09-08T16:44:44.176043+00:00",
+  "generatedAt": "2026-09-08T21:15:47.064234+00:00",
   "periodStart": "2026-09-02",
   "periodEnd": "2026-09-08",
-  "newKEVs": 8,
+  "newKEVs": 12,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
       "vendor": "SonicWall",
+      "count": 2
+    },
+    {
+      "vendor": "Microsoft",
       "count": 2
     },
     {
@@ -19,6 +23,14 @@
     },
     {
       "vendor": "Kestra",
+      "count": 1
+    },
+    {
+      "vendor": "Adobe",
+      "count": 1
+    },
+    {
+      "vendor": "N-able",
       "count": 1
     },
     {
@@ -36,15 +48,19 @@
   ],
   "topTechnologies": [
     {
+      "technology": "Other",
+      "count": 4
+    },
+    {
       "technology": "Identity / Access",
       "count": 2
     },
     {
-      "technology": "Other",
+      "technology": "Network Edge / VPN",
       "count": 2
     },
     {
-      "technology": "Network Edge / VPN",
+      "technology": "Operating Systems",
       "count": 2
     },
     {
@@ -67,7 +83,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 72,
-      "movement24h": -53,
+      "movement24h": -67,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.07666,
@@ -88,7 +104,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 71,
-      "movement24h": -55,
+      "movement24h": -70,
       "movement7d": 0,
       "cvssScore": 9.3,
       "epss": 0.11845,
@@ -109,7 +125,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 70,
-      "movement24h": -58,
+      "movement24h": -73,
       "movement7d": 0,
       "cvssScore": 10.0,
       "epss": 0.01917,
@@ -130,7 +146,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 70,
-      "movement24h": -58,
+      "movement24h": -73,
       "movement7d": 0,
       "cvssScore": 10.0,
       "epss": 0.0071,
@@ -143,6 +159,48 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-83548"
     },
     {
+      "cveID": "CVE-2026-75650",
+      "vendorProject": "Adobe",
+      "product": "Commerce and Magento",
+      "technology": "Other",
+      "vulnerabilityName": "Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
+      "dateAdded": "2026-09-08",
+      "dueDate": "2026-09-11",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 10.0,
+      "epss": 0.00676,
+      "epssPercentile": 0.49973,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Adobe Commerce and Magento Open Source contain an improper neutralization of special elements used in a template engine vulnerability that could allow an attacker to execute arbitrary code.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-75650"
+    },
+    {
+      "cveID": "CVE-2026-86218",
+      "vendorProject": "N-able",
+      "product": "N-central",
+      "technology": "Other",
+      "vulnerabilityName": "N-able N-central Static Code Injection Vulnerability",
+      "dateAdded": "2026-09-08",
+      "dueDate": "2026-09-11",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 10.0,
+      "epss": 0.00411,
+      "epssPercentile": 0.34333,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-86218"
+    },
+    {
       "cveID": "CVE-2026-48710",
       "vendorProject": "Kludex",
       "product": "Starlette",
@@ -151,7 +209,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-16",
       "threatSignal": 67,
-      "movement24h": -39,
+      "movement24h": -54,
       "movement7d": 0,
       "cvssScore": 6.5,
       "epss": 0.36257,
@@ -172,7 +230,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 66,
-      "movement24h": -37,
+      "movement24h": -51,
       "movement7d": 0,
       "cvssScore": 7.8,
       "epss": 0.01625,
@@ -193,7 +251,7 @@
       "dateAdded": "2026-09-04",
       "dueDate": "2026-09-18",
       "threatSignal": 65,
-      "movement24h": -38,
+      "movement24h": -54,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.01162,
@@ -214,7 +272,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-16",
       "threatSignal": 65,
-      "movement24h": -38,
+      "movement24h": -54,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.0087,
@@ -228,10 +286,10 @@
     }
   ],
   "observations": [
-    "CISA added 8 actively exploited vulnerabilities during the last 7 days.",
-    "Identity / Access is the most represented technology category among this week's new KEVs (2).",
+    "CISA added 12 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (4).",
     "SonicWall has the most new KEV entries this week (2).",
     "Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
   ],
-  "executiveSummary": "CISA added 8 actively exploited vulnerabilities during the last 7 days. Identity / Access is the most represented technology category among this week's new KEVs (2). SonicWall has the most new KEV entries this week (2). Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
+  "executiveSummary": "CISA added 12 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (4). SonicWall has the most new KEV entries this week (2). Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
 }
