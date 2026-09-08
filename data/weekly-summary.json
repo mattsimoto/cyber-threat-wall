@@ -1,16 +1,12 @@
 {
-  "generatedAt": "2026-09-07T21:37:02.043721+00:00",
-  "periodStart": "2026-09-01",
-  "periodEnd": "2026-09-07",
-  "newKEVs": 10,
+  "generatedAt": "2026-09-08T04:45:17.799700+00:00",
+  "periodStart": "2026-09-02",
+  "periodEnd": "2026-09-08",
+  "newKEVs": 8,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
       "vendor": "SonicWall",
-      "count": 2
-    },
-    {
-      "vendor": "PaperCut",
       "count": 2
     },
     {
@@ -41,11 +37,11 @@
   "topTechnologies": [
     {
       "technology": "Identity / Access",
-      "count": 3
+      "count": 2
     },
     {
       "technology": "Other",
-      "count": 3
+      "count": 2
     },
     {
       "technology": "Network Edge / VPN",
@@ -71,7 +67,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 72,
-      "movement24h": -54,
+      "movement24h": -22,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.07666,
@@ -92,7 +88,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 71,
-      "movement24h": -60,
+      "movement24h": -22,
       "movement7d": 0,
       "cvssScore": 9.3,
       "epss": 0.11845,
@@ -113,7 +109,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 70,
-      "movement24h": -64,
+      "movement24h": -24,
       "movement7d": 0,
       "cvssScore": 10.0,
       "epss": 0.01917,
@@ -134,7 +130,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 70,
-      "movement24h": -64,
+      "movement24h": -24,
       "movement7d": 0,
       "cvssScore": 10.0,
       "epss": 0.0071,
@@ -147,27 +143,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-83548"
     },
     {
-      "cveID": "CVE-2026-82078",
-      "vendorProject": "PaperCut",
-      "product": "NG/MF",
-      "technology": "Other",
-      "vulnerabilityName": "PaperCut NG/MF Unsafe Reflection Vulnerability",
-      "dateAdded": "2026-08-31",
-      "dueDate": "2026-09-14",
-      "threatSignal": 68,
-      "movement24h": -5,
-      "movement7d": 0,
-      "cvssScore": 9.4,
-      "epss": 0.01691,
-      "epssPercentile": 0.75567,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "PaperCut NG/MF contains an unsafe reflection vulnerability that allows an attacker to manipulate system configuration parameters and execute arbitrary Java bytecode residing on the application classpath under the security context of the PaperCut server process. This vulnerability can be chained with CVE-2026-81578.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-82078"
-    },
-    {
       "cveID": "CVE-2026-48710",
       "vendorProject": "Kludex",
       "product": "Starlette",
@@ -176,7 +151,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-16",
       "threatSignal": 67,
-      "movement24h": -64,
+      "movement24h": -10,
       "movement7d": 0,
       "cvssScore": 6.5,
       "epss": 0.36257,
@@ -189,27 +164,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-48710"
     },
     {
-      "cveID": "CVE-2026-81578",
-      "vendorProject": "PaperCut",
-      "product": "NG/MF",
-      "technology": "Identity / Access",
-      "vulnerabilityName": "PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
-      "dateAdded": "2026-08-31",
-      "dueDate": "2026-09-14",
-      "threatSignal": 67,
-      "movement24h": -6,
-      "movement7d": 0,
-      "cvssScore": 8.8,
-      "epss": 0.01617,
-      "epssPercentile": 0.74437,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "PaperCut NG/MF contains a missing authentication for critical function vulnerability which allows an unauthenticated remote attacker to modify certain system configurations. This vulnerability can be chained with CVE-2026-82078.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-81578"
-    },
-    {
       "cveID": "CVE-2026-83549",
       "vendorProject": "SonicWall",
       "product": "SMA1000 Appliances",
@@ -218,7 +172,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 66,
-      "movement24h": -69,
+      "movement24h": -8,
       "movement7d": 0,
       "cvssScore": 7.8,
       "epss": 0.01625,
@@ -239,7 +193,7 @@
       "dateAdded": "2026-09-04",
       "dueDate": "2026-09-18",
       "threatSignal": 65,
-      "movement24h": -68,
+      "movement24h": -9,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.01162,
@@ -260,7 +214,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-16",
       "threatSignal": 65,
-      "movement24h": -68,
+      "movement24h": -9,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.0087,
@@ -274,10 +228,10 @@
     }
   ],
   "observations": [
-    "CISA added 10 actively exploited vulnerabilities during the last 7 days.",
-    "Identity / Access is the most represented technology category among this week's new KEVs (3).",
+    "CISA added 8 actively exploited vulnerabilities during the last 7 days.",
+    "Identity / Access is the most represented technology category among this week's new KEVs (2).",
     "SonicWall has the most new KEV entries this week (2).",
     "Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
   ],
-  "executiveSummary": "CISA added 10 actively exploited vulnerabilities during the last 7 days. Identity / Access is the most represented technology category among this week's new KEVs (3). SonicWall has the most new KEV entries this week (2). Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
+  "executiveSummary": "CISA added 8 actively exploited vulnerabilities during the last 7 days. Identity / Access is the most represented technology category among this week's new KEVs (2). SonicWall has the most new KEV entries this week (2). Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
 }
