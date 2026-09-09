@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-09T16:45:01.636490+00:00",
+  "generatedAt": "2026-09-09T21:02:03.955483+00:00",
   "periodStart": "2026-09-03",
   "periodEnd": "2026-09-09",
-  "newKEVs": 12,
+  "newKEVs": 16,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
@@ -10,8 +10,16 @@
       "count": 2
     },
     {
+      "vendor": "Google",
+      "count": 2
+    },
+    {
       "vendor": "Microsoft",
       "count": 2
+    },
+    {
+      "vendor": "Cisco",
+      "count": 1
     },
     {
       "vendor": "JFrog",
@@ -26,29 +34,25 @@
       "count": 1
     },
     {
+      "vendor": "Citrix",
+      "count": 1
+    },
+    {
+      "vendor": "Fortinet",
+      "count": 1
+    },
+    {
       "vendor": "Adobe",
-      "count": 1
-    },
-    {
-      "vendor": "N-able",
-      "count": 1
-    },
-    {
-      "vendor": "Kludex",
-      "count": 1
-    },
-    {
-      "vendor": "BerriAI",
-      "count": 1
-    },
-    {
-      "vendor": "Google",
       "count": 1
     }
   ],
   "topTechnologies": [
     {
       "technology": "Other",
+      "count": 5
+    },
+    {
+      "technology": "Network Edge / VPN",
       "count": 4
     },
     {
@@ -56,7 +60,7 @@
       "count": 2
     },
     {
-      "technology": "Network Edge / VPN",
+      "technology": "Browsers",
       "count": 2
     },
     {
@@ -66,14 +70,31 @@
     {
       "technology": "Storage / Backup",
       "count": 1
-    },
-    {
-      "technology": "Browsers",
-      "count": 1
     }
   ],
   "topMovers": [],
   "highestSignals": [
+    {
+      "cveID": "CVE-2026-20079",
+      "vendorProject": "Cisco",
+      "product": "Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "dateAdded": "2026-09-09",
+      "dueDate": "2026-09-12",
+      "threatSignal": 76,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 10.0,
+      "epss": 0.35946,
+      "epssPercentile": 0.98374,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": true,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-20079"
+    },
     {
       "cveID": "CVE-2026-82329",
       "vendorProject": "JFrog",
@@ -83,7 +104,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 72,
-      "movement24h": -43,
+      "movement24h": -63,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.07666,
@@ -104,7 +125,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 71,
-      "movement24h": -48,
+      "movement24h": -69,
       "movement7d": 0,
       "cvssScore": 9.3,
       "epss": 0.11845,
@@ -125,7 +146,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 71,
-      "movement24h": -29,
+      "movement24h": -50,
       "movement7d": 0,
       "cvssScore": 10.0,
       "epss": 0.07447,
@@ -146,7 +167,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-05",
       "threatSignal": 70,
-      "movement24h": -50,
+      "movement24h": -72,
       "movement7d": 0,
       "cvssScore": 10.0,
       "epss": 0.01917,
@@ -159,6 +180,48 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-49869"
     },
     {
+      "cveID": "CVE-2026-19490",
+      "vendorProject": "Citrix",
+      "product": "NetScaler",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "dateAdded": "2026-09-09",
+      "dueDate": "2026-09-12",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.3,
+      "epss": 0.03372,
+      "epssPercentile": 0.88028,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, or RDP Proxy), an unauthenticated remote threat actor may be able to bypass authentication.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-19490"
+    },
+    {
+      "cveID": "CVE-2025-25249",
+      "vendorProject": "Fortinet",
+      "product": "Multiple Products",
+      "technology": "Other",
+      "vulnerabilityName": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
+      "dateAdded": "2026-09-09",
+      "dueDate": "2026-09-12",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.8,
+      "epss": 0.00759,
+      "epssPercentile": 0.53107,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2025-25249"
+    },
+    {
       "cveID": "CVE-2026-75650",
       "vendorProject": "Adobe",
       "product": "Commerce and Magento",
@@ -167,7 +230,7 @@
       "dateAdded": "2026-09-08",
       "dueDate": "2026-09-11",
       "threatSignal": 69,
-      "movement24h": -38,
+      "movement24h": -61,
       "movement7d": 0,
       "cvssScore": 10.0,
       "epss": 0.02148,
@@ -188,7 +251,7 @@
       "dateAdded": "2026-09-08",
       "dueDate": "2026-09-11",
       "threatSignal": 69,
-      "movement24h": -38,
+      "movement24h": -61,
       "movement7d": 0,
       "cvssScore": 10.0,
       "epss": 0.00744,
@@ -209,7 +272,7 @@
       "dateAdded": "2026-09-02",
       "dueDate": "2026-09-16",
       "threatSignal": 69,
-      "movement24h": 31,
+      "movement24h": 8,
       "movement7d": 0,
       "cvssScore": 6.5,
       "epss": 0.36257,
@@ -220,76 +283,13 @@
       "noPrivilegesRequired": false,
       "shortDescription": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on the reconstructed URL\u2019s path. This vulnerability could be chaned with CVE-2026-42271.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-48710"
-    },
-    {
-      "cveID": "CVE-2026-83549",
-      "vendorProject": "SonicWall",
-      "product": "SMA1000 Appliances",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
-      "dateAdded": "2026-09-02",
-      "dueDate": "2026-09-05",
-      "threatSignal": 69,
-      "movement24h": 61,
-      "movement7d": 0,
-      "cvssScore": 7.8,
-      "epss": 0.13843,
-      "epssPercentile": 0.96291,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "SonicWall SMA1000 Appliances contains an OS command injection vulnerability that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-83549"
-    },
-    {
-      "cveID": "CVE-2026-59822",
-      "vendorProject": "BerriAI",
-      "product": "LiteLLM",
-      "technology": "Identity / Access",
-      "vulnerabilityName": "BerriAI LiteLLM Improper Authentication Vulnerability",
-      "dateAdded": "2026-09-02",
-      "dueDate": "2026-09-16",
-      "threatSignal": 67,
-      "movement24h": 12,
-      "movement7d": 0,
-      "cvssScore": 8.8,
-      "epss": 0.0087,
-      "epssPercentile": 0.56653,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-59822"
-    },
-    {
-      "cveID": "CVE-2026-85046",
-      "vendorProject": "Google",
-      "product": "Chromium V8",
-      "technology": "Browsers",
-      "vulnerabilityName": "Google Chromium V8 Type Confusion Vulnerability",
-      "dateAdded": "2026-09-04",
-      "dueDate": "2026-09-18",
-      "threatSignal": 65,
-      "movement24h": -56,
-      "movement7d": 0,
-      "cvssScore": 8.8,
-      "epss": 0.01427,
-      "epssPercentile": 0.7137,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-85046"
     }
   ],
   "observations": [
-    "CISA added 12 actively exploited vulnerabilities during the last 7 days.",
-    "Other is the most represented technology category among this week's new KEVs (4).",
+    "CISA added 16 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (5).",
     "SonicWall has the most new KEV entries this week (2).",
     "Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
   ],
-  "executiveSummary": "CISA added 12 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (4). SonicWall has the most new KEV entries this week (2). Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
+  "executiveSummary": "CISA added 16 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (5). SonicWall has the most new KEV entries this week (2). Seven-day rank movers will appear after a full week of daily snapshots has accumulated."
 }
