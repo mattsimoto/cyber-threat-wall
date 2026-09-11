@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cyber Threat Wall">
+  <path fill="#E59758" d="M32 3.5 55 12v17.8c0 14.4-8.8 24.6-23 30.7C17.8 54.4 9 44.2 9 29.8V12L32 3.5Z"/>
+  <path fill="#0B141C" d="M32 8.5 50 15v14.7c0 11.6-6.8 20.1-18 25.4-11.2-5.3-18-13.8-18-25.4V15L32 8.5Z"/>
+  <path fill="#E59758" d="M24.5 37.5h-5V26.8h-4.7L22 19.5l7.2 7.3h-4.7v10.7Z"/>
+  <path fill="#E59758" d="M39.5 26.5h5v10.7h4.7L42 44.5l-7.2-7.3h4.7V26.5Z"/>
+</svg>
