@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-09-10T20:58:21.430879+00:00",
-  "since": "2026-09-09",
-  "count": 0,
-  "vulnerabilities": []
+  "generatedAt": "2026-09-11T04:50:07.450333+00:00",
+  "since": "2026-09-10",
+  "count": 2,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-86060",
+      "vendorProject": "MikroTik",
+      "product": "RouterOS",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
+      "dateAdded": "2026-09-10",
+      "dueDate": "2026-09-13",
+      "threatSignal": 67,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.2,
+      "epss": 0.00401,
+      "epssPercentile": 0.33627,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-86060"
+    },
+    {
+      "cveID": "CVE-2026-67277",
+      "vendorProject": "MikroTik",
+      "product": "RouterOS",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
+      "dateAdded": "2026-09-10",
+      "dueDate": "2026-09-13",
+      "threatSignal": 67,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.8,
+      "epss": 0.00435,
+      "epssPercentile": 0.36743,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-67277"
+    }
+  ]
 }
