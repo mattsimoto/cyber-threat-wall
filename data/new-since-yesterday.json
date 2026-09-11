@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T11:29:35.281765+00:00",
+  "generatedAt": "2026-09-11T16:35:14.455785+00:00",
   "since": "2026-09-10",
   "count": 2,
   "vulnerabilities": [
@@ -15,8 +15,8 @@
       "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.2,
-      "epss": 0.00401,
-      "epssPercentile": 0.33627,
+      "epss": 0.00689,
+      "epssPercentile": 0.50738,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
@@ -36,8 +36,8 @@
       "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 8.8,
-      "epss": 0.00435,
-      "epssPercentile": 0.36743,
+      "epss": 0.00748,
+      "epssPercentile": 0.52789,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
