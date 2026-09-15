@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-09-14T21:55:44.192160+00:00",
-  "since": "2026-09-13",
-  "count": 0,
-  "vulnerabilities": []
+  "generatedAt": "2026-09-15T05:02:21.904395+00:00",
+  "since": "2026-09-14",
+  "count": 1,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-76461",
+      "vendorProject": "Cisco",
+      "product": "Secure Email Gateway",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Cisco Secure Email Gateway SQL Injection Vulnerability",
+      "dateAdded": "2026-09-14",
+      "dueDate": "2026-09-17",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.8,
+      "epss": null,
+      "epssPercentile": null,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76461"
+    }
+  ]
 }
