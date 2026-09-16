@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-09-16T11:39:01.531769+00:00",
+  "generatedAt": "2026-09-16T17:00:22.059365+00:00",
   "since": "2026-09-15",
-  "count": 0,
-  "vulnerabilities": []
+  "count": 1,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-58704",
+      "vendorProject": "Google",
+      "product": "Pixel",
+      "technology": "Other",
+      "vulnerabilityName": "Google Pixel Improper Authorization Vulnerability",
+      "dateAdded": "2026-09-16",
+      "dueDate": "2026-09-19",
+      "threatSignal": 65,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.0,
+      "epss": 0.00112,
+      "epssPercentile": 0.01564,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-58704"
+    }
+  ]
 }

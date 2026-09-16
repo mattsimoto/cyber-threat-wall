@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-16T11:39:01.531769+00:00",
+  "generatedAt": "2026-09-16T17:00:22.059365+00:00",
   "periodStart": "2026-09-10",
   "periodEnd": "2026-09-16",
-  "newKEVs": 11,
+  "newKEVs": 12,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
@@ -11,6 +11,10 @@
     },
     {
       "vendor": "MikroTik",
+      "count": 2
+    },
+    {
+      "vendor": "Google",
       "count": 2
     },
     {
@@ -30,10 +34,6 @@
       "count": 1
     },
     {
-      "vendor": "Google",
-      "count": 1
-    },
-    {
       "vendor": "GitLab",
       "count": 1
     }
@@ -45,7 +45,7 @@
     },
     {
       "technology": "Other",
-      "count": 3
+      "count": 4
     },
     {
       "technology": "Browsers",
@@ -74,7 +74,7 @@
       "movement7d": 625,
       "cvssScore": 9.8,
       "epss": 0.7981,
-      "epssPercentile": 0.99587,
+      "epssPercentile": 0.99589,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": true,
@@ -94,8 +94,8 @@
       "movement24h": 0,
       "movement7d": 623,
       "cvssScore": 10.0,
-      "epss": 0.79842,
-      "epssPercentile": 0.99587,
+      "epss": 0.80291,
+      "epssPercentile": 0.99599,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": true,
@@ -116,7 +116,7 @@
       "movement7d": 619,
       "cvssScore": 9.8,
       "epss": 0.78581,
-      "epssPercentile": 0.99562,
+      "epssPercentile": 0.99564,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
@@ -137,7 +137,7 @@
       "movement7d": 616,
       "cvssScore": 9.8,
       "epss": 0.78157,
-      "epssPercentile": 0.99551,
+      "epssPercentile": 0.99553,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
@@ -158,7 +158,7 @@
       "movement7d": 615,
       "cvssScore": 9.8,
       "epss": 0.79003,
-      "epssPercentile": 0.99574,
+      "epssPercentile": 0.99576,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": true,
@@ -179,7 +179,7 @@
       "movement7d": 613,
       "cvssScore": 9.8,
       "epss": 0.29336,
-      "epssPercentile": 0.98072,
+      "epssPercentile": 0.9808,
       "knownRansomwareCampaignUse": "Known",
       "networkExploitable": true,
       "publicExploit": true,
@@ -200,7 +200,7 @@
       "movement7d": 613,
       "cvssScore": 9.8,
       "epss": 0.30084,
-      "epssPercentile": 0.98114,
+      "epssPercentile": 0.98122,
       "knownRansomwareCampaignUse": "Known",
       "networkExploitable": true,
       "publicExploit": false,
@@ -221,7 +221,7 @@
       "movement7d": 607,
       "cvssScore": 9.8,
       "epss": 0.75599,
-      "epssPercentile": 0.9949,
+      "epssPercentile": 0.99492,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": true,
@@ -242,7 +242,7 @@
       "movement7d": 606,
       "cvssScore": 9.8,
       "epss": 0.73862,
-      "epssPercentile": 0.9945,
+      "epssPercentile": 0.99453,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": true,
@@ -263,7 +263,7 @@
       "movement7d": 606,
       "cvssScore": 9.8,
       "epss": 0.77146,
-      "epssPercentile": 0.99525,
+      "epssPercentile": 0.99527,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
@@ -286,7 +286,7 @@
       "movement7d": 120,
       "cvssScore": 10.0,
       "epss": 0.75752,
-      "epssPercentile": 0.99494,
+      "epssPercentile": 0.99496,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": true,
@@ -307,12 +307,12 @@
       "movement7d": 0,
       "cvssScore": 9.9,
       "epss": 0.00691,
-      "epssPercentile": 0.50945,
+      "epssPercentile": 0.51113,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": false,
-      "shortDescription": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sessions without authorization or host confirmation.",
+      "shortDescription": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote session without authorization or host confirmation.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-84869"
     },
     {
@@ -328,7 +328,7 @@
       "movement7d": -322,
       "cvssScore": 9.3,
       "epss": 0.05597,
-      "epssPercentile": 0.92475,
+      "epssPercentile": 0.92504,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
@@ -349,7 +349,7 @@
       "movement7d": -322,
       "cvssScore": 9.8,
       "epss": 0.02403,
-      "epssPercentile": 0.83154,
+      "epssPercentile": 0.83215,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
@@ -369,8 +369,8 @@
       "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 9.8,
-      "epss": 0.02162,
-      "epssPercentile": 0.81239,
+      "epss": 0.02009,
+      "epssPercentile": 0.79862,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
@@ -391,12 +391,12 @@
       "movement7d": 0,
       "cvssScore": 9.2,
       "epss": 0.01057,
-      "epssPercentile": 0.62635,
+      "epssPercentile": 0.62773,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": true,
-      "shortDescription": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation.",
+      "shortDescription": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-86060"
     },
     {
@@ -412,12 +412,12 @@
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.00869,
-      "epssPercentile": 0.56832,
+      "epssPercentile": 0.56984,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": true,
-      "shortDescription": "MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+      "shortDescription": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-67277"
     },
     {
@@ -433,13 +433,34 @@
       "movement7d": -297,
       "cvssScore": 8.8,
       "epss": 0.00997,
-      "epssPercentile": 0.60837,
+      "epssPercentile": 0.60979,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": true,
       "shortDescription": "Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-87491"
+    },
+    {
+      "cveID": "CVE-2026-58704",
+      "vendorProject": "Google",
+      "product": "Pixel",
+      "technology": "Other",
+      "vulnerabilityName": "Google Pixel Improper Authorization Vulnerability",
+      "dateAdded": "2026-09-16",
+      "dueDate": "2026-09-19",
+      "threatSignal": 65,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.0,
+      "epss": 0.00112,
+      "epssPercentile": 0.01564,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-58704"
     },
     {
       "cveID": "CVE-2026-42016",
@@ -450,45 +471,24 @@
       "dateAdded": "2026-09-11",
       "dueDate": "2026-09-25",
       "threatSignal": 65,
-      "movement24h": -1,
+      "movement24h": -3,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.00886,
-      "epssPercentile": 0.57342,
+      "epssPercentile": 0.57488,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": false,
-      "shortDescription": "JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
+      "shortDescription": "JFrog Artifactory contains an incorrect authorization vulnerability that leads to a privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-42016"
-    },
-    {
-      "cveID": "CVE-2026-42018",
-      "vendorProject": "JFrog",
-      "product": "Artifactory",
-      "technology": "Identity / Access",
-      "vulnerabilityName": "JFrog Artifactory Improper Authentication Vulnerability",
-      "dateAdded": "2026-09-11",
-      "dueDate": "2026-09-25",
-      "threatSignal": 62,
-      "movement24h": 2,
-      "movement7d": 0,
-      "cvssScore": 7.5,
-      "epss": 0.0092,
-      "epssPercentile": 0.58393,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially exposing sensitive resources.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-42018"
     }
   ],
   "observations": [
-    "CISA added 11 actively exploited vulnerabilities during the last 7 days.",
+    "CISA added 12 actively exploited vulnerabilities during the last 7 days.",
     "Network Edge / VPN is the most represented technology category among this week's new KEVs (5).",
     "Cisco has the most new KEV entries this week (2).",
     "CVE-2020-10987 is the largest 7-day rank riser, up 625 positions."
   ],
-  "executiveSummary": "CISA added 11 actively exploited vulnerabilities during the last 7 days. Network Edge / VPN is the most represented technology category among this week's new KEVs (5). Cisco has the most new KEV entries this week (2). CVE-2020-10987 is the largest 7-day rank riser, up 625 positions."
+  "executiveSummary": "CISA added 12 actively exploited vulnerabilities during the last 7 days. Network Edge / VPN is the most represented technology category among this week's new KEVs (5). Cisco has the most new KEV entries this week (2). CVE-2020-10987 is the largest 7-day rank riser, up 625 positions."
 }

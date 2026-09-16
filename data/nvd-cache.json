@@ -23606,5 +23606,20 @@
     "publicExploit": true,
     "networkExploitable": true,
     "noPrivilegesRequired": true
+  },
+  "CVE-2026-58704": {
+    "fetchedAt": "2026-09-16T17:00:12.636357+00:00",
+    "cvssScore": 8.0,
+    "cvssVector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvssVersion": "3.1",
+    "cwes": [
+      "CWE-285",
+      "CWE-693"
+    ],
+    "nvdPublished": "2026-09-15T19:17:32.297",
+    "nvdLastModified": "2026-09-16T16:26:19.107",
+    "publicExploit": false,
+    "networkExploitable": false,
+    "noPrivilegesRequired": false
   }
 }
