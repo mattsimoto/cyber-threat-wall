@@ -23621,5 +23621,19 @@
     "publicExploit": false,
     "networkExploitable": false,
     "noPrivilegesRequired": false
+  },
+  "CVE-2026-76460": {
+    "fetchedAt": "2026-09-16T21:20:39.744742+00:00",
+    "cvssScore": 10.0,
+    "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "cvssVersion": "3.1",
+    "cwes": [
+      "CWE-648"
+    ],
+    "nvdPublished": "2026-09-16T21:17:21.430",
+    "nvdLastModified": "2026-09-16T21:17:21.430",
+    "publicExploit": false,
+    "networkExploitable": true,
+    "noPrivilegesRequired": true
   }
 }

@@ -1,8 +1,29 @@
 {
-  "generatedAt": "2026-09-16T17:00:22.059365+00:00",
+  "generatedAt": "2026-09-16T21:20:47.324450+00:00",
   "since": "2026-09-15",
-  "count": 1,
+  "count": 2,
   "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-76460",
+      "vendorProject": "Cisco",
+      "product": "Identity Services Engine",
+      "technology": "Identity / Access",
+      "vulnerabilityName": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
+      "dateAdded": "2026-09-16",
+      "dueDate": "2026-09-19",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 10.0,
+      "epss": null,
+      "epssPercentile": null,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76460"
+    },
     {
       "cveID": "CVE-2026-58704",
       "vendorProject": "Google",
