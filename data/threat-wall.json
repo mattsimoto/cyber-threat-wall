@@ -3,7 +3,7 @@
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
     "catalogVersion": "2026.09.14",
     "catalogDateReleased": "2026-09-14T19:00:02.426Z",
-    "generatedAt": "2026-09-16T04:52:28.808102+00:00",
+    "generatedAt": "2026-09-16T11:39:01.531769+00:00",
     "kevSource": "https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json",
     "nvdSource": "https://services.nvd.nist.gov/rest/json/cves/2.0",
     "epssSource": "https://api.first.org/data/v1/epss",
