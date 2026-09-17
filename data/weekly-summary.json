@@ -1,20 +1,16 @@
 {
-  "generatedAt": "2026-09-16T21:20:47.324450+00:00",
-  "periodStart": "2026-09-10",
-  "periodEnd": "2026-09-16",
-  "newKEVs": 13,
+  "generatedAt": "2026-09-17T04:56:10.187128+00:00",
+  "periodStart": "2026-09-11",
+  "periodEnd": "2026-09-17",
+  "newKEVs": 10,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
       "vendor": "Cisco",
-      "count": 3
-    },
-    {
-      "vendor": "MikroTik",
       "count": 2
     },
     {
-      "vendor": "Google",
+      "vendor": "MikroTik",
       "count": 2
     },
     {
@@ -26,37 +22,37 @@
       "count": 1
     },
     {
-      "vendor": "Citrix",
-      "count": 1
-    },
-    {
-      "vendor": "Fortinet",
+      "vendor": "Google",
       "count": 1
     },
     {
       "vendor": "GitLab",
       "count": 1
+    },
+    {
+      "vendor": "Acronis",
+      "count": 1
     }
   ],
   "topTechnologies": [
     {
-      "technology": "Network Edge / VPN",
-      "count": 5
+      "technology": "Other",
+      "count": 3
     },
     {
-      "technology": "Other",
-      "count": 4
+      "technology": "Network Edge / VPN",
+      "count": 3
     },
     {
       "technology": "Identity / Access",
       "count": 2
     },
     {
-      "technology": "Browsers",
+      "technology": "Developer / CI-CD",
       "count": 1
     },
     {
-      "technology": "Developer / CI-CD",
+      "technology": "Storage / Backup",
       "count": 1
     }
   ],
@@ -71,7 +67,7 @@
       "dueDate": "2022-05-03",
       "threatSignal": 76,
       "movement24h": 0,
-      "movement7d": 625,
+      "movement7d": 724,
       "cvssScore": 9.8,
       "epss": 0.7981,
       "epssPercentile": 0.99589,
@@ -92,7 +88,7 @@
       "dueDate": "2022-05-03",
       "threatSignal": 76,
       "movement24h": 0,
-      "movement7d": 623,
+      "movement7d": 722,
       "cvssScore": 10.0,
       "epss": 0.80291,
       "epssPercentile": 0.99599,
@@ -113,7 +109,7 @@
       "dueDate": "2022-03-24",
       "threatSignal": 76,
       "movement24h": 0,
-      "movement7d": 619,
+      "movement7d": 718,
       "cvssScore": 9.8,
       "epss": 0.78581,
       "epssPercentile": 0.99564,
@@ -134,7 +130,7 @@
       "dueDate": "2022-04-15",
       "threatSignal": 76,
       "movement24h": 0,
-      "movement7d": 616,
+      "movement7d": 715,
       "cvssScore": 9.8,
       "epss": 0.78157,
       "epssPercentile": 0.99553,
@@ -155,7 +151,7 @@
       "dueDate": "2022-04-15",
       "threatSignal": 76,
       "movement24h": 0,
-      "movement7d": 615,
+      "movement7d": 714,
       "cvssScore": 9.8,
       "epss": 0.79003,
       "epssPercentile": 0.99576,
@@ -176,7 +172,7 @@
       "dueDate": "2022-05-04",
       "threatSignal": 76,
       "movement24h": 0,
-      "movement7d": 613,
+      "movement7d": 712,
       "cvssScore": 9.8,
       "epss": 0.29336,
       "epssPercentile": 0.9808,
@@ -197,7 +193,7 @@
       "dueDate": "2022-04-18",
       "threatSignal": 76,
       "movement24h": 0,
-      "movement7d": 613,
+      "movement7d": 712,
       "cvssScore": 9.8,
       "epss": 0.30084,
       "epssPercentile": 0.98122,
@@ -218,7 +214,7 @@
       "dueDate": "2022-07-21",
       "threatSignal": 75,
       "movement24h": 0,
-      "movement7d": 607,
+      "movement7d": 700,
       "cvssScore": 9.8,
       "epss": 0.75599,
       "epssPercentile": 0.99492,
@@ -239,7 +235,7 @@
       "dueDate": "2022-03-24",
       "threatSignal": 75,
       "movement24h": 0,
-      "movement7d": 606,
+      "movement7d": 699,
       "cvssScore": 9.8,
       "epss": 0.73862,
       "epssPercentile": 0.99453,
@@ -260,7 +256,7 @@
       "dueDate": "2022-06-10",
       "threatSignal": 75,
       "movement24h": 0,
-      "movement7d": 606,
+      "movement7d": 699,
       "cvssScore": 9.8,
       "epss": 0.77146,
       "epssPercentile": 0.99527,
@@ -273,27 +269,6 @@
     }
   ],
   "highestSignals": [
-    {
-      "cveID": "CVE-2026-20079",
-      "vendorProject": "Cisco",
-      "product": "Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "dateAdded": "2026-09-09",
-      "dueDate": "2026-09-12",
-      "threatSignal": 85,
-      "movement24h": 0,
-      "movement7d": 120,
-      "cvssScore": 10.0,
-      "epss": 0.75752,
-      "epssPercentile": 0.99496,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": true,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-20079"
-    },
     {
       "cveID": "CVE-2026-84869",
       "vendorProject": "ConnectWise",
@@ -316,48 +291,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-84869"
     },
     {
-      "cveID": "CVE-2026-19490",
-      "vendorProject": "Citrix",
-      "product": "NetScaler",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "dateAdded": "2026-09-09",
-      "dueDate": "2026-09-12",
-      "threatSignal": 70,
-      "movement24h": 0,
-      "movement7d": -322,
-      "cvssScore": 9.3,
-      "epss": 0.05597,
-      "epssPercentile": 0.92504,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, or RDP Proxy), an unauthenticated remote threat actor may be able to bypass authentication.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-19490"
-    },
-    {
-      "cveID": "CVE-2025-25249",
-      "vendorProject": "Fortinet",
-      "product": "Multiple Products",
-      "technology": "Other",
-      "vulnerabilityName": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
-      "dateAdded": "2026-09-09",
-      "dueDate": "2026-09-12",
-      "threatSignal": 70,
-      "movement24h": 0,
-      "movement7d": -322,
-      "cvssScore": 9.8,
-      "epss": 0.02403,
-      "epssPercentile": 0.83215,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2025-25249"
-    },
-    {
       "cveID": "CVE-2026-76460",
       "vendorProject": "Cisco",
       "product": "Identity Services Engine",
@@ -366,7 +299,7 @@
       "dateAdded": "2026-09-16",
       "dueDate": "2026-09-19",
       "threatSignal": 69,
-      "movement24h": 0,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 10.0,
       "epss": null,
@@ -387,7 +320,7 @@
       "dateAdded": "2026-09-14",
       "dueDate": "2026-09-17",
       "threatSignal": 69,
-      "movement24h": 1,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.02009,
@@ -408,7 +341,7 @@
       "dateAdded": "2026-09-10",
       "dueDate": "2026-09-13",
       "threatSignal": 68,
-      "movement24h": 1,
+      "movement24h": 3,
       "movement7d": 0,
       "cvssScore": 9.2,
       "epss": 0.01057,
@@ -429,7 +362,7 @@
       "dateAdded": "2026-09-10",
       "dueDate": "2026-09-13",
       "threatSignal": 68,
-      "movement24h": 1,
+      "movement24h": 3,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.00869,
@@ -442,27 +375,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-67277"
     },
     {
-      "cveID": "CVE-2026-87491",
-      "vendorProject": "Google",
-      "product": "Chromium V8",
-      "technology": "Browsers",
-      "vulnerabilityName": "Google Chromium V8 Out of Bounds Write Vulnerability",
-      "dateAdded": "2026-09-09",
-      "dueDate": "2026-09-23",
-      "threatSignal": 67,
-      "movement24h": 110,
-      "movement7d": -298,
-      "cvssScore": 8.8,
-      "epss": 0.00997,
-      "epssPercentile": 0.60979,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-87491"
-    },
-    {
       "cveID": "CVE-2026-58704",
       "vendorProject": "Google",
       "product": "Pixel",
@@ -471,7 +383,7 @@
       "dateAdded": "2026-09-16",
       "dueDate": "2026-09-19",
       "threatSignal": 65,
-      "movement24h": 0,
+      "movement24h": 1,
       "movement7d": 0,
       "cvssScore": 8.0,
       "epss": 0.00112,
@@ -482,13 +394,97 @@
       "noPrivilegesRequired": false,
       "shortDescription": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-58704"
+    },
+    {
+      "cveID": "CVE-2026-42016",
+      "vendorProject": "JFrog",
+      "product": "Artifactory",
+      "technology": "Other",
+      "vulnerabilityName": "JFrog Artifactory Incorrect Authorization Vulnerability",
+      "dateAdded": "2026-09-11",
+      "dueDate": "2026-09-25",
+      "threatSignal": 65,
+      "movement24h": 1,
+      "movement7d": 0,
+      "cvssScore": 8.8,
+      "epss": 0.00886,
+      "epssPercentile": 0.57488,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "JFrog Artifactory contains an incorrect authorization vulnerability that leads to a privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-42016"
+    },
+    {
+      "cveID": "CVE-2026-42018",
+      "vendorProject": "JFrog",
+      "product": "Artifactory",
+      "technology": "Identity / Access",
+      "vulnerabilityName": "JFrog Artifactory Improper Authentication Vulnerability",
+      "dateAdded": "2026-09-11",
+      "dueDate": "2026-09-25",
+      "threatSignal": 62,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 7.5,
+      "epss": 0.0092,
+      "epssPercentile": 0.5854,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially exposing sensitive resources.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-42018"
+    },
+    {
+      "cveID": "CVE-2026-85706",
+      "vendorProject": "GitLab",
+      "product": "Community Edition and Enterprise Edition",
+      "technology": "Developer / CI-CD",
+      "vulnerabilityName": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
+      "dateAdded": "2026-09-11",
+      "dueDate": "2026-09-14",
+      "threatSignal": 52,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": null,
+      "epss": 0.11957,
+      "epssPercentile": 0.95901,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits API.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-85706"
+    },
+    {
+      "cveID": "CVE-2026-87886",
+      "vendorProject": "Acronis",
+      "product": "Backup",
+      "technology": "Storage / Backup",
+      "vulnerabilityName": "Acronis Backup Incorrect Default Permissions Vulnerability",
+      "dateAdded": "2026-09-16",
+      "dueDate": "2026-09-19",
+      "threatSignal": 49,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": null,
+      "epss": null,
+      "epssPercentile": null,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-87886"
     }
   ],
   "observations": [
-    "CISA added 13 actively exploited vulnerabilities during the last 7 days.",
-    "Network Edge / VPN is the most represented technology category among this week's new KEVs (5).",
-    "Cisco has the most new KEV entries this week (3).",
-    "CVE-2020-10987 is the largest 7-day rank riser, up 625 positions."
+    "CISA added 10 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (3).",
+    "Cisco has the most new KEV entries this week (2).",
+    "CVE-2020-10987 is the largest 7-day rank riser, up 724 positions."
   ],
-  "executiveSummary": "CISA added 13 actively exploited vulnerabilities during the last 7 days. Network Edge / VPN is the most represented technology category among this week's new KEVs (5). Cisco has the most new KEV entries this week (3). CVE-2020-10987 is the largest 7-day rank riser, up 625 positions."
+  "executiveSummary": "CISA added 10 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (3). Cisco has the most new KEV entries this week (2). CVE-2020-10987 is the largest 7-day rank riser, up 724 positions."
 }

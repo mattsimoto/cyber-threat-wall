@@ -23635,5 +23635,10 @@
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
+  },
+  "CVE-2026-87886": {
+    "fetchedAt": "2026-09-17T04:56:02.115310+00:00",
+    "cvssScore": null,
+    "cwes": []
   }
 }
