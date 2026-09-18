@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-09-17T21:24:50.521735+00:00",
-  "since": "2026-09-16",
-  "count": 1,
-  "vulnerabilities": [
-    {
-      "cveID": "CVE-2026-87886",
-      "vendorProject": "Acronis",
-      "product": "Backup",
-      "technology": "Storage / Backup",
-      "vulnerabilityName": "Acronis Backup Incorrect Default Permissions Vulnerability",
-      "dateAdded": "2026-09-16",
-      "dueDate": "2026-09-19",
-      "threatSignal": 49,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": null,
-      "epss": null,
-      "epssPercentile": null,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-87886"
-    }
-  ]
+  "generatedAt": "2026-09-18T04:47:11.909101+00:00",
+  "since": "2026-09-17",
+  "count": 0,
+  "vulnerabilities": []
 }
