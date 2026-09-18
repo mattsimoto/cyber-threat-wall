@@ -23640,5 +23640,47 @@
     "fetchedAt": "2026-09-17T04:56:02.115310+00:00",
     "cvssScore": null,
     "cwes": []
+  },
+  "CVE-2025-39964": {
+    "fetchedAt": "2026-09-18T20:55:55.826873+00:00",
+    "cvssScore": 5.5,
+    "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "cvssVersion": "3.1",
+    "cwes": [
+      "CWE-362"
+    ],
+    "nvdPublished": "2025-10-13T14:15:34.737",
+    "nvdLastModified": "2026-09-18T18:48:32.840",
+    "publicExploit": false,
+    "networkExploitable": false,
+    "noPrivilegesRequired": false
+  },
+  "CVE-2026-53266": {
+    "fetchedAt": "2026-09-18T20:56:02.175460+00:00",
+    "cvssScore": 8.8,
+    "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "cvssVersion": "3.1",
+    "cwes": [
+      "CWE-787"
+    ],
+    "nvdPublished": "2026-06-25T09:16:44.643",
+    "nvdLastModified": "2026-09-18T19:30:57.760",
+    "publicExploit": false,
+    "networkExploitable": false,
+    "noPrivilegesRequired": false
+  },
+  "CVE-2025-39682": {
+    "fetchedAt": "2026-09-18T20:56:08.551360+00:00",
+    "cvssScore": 7.1,
+    "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+    "cvssVersion": "3.1",
+    "cwes": [
+      "CWE-754"
+    ],
+    "nvdPublished": "2025-09-05T18:15:44.670",
+    "nvdLastModified": "2026-09-18T20:16:59.777",
+    "publicExploit": false,
+    "networkExploitable": false,
+    "noPrivilegesRequired": false
   }
 }
