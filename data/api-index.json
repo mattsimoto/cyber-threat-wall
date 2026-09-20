@@ -1,6 +1,6 @@
 {
   "name": "Cyber Threat Wall public data endpoints",
-  "generatedAt": "2026-09-20T11:28:06.951214+00:00",
+  "generatedAt": "2026-09-20T16:10:02.777633+00:00",
   "endpoints": {
     "fullThreatWall": "data/threat-wall.json",
     "latestMovers": "data/latest-movers.json",
