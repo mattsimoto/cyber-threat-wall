@@ -23682,5 +23682,19 @@
     "publicExploit": false,
     "networkExploitable": false,
     "noPrivilegesRequired": false
+  },
+  "CVE-2026-7273": {
+    "fetchedAt": "2026-09-21T21:59:58.813131+00:00",
+    "cvssScore": 8.8,
+    "cvssVector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvssVersion": "3.1",
+    "cwes": [
+      "CWE-121"
+    ],
+    "nvdPublished": "2026-06-16T03:16:13.557",
+    "nvdLastModified": "2026-09-21T20:17:32.970",
+    "publicExploit": false,
+    "networkExploitable": false,
+    "noPrivilegesRequired": true
   }
 }
