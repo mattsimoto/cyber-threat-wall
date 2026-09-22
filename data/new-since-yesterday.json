@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-09-21T22:00:06.768027+00:00",
-  "since": "2026-09-20",
-  "count": 1,
-  "vulnerabilities": [
-    {
-      "cveID": "CVE-2026-7273",
-      "vendorProject": "Zyxel",
-      "product": "GS1900 Series Switches",
-      "technology": "Other",
-      "vulnerabilityName": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
-      "dateAdded": "2026-09-21",
-      "dueDate": "2026-09-24",
-      "threatSignal": 67,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 8.8,
-      "epss": 0.00315,
-      "epssPercentile": 0.24603,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-7273"
-    }
-  ]
+  "generatedAt": "2026-09-22T05:00:14.258508+00:00",
+  "since": "2026-09-21",
+  "count": 0,
+  "vulnerabilities": []
 }
