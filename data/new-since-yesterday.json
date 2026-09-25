@@ -1,8 +1,29 @@
 {
-  "generatedAt": "2026-09-25T11:54:19.607459+00:00",
+  "generatedAt": "2026-09-25T17:14:45.685384+00:00",
   "since": "2026-09-24",
   "count": 2,
   "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-71362",
+      "vendorProject": "Adobe",
+      "product": "Commerce and Magento ",
+      "technology": "Other",
+      "vulnerabilityName": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+      "dateAdded": "2026-09-24",
+      "dueDate": "2026-09-27",
+      "threatSignal": 85,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.1,
+      "epss": 0.89616,
+      "epssPercentile": 0.99783,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. ",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-71362"
+    },
     {
       "cveID": "CVE-2026-5430",
       "vendorProject": "WSO2",
@@ -15,35 +36,14 @@
       "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 10.0,
-      "epss": 0.00374,
-      "epssPercentile": 0.28583,
+      "epss": 0.0058,
+      "epssPercentile": 0.45384,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": true,
       "shortDescription": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution. ",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-5430"
-    },
-    {
-      "cveID": "CVE-2026-71362",
-      "vendorProject": "Adobe",
-      "product": "Commerce and Magento ",
-      "technology": "Other",
-      "vulnerabilityName": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
-      "dateAdded": "2026-09-24",
-      "dueDate": "2026-09-27",
-      "threatSignal": 67,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 9.1,
-      "epss": 0.02335,
-      "epssPercentile": 0.82839,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. ",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-71362"
     }
   ]
 }
