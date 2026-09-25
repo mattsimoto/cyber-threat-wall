@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-09-24T21:32:55.244096+00:00",
-  "since": "2026-09-23",
-  "count": 0,
-  "vulnerabilities": []
+  "generatedAt": "2026-09-25T05:01:07.714093+00:00",
+  "since": "2026-09-24",
+  "count": 2,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-5430",
+      "vendorProject": "WSO2",
+      "product": "Multiple Products",
+      "technology": "Other",
+      "vulnerabilityName": "WSO2 Multiple Products Path Traversal Vulnerability ",
+      "dateAdded": "2026-09-24",
+      "dueDate": "2026-09-27",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 10.0,
+      "epss": 0.00374,
+      "epssPercentile": 0.28583,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution. ",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-5430"
+    },
+    {
+      "cveID": "CVE-2026-71362",
+      "vendorProject": "Adobe",
+      "product": "Commerce and Magento ",
+      "technology": "Other",
+      "vulnerabilityName": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+      "dateAdded": "2026-09-24",
+      "dueDate": "2026-09-27",
+      "threatSignal": 67,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.1,
+      "epss": 0.02335,
+      "epssPercentile": 0.82839,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. ",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-71362"
+    }
+  ]
 }
