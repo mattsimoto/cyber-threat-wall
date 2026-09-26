@@ -23808,5 +23808,19 @@
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": false
+  },
+  "CVE-2026-87902": {
+    "fetchedAt": "2026-09-26T05:02:22.555680+00:00",
+    "cvssScore": 8.1,
+    "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvssVersion": "3.1",
+    "cwes": [
+      "CWE-98"
+    ],
+    "nvdPublished": "2026-09-22T17:17:28.310",
+    "nvdLastModified": "2026-09-26T04:17:49.733",
+    "publicExploit": false,
+    "networkExploitable": true,
+    "noPrivilegesRequired": true
   }
 }
