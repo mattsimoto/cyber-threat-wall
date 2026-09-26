@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T11:28:22.080657+00:00",
+  "generatedAt": "2026-09-26T16:26:15.029274+00:00",
   "since": "2026-09-25",
   "count": 1,
   "vulnerabilities": [
@@ -11,12 +11,12 @@
       "vulnerabilityName": "WordPress Core Remote File Inclusion Vulnerability",
       "dateAdded": "2026-09-25",
       "dueDate": "2026-09-28",
-      "threatSignal": 66,
+      "threatSignal": 69,
       "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 8.1,
-      "epss": 0.02877,
-      "epssPercentile": 0.86275,
+      "epss": 0.18166,
+      "epssPercentile": 0.97111,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
