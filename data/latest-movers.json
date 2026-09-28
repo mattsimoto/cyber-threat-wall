@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T14:00:03.426208+00:00",
+  "generatedAt": "2026-09-28T23:18:39.738659+00:00",
   "has24hBaseline": true,
   "has7dBaseline": true,
   "movers24h": [
@@ -186,7 +186,7 @@
       "movement7d": 268,
       "cvssScore": 9.8,
       "epss": 0.69882,
-      "epssPercentile": 0.99354,
+      "epssPercentile": 0.99355,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,

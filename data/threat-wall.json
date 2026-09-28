@@ -3,7 +3,7 @@
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
     "catalogVersion": "2026.09.27",
     "catalogDateReleased": "2026-09-27T21:30:35.5521Z",
-    "generatedAt": "2026-09-28T14:00:03.426208+00:00",
+    "generatedAt": "2026-09-28T23:18:39.738659+00:00",
     "kevSource": "https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json",
     "nvdSource": "https://services.nvd.nist.gov/rest/json/cves/2.0",
     "epssSource": "https://api.first.org/data/v1/epss",
@@ -3550,7 +3550,7 @@
       "publicExploit": true,
       "epss": 0.9998,
       "epssPercentile": 0.99981,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Identity / Access",
       "threatSignal": 90,
       "signalFactors": [
@@ -3716,7 +3716,7 @@
       "publicExploit": true,
       "epss": 0.99984,
       "epssPercentile": 0.99982,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Web Applications / CMS",
       "threatSignal": 90,
       "signalFactors": [
@@ -3882,7 +3882,7 @@
       "publicExploit": false,
       "epss": 0.99999,
       "epssPercentile": 0.99996,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Security Tools",
       "threatSignal": 90,
       "signalFactors": [
@@ -4048,7 +4048,7 @@
       "publicExploit": false,
       "epss": 0.99984,
       "epssPercentile": 0.99982,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 90,
       "signalFactors": [
@@ -4214,7 +4214,7 @@
       "publicExploit": false,
       "epss": 0.99991,
       "epssPercentile": 0.99986,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 90,
       "signalFactors": [
@@ -4380,7 +4380,7 @@
       "publicExploit": true,
       "epss": 0.98851,
       "epssPercentile": 0.99926,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 90,
       "signalFactors": [
@@ -4546,7 +4546,7 @@
       "publicExploit": true,
       "epss": 0.99999,
       "epssPercentile": 0.99996,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Web Applications / CMS",
       "threatSignal": 90,
       "signalFactors": [
@@ -4712,7 +4712,7 @@
       "publicExploit": true,
       "epss": 0.99891,
       "epssPercentile": 0.99964,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Web Applications / CMS",
       "threatSignal": 90,
       "signalFactors": [
@@ -4878,7 +4878,7 @@
       "publicExploit": true,
       "epss": 0.99156,
       "epssPercentile": 0.99933,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Web Applications / CMS",
       "threatSignal": 90,
       "signalFactors": [
@@ -5045,7 +5045,7 @@
       "publicExploit": true,
       "epss": 0.99988,
       "epssPercentile": 0.99984,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Identity / Access",
       "threatSignal": 90,
       "signalFactors": [
@@ -5209,7 +5209,7 @@
       "publicExploit": true,
       "epss": 0.99943,
       "epssPercentile": 0.99972,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 90,
       "signalFactors": [
@@ -5375,7 +5375,7 @@
       "publicExploit": true,
       "epss": 0.9995,
       "epssPercentile": 0.99974,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Identity / Access",
       "threatSignal": 90,
       "signalFactors": [
@@ -5541,7 +5541,7 @@
       "publicExploit": true,
       "epss": 0.99999,
       "epssPercentile": 0.99998,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Security Tools",
       "threatSignal": 90,
       "signalFactors": [
@@ -5707,7 +5707,7 @@
       "publicExploit": true,
       "epss": 0.99749,
       "epssPercentile": 0.99953,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 90,
       "signalFactors": [
@@ -5873,7 +5873,7 @@
       "publicExploit": true,
       "epss": 0.99934,
       "epssPercentile": 0.9997,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 90,
       "signalFactors": [
@@ -6039,7 +6039,7 @@
       "publicExploit": true,
       "epss": 0.99999,
       "epssPercentile": 0.99995,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 90,
       "signalFactors": [
@@ -6205,7 +6205,7 @@
       "publicExploit": false,
       "epss": 0.99448,
       "epssPercentile": 0.99942,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 90,
       "signalFactors": [
@@ -6371,7 +6371,7 @@
       "publicExploit": false,
       "epss": 0.99968,
       "epssPercentile": 0.99977,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 90,
       "signalFactors": [
@@ -6537,7 +6537,7 @@
       "publicExploit": true,
       "epss": 0.98342,
       "epssPercentile": 0.99916,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 90,
       "signalFactors": [
@@ -6703,7 +6703,7 @@
       "publicExploit": true,
       "epss": 0.99753,
       "epssPercentile": 0.99954,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 90,
       "signalFactors": [
@@ -6870,7 +6870,7 @@
       "publicExploit": true,
       "epss": 0.99474,
       "epssPercentile": 0.99943,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 90,
       "signalFactors": [
@@ -7036,7 +7036,7 @@
       "publicExploit": true,
       "epss": 0.99984,
       "epssPercentile": 0.99983,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Identity / Access",
       "threatSignal": 90,
       "signalFactors": [
@@ -15013,7 +15013,7 @@
       "publicExploit": false,
       "epss": 0.97074,
       "epssPercentile": 0.99891,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 89,
       "signalFactors": [
@@ -15180,7 +15180,7 @@
       "publicExploit": true,
       "epss": 0.96515,
       "epssPercentile": 0.9988,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Identity / Access",
       "threatSignal": 89,
       "signalFactors": [
@@ -15346,7 +15346,7 @@
       "publicExploit": true,
       "epss": 0.95478,
       "epssPercentile": 0.99869,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 89,
       "signalFactors": [
@@ -17668,7 +17668,7 @@
       "publicExploit": true,
       "epss": 0.99999,
       "epssPercentile": 0.99999,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 88,
       "signalFactors": [
@@ -17834,7 +17834,7 @@
       "publicExploit": false,
       "epss": 0.88215,
       "epssPercentile": 0.99766,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 88,
       "signalFactors": [
@@ -18000,7 +18000,7 @@
       "publicExploit": false,
       "epss": 0.99977,
       "epssPercentile": 0.99979,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Web Applications / CMS",
       "threatSignal": 88,
       "signalFactors": [
@@ -18166,7 +18166,7 @@
       "publicExploit": true,
       "epss": 0.99956,
       "epssPercentile": 0.99974,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 88,
       "signalFactors": [
@@ -21814,7 +21814,7 @@
       "publicExploit": false,
       "epss": 0.83428,
       "epssPercentile": 0.99675,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 87,
       "signalFactors": [
@@ -21981,7 +21981,7 @@
       "publicExploit": false,
       "epss": 0.85689,
       "epssPercentile": 0.99719,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 87,
       "signalFactors": [
@@ -23872,7 +23872,7 @@
       "publicExploit": false,
       "epss": 0.9941,
       "epssPercentile": 0.99941,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 86,
       "signalFactors": [
@@ -24038,7 +24038,7 @@
       "publicExploit": false,
       "epss": 0.99999,
       "epssPercentile": 0.99999,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 86,
       "signalFactors": [
@@ -24204,7 +24204,7 @@
       "publicExploit": true,
       "epss": 0.99986,
       "epssPercentile": 0.99983,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 86,
       "signalFactors": [
@@ -24368,15 +24368,15 @@
       "networkExploitable": true,
       "noPrivilegesRequired": false,
       "publicExploit": true,
-      "epss": 0.9015,
-      "epssPercentile": 0.99794,
-      "epssDate": "2026-09-27",
+      "epss": 0.90553,
+      "epssPercentile": 0.99799,
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 86,
       "signalFactors": [
         "Confirmed active exploitation (CISA KEV) +35",
         "CVSS 8.8 +18",
-        "EPSS 90.1% +18",
+        "EPSS 90.6% +18",
         "Remediation urgency +5",
         "Known ransomware use +10"
       ],
@@ -24537,7 +24537,7 @@
       "publicExploit": true,
       "epss": 0.99815,
       "epssPercentile": 0.99958,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 86,
       "signalFactors": [
@@ -24703,7 +24703,7 @@
       "publicExploit": true,
       "epss": 0.77679,
       "epssPercentile": 0.99552,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 86,
       "signalFactors": [
@@ -24869,7 +24869,7 @@
       "publicExploit": true,
       "epss": 0.9997,
       "epssPercentile": 0.99977,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 86,
       "signalFactors": [
@@ -27491,7 +27491,7 @@
       "publicExploit": false,
       "epss": 0.99999,
       "epssPercentile": 0.99997,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 85,
       "signalFactors": [
@@ -27657,7 +27657,7 @@
       "publicExploit": false,
       "epss": 0.98932,
       "epssPercentile": 0.99928,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 85,
       "signalFactors": [
@@ -29813,7 +29813,7 @@
       "publicExploit": false,
       "epss": 0.95397,
       "epssPercentile": 0.99867,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Developer / CI-CD",
       "threatSignal": 84,
       "signalFactors": [
@@ -29979,7 +29979,7 @@
       "publicExploit": true,
       "epss": 0.99999,
       "epssPercentile": 0.99996,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 84,
       "signalFactors": [
@@ -31802,7 +31802,7 @@
       "publicExploit": true,
       "epss": 0.6491,
       "epssPercentile": 0.99226,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Identity / Access",
       "threatSignal": 83,
       "signalFactors": [
@@ -31966,7 +31966,7 @@
       "publicExploit": false,
       "epss": 0.77326,
       "epssPercentile": 0.99543,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 83,
       "signalFactors": [
@@ -34789,7 +34789,7 @@
       "publicExploit": true,
       "epss": 0.83043,
       "epssPercentile": 0.99666,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 82,
       "signalFactors": [
@@ -37272,7 +37272,7 @@
       "publicExploit": false,
       "epss": 0.81326,
       "epssPercentile": 0.99627,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Cloud / Virtualization",
       "threatSignal": 81,
       "signalFactors": [
@@ -45879,7 +45879,7 @@
       "publicExploit": true,
       "epss": 0.97647,
       "epssPercentile": 0.99902,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 80,
       "signalFactors": [
@@ -46044,7 +46044,7 @@
       "publicExploit": true,
       "epss": 0.99428,
       "epssPercentile": 0.99942,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Cloud / Virtualization",
       "threatSignal": 80,
       "signalFactors": [
@@ -46209,7 +46209,7 @@
       "publicExploit": false,
       "epss": 0.84843,
       "epssPercentile": 0.99704,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 80,
       "signalFactors": [
@@ -46375,7 +46375,7 @@
       "publicExploit": true,
       "epss": 0.99999,
       "epssPercentile": 0.99992,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 80,
       "signalFactors": [
@@ -46540,7 +46540,7 @@
       "publicExploit": false,
       "epss": 0.99571,
       "epssPercentile": 0.99946,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 80,
       "signalFactors": [
@@ -46703,7 +46703,7 @@
       "publicExploit": false,
       "epss": 0.99975,
       "epssPercentile": 0.99978,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 80,
       "signalFactors": [
@@ -46868,7 +46868,7 @@
       "publicExploit": true,
       "epss": 0.97997,
       "epssPercentile": 0.99909,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 80,
       "signalFactors": [
@@ -47033,7 +47033,7 @@
       "publicExploit": true,
       "epss": 0.98281,
       "epssPercentile": 0.99914,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Cloud / Virtualization",
       "threatSignal": 80,
       "signalFactors": [
@@ -47198,7 +47198,7 @@
       "publicExploit": true,
       "epss": 0.99284,
       "epssPercentile": 0.99937,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 80,
       "signalFactors": [
@@ -47363,7 +47363,7 @@
       "publicExploit": true,
       "epss": 0.98069,
       "epssPercentile": 0.9991,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 80,
       "signalFactors": [
@@ -47528,7 +47528,7 @@
       "publicExploit": true,
       "epss": 0.9988,
       "epssPercentile": 0.99964,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 80,
       "signalFactors": [
@@ -47695,7 +47695,7 @@
       "publicExploit": true,
       "epss": 0.99826,
       "epssPercentile": 0.99959,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 80,
       "signalFactors": [
@@ -47860,7 +47860,7 @@
       "publicExploit": true,
       "epss": 0.99995,
       "epssPercentile": 0.99988,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 80,
       "signalFactors": [
@@ -48025,7 +48025,7 @@
       "publicExploit": false,
       "epss": 0.98905,
       "epssPercentile": 0.99927,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 80,
       "signalFactors": [
@@ -63873,7 +63873,7 @@
       "publicExploit": false,
       "epss": 0.71789,
       "epssPercentile": 0.99408,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Security Tools",
       "threatSignal": 79,
       "signalFactors": [
@@ -64039,7 +64039,7 @@
       "publicExploit": true,
       "epss": 0.97405,
       "epssPercentile": 0.99898,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Web Applications / CMS",
       "threatSignal": 79,
       "signalFactors": [
@@ -64202,7 +64202,7 @@
       "publicExploit": false,
       "epss": 0.93217,
       "epssPercentile": 0.99833,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 79,
       "signalFactors": [
@@ -64367,7 +64367,7 @@
       "publicExploit": true,
       "epss": 0.9507,
       "epssPercentile": 0.99861,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 79,
       "signalFactors": [
@@ -64532,7 +64532,7 @@
       "publicExploit": true,
       "epss": 0.96568,
       "epssPercentile": 0.99881,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Web Applications / CMS",
       "threatSignal": 79,
       "signalFactors": [
@@ -64697,7 +64697,7 @@
       "publicExploit": false,
       "epss": 0.97343,
       "epssPercentile": 0.99897,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 79,
       "signalFactors": [
@@ -64862,7 +64862,7 @@
       "publicExploit": true,
       "epss": 0.94425,
       "epssPercentile": 0.9985,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 79,
       "signalFactors": [
@@ -65028,7 +65028,7 @@
       "publicExploit": false,
       "epss": 0.97159,
       "epssPercentile": 0.99893,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 79,
       "signalFactors": [
@@ -65193,7 +65193,7 @@
       "publicExploit": false,
       "epss": 0.96284,
       "epssPercentile": 0.99878,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 79,
       "signalFactors": [
@@ -73944,7 +73944,7 @@
       "publicExploit": true,
       "epss": 0.5981,
       "epssPercentile": 0.99104,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 78,
       "signalFactors": [
@@ -74110,7 +74110,7 @@
       "publicExploit": true,
       "epss": 0.99979,
       "epssPercentile": 0.9998,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 78,
       "signalFactors": [
@@ -74275,7 +74275,7 @@
       "publicExploit": true,
       "epss": 0.89624,
       "epssPercentile": 0.99784,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 78,
       "signalFactors": [
@@ -74441,7 +74441,7 @@
       "publicExploit": false,
       "epss": 0.87691,
       "epssPercentile": 0.99757,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 78,
       "signalFactors": [
@@ -74606,7 +74606,7 @@
       "publicExploit": false,
       "epss": 0.92334,
       "epssPercentile": 0.99821,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 78,
       "signalFactors": [
@@ -74769,7 +74769,7 @@
       "publicExploit": false,
       "epss": 0.90338,
       "epssPercentile": 0.99796,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Web Applications / CMS",
       "threatSignal": 78,
       "signalFactors": [
@@ -74934,7 +74934,7 @@
       "publicExploit": true,
       "epss": 0.99999,
       "epssPercentile": 0.99992,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 78,
       "signalFactors": [
@@ -75100,7 +75100,7 @@
       "publicExploit": true,
       "epss": 0.99174,
       "epssPercentile": 0.99933,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 78,
       "signalFactors": [
@@ -81381,7 +81381,7 @@
       "publicExploit": true,
       "epss": 0.36009,
       "epssPercentile": 0.98425,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 77,
       "signalFactors": [
@@ -81546,8 +81546,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.82828,
-      "epssPercentile": 0.99662,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.99661,
+      "epssDate": "2026-09-28",
       "technology": "Storage / Backup",
       "threatSignal": 77,
       "signalFactors": [
@@ -81711,8 +81711,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": true,
       "epss": 0.84336,
-      "epssPercentile": 0.99693,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.99692,
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 77,
       "signalFactors": [
@@ -81879,7 +81879,7 @@
       "publicExploit": true,
       "epss": 0.98124,
       "epssPercentile": 0.99912,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 77,
       "signalFactors": [
@@ -82044,7 +82044,7 @@
       "publicExploit": true,
       "epss": 0.93076,
       "epssPercentile": 0.99832,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Web Applications / CMS",
       "threatSignal": 77,
       "signalFactors": [
@@ -88985,8 +88985,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.88085,
-      "epssPercentile": 0.99763,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.99762,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 76,
       "signalFactors": [
@@ -89152,7 +89152,7 @@
       "publicExploit": true,
       "epss": 0.48973,
       "epssPercentile": 0.98843,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 76,
       "signalFactors": [
@@ -89318,7 +89318,7 @@
       "publicExploit": true,
       "epss": 0.97339,
       "epssPercentile": 0.99896,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 76,
       "signalFactors": [
@@ -89481,7 +89481,7 @@
       "publicExploit": false,
       "epss": 0.76267,
       "epssPercentile": 0.99522,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Security Tools",
       "threatSignal": 76,
       "signalFactors": [
@@ -96260,7 +96260,7 @@
       "publicExploit": true,
       "epss": 0.99999,
       "epssPercentile": 0.99998,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 75,
       "signalFactors": [
@@ -96424,8 +96424,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.74202,
-      "epssPercentile": 0.99475,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.99474,
+      "epssDate": "2026-09-28",
       "technology": "Developer / CI-CD",
       "threatSignal": 75,
       "signalFactors": [
@@ -96588,15 +96588,15 @@
       "networkExploitable": true,
       "noPrivilegesRequired": false,
       "publicExploit": true,
-      "epss": 0.34367,
-      "epssPercentile": 0.98363,
-      "epssDate": "2026-09-27",
+      "epss": 0.34607,
+      "epssPercentile": 0.98371,
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 75,
       "signalFactors": [
         "Confirmed active exploitation (CISA KEV) +35",
         "CVSS 8.8 +18",
-        "EPSS 34.4% +7",
+        "EPSS 34.6% +7",
         "Remediation urgency +5",
         "Known ransomware use +10"
       ],
@@ -96756,7 +96756,7 @@
       "publicExploit": true,
       "epss": 0.99999,
       "epssPercentile": 0.99992,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 75,
       "signalFactors": [
@@ -96921,7 +96921,7 @@
       "publicExploit": false,
       "epss": 0.9979,
       "epssPercentile": 0.99955,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 75,
       "signalFactors": [
@@ -97086,7 +97086,7 @@
       "publicExploit": false,
       "epss": 0.99742,
       "epssPercentile": 0.99953,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 75,
       "signalFactors": [
@@ -97251,7 +97251,7 @@
       "publicExploit": true,
       "epss": 0.97109,
       "epssPercentile": 0.99892,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 75,
       "signalFactors": [
@@ -97417,7 +97417,7 @@
       "publicExploit": true,
       "epss": 0.999,
       "epssPercentile": 0.99965,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 75,
       "signalFactors": [
@@ -97582,7 +97582,7 @@
       "publicExploit": false,
       "epss": 0.78005,
       "epssPercentile": 0.99562,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 75,
       "signalFactors": [
@@ -107558,8 +107558,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.69882,
-      "epssPercentile": 0.99354,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.99355,
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 74,
       "signalFactors": [
@@ -107725,7 +107725,7 @@
       "publicExploit": true,
       "epss": 0.80139,
       "epssPercentile": 0.99607,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 74,
       "signalFactors": [
@@ -114935,7 +114935,7 @@
       "publicExploit": true,
       "epss": 0.64238,
       "epssPercentile": 0.99206,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 73,
       "signalFactors": [
@@ -115100,7 +115100,7 @@
       "publicExploit": false,
       "epss": 0.73277,
       "epssPercentile": 0.99446,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 73,
       "signalFactors": [
@@ -115265,8 +115265,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.25453,
-      "epssPercentile": 0.97883,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.97884,
+      "epssDate": "2026-09-28",
       "technology": "Security Tools",
       "threatSignal": 73,
       "signalFactors": [
@@ -115432,7 +115432,7 @@
       "publicExploit": false,
       "epss": 0.87687,
       "epssPercentile": 0.99756,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 73,
       "signalFactors": [
@@ -115594,8 +115594,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.23952,
-      "epssPercentile": 0.97763,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.97764,
+      "epssDate": "2026-09-28",
       "technology": "Storage / Backup",
       "threatSignal": 73,
       "signalFactors": [
@@ -121045,7 +121045,7 @@
       "publicExploit": true,
       "epss": 0.81422,
       "epssPercentile": 0.99629,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Developer / CI-CD",
       "threatSignal": 72,
       "signalFactors": [
@@ -121209,8 +121209,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.89634,
-      "epssPercentile": 0.99784,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.99785,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 72,
       "signalFactors": [
@@ -121375,7 +121375,7 @@
       "publicExploit": true,
       "epss": 0.87423,
       "epssPercentile": 0.99753,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 72,
       "signalFactors": [
@@ -121540,7 +121540,7 @@
       "publicExploit": true,
       "epss": 0.83957,
       "epssPercentile": 0.99686,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 72,
       "signalFactors": [
@@ -121705,7 +121705,7 @@
       "publicExploit": false,
       "epss": 0.70676,
       "epssPercentile": 0.99377,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 72,
       "signalFactors": [
@@ -121867,8 +121867,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": true,
       "epss": 0.07828,
-      "epssPercentile": 0.94477,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.94479,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 72,
       "signalFactors": [
@@ -129298,7 +129298,7 @@
       "publicExploit": true,
       "epss": 0.76814,
       "epssPercentile": 0.99534,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Developer / CI-CD",
       "threatSignal": 71,
       "signalFactors": [
@@ -129463,7 +129463,7 @@
       "publicExploit": false,
       "epss": 0.99827,
       "epssPercentile": 0.99959,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Web Applications / CMS",
       "threatSignal": 71,
       "signalFactors": [
@@ -129628,7 +129628,7 @@
       "publicExploit": false,
       "epss": 0.78428,
       "epssPercentile": 0.9957,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Cloud / Virtualization",
       "threatSignal": 71,
       "signalFactors": [
@@ -129792,8 +129792,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.04104,
-      "epssPercentile": 0.90407,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.90409,
+      "epssDate": "2026-09-28",
       "technology": "Storage / Backup",
       "threatSignal": 71,
       "signalFactors": [
@@ -136624,7 +136624,7 @@
       "publicExploit": false,
       "epss": 0.93473,
       "epssPercentile": 0.99838,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Identity / Access",
       "threatSignal": 70,
       "signalFactors": [
@@ -143675,7 +143675,7 @@
       "publicExploit": true,
       "epss": 0.89958,
       "epssPercentile": 0.99791,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 69,
       "signalFactors": [
@@ -143839,8 +143839,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.90353,
-      "epssPercentile": 0.99797,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.99796,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 69,
       "signalFactors": [
@@ -144002,8 +144002,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.13518,
-      "epssPercentile": 0.96322,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.96323,
+      "epssDate": "2026-09-28",
       "technology": "Storage / Backup",
       "threatSignal": 69,
       "signalFactors": [
@@ -144169,7 +144169,7 @@
       "publicExploit": true,
       "epss": 0.72936,
       "epssPercentile": 0.99437,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 69,
       "signalFactors": [
@@ -144334,7 +144334,7 @@
       "publicExploit": true,
       "epss": 0.79064,
       "epssPercentile": 0.99587,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Developer / CI-CD",
       "threatSignal": 69,
       "signalFactors": [
@@ -144498,8 +144498,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.05828,
-      "epssPercentile": 0.92904,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.92906,
+      "epssDate": "2026-09-28",
       "technology": "Storage / Backup",
       "threatSignal": 69,
       "signalFactors": [
@@ -144665,7 +144665,7 @@
       "publicExploit": true,
       "epss": 0.28307,
       "epssPercentile": 0.9806,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 69,
       "signalFactors": [
@@ -148680,8 +148680,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.50447,
-      "epssPercentile": 0.98877,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.98878,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 68,
       "signalFactors": [
@@ -148846,7 +148846,7 @@
       "publicExploit": false,
       "epss": 0.83455,
       "epssPercentile": 0.99676,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Identity / Access",
       "threatSignal": 68,
       "signalFactors": [
@@ -149009,7 +149009,7 @@
       "publicExploit": true,
       "epss": 0.63975,
       "epssPercentile": 0.99199,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 68,
       "signalFactors": [
@@ -149173,8 +149173,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.61475,
-      "epssPercentile": 0.99142,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.99141,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 68,
       "signalFactors": [
@@ -149338,8 +149338,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": true,
       "epss": 0.49013,
-      "epssPercentile": 0.98844,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.98845,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 68,
       "signalFactors": [
@@ -149503,8 +149503,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.08589,
-      "epssPercentile": 0.94901,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.94902,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 68,
       "signalFactors": [
@@ -149670,8 +149670,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.70966,
-      "epssPercentile": 0.99386,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.99387,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 68,
       "signalFactors": [
@@ -149836,8 +149836,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.10853,
-      "epssPercentile": 0.95714,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95715,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 68,
       "signalFactors": [
@@ -150002,8 +150002,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.09011,
-      "epssPercentile": 0.95106,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95107,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 68,
       "signalFactors": [
@@ -150169,8 +150169,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.48986,
-      "epssPercentile": 0.98843,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.98844,
+      "epssDate": "2026-09-28",
       "technology": "Enterprise Software",
       "threatSignal": 68,
       "signalFactors": [
@@ -150334,8 +150334,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.10049,
-      "epssPercentile": 0.9547,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95471,
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 68,
       "signalFactors": [
@@ -157414,7 +157414,7 @@
       "publicExploit": false,
       "epss": 0.57633,
       "epssPercentile": 0.99056,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 67,
       "signalFactors": [
@@ -157579,7 +157579,7 @@
       "publicExploit": false,
       "epss": 0.53403,
       "epssPercentile": 0.98956,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 67,
       "signalFactors": [
@@ -157744,7 +157744,7 @@
       "publicExploit": false,
       "epss": 0.63577,
       "epssPercentile": 0.9919,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Security Tools",
       "threatSignal": 67,
       "signalFactors": [
@@ -157906,8 +157906,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.03671,
-      "epssPercentile": 0.89257,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.89259,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 67,
       "signalFactors": [
@@ -158070,8 +158070,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.03597,
-      "epssPercentile": 0.89042,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.89043,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 67,
       "signalFactors": [
@@ -165985,7 +165985,7 @@
       "publicExploit": false,
       "epss": 0.41375,
       "epssPercentile": 0.98629,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 66,
       "signalFactors": [
@@ -166149,8 +166149,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.75873,
-      "epssPercentile": 0.99513,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.99512,
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 66,
       "signalFactors": [
@@ -166315,7 +166315,7 @@
       "publicExploit": false,
       "epss": 0.51517,
       "epssPercentile": 0.98909,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 66,
       "signalFactors": [
@@ -166479,8 +166479,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.28144,
-      "epssPercentile": 0.9805,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.98051,
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 66,
       "signalFactors": [
@@ -166645,7 +166645,7 @@
       "publicExploit": false,
       "epss": 0.28813,
       "epssPercentile": 0.98092,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 66,
       "signalFactors": [
@@ -166810,7 +166810,7 @@
       "publicExploit": false,
       "epss": 0.40798,
       "epssPercentile": 0.9861,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 66,
       "signalFactors": [
@@ -166974,8 +166974,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.10657,
-      "epssPercentile": 0.95655,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95656,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 66,
       "signalFactors": [
@@ -167140,8 +167140,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.10566,
-      "epssPercentile": 0.95632,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95633,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 66,
       "signalFactors": [
@@ -167307,7 +167307,7 @@
       "publicExploit": false,
       "epss": 0.40987,
       "epssPercentile": 0.98617,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 66,
       "signalFactors": [
@@ -167471,8 +167471,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.02278,
-      "epssPercentile": 0.82444,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.82445,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 66,
       "signalFactors": [
@@ -167637,8 +167637,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.01801,
-      "epssPercentile": 0.77625,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.77629,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 66,
       "signalFactors": [
@@ -167805,7 +167805,7 @@
       "publicExploit": true,
       "epss": 0.49166,
       "epssPercentile": 0.98848,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 66,
       "signalFactors": [
@@ -175396,7 +175396,7 @@
       "publicExploit": false,
       "epss": 0.6366,
       "epssPercentile": 0.99193,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 65,
       "signalFactors": [
@@ -175559,15 +175559,15 @@
       "networkExploitable": false,
       "noPrivilegesRequired": false,
       "publicExploit": true,
-      "epss": 0.43409,
-      "epssPercentile": 0.98695,
-      "epssDate": "2026-09-27",
+      "epss": 0.42564,
+      "epssPercentile": 0.98665,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 65,
       "signalFactors": [
         "Confirmed active exploitation (CISA KEV) +35",
         "CVSS 7.8 +16",
-        "EPSS 43.4% +9",
+        "EPSS 42.6% +9",
         "Remediation urgency +5"
       ],
       "threatScore": 65,
@@ -175725,8 +175725,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": true,
       "epss": 0.31864,
-      "epssPercentile": 0.98249,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.98248,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 65,
       "signalFactors": [
@@ -182614,7 +182614,7 @@
       "publicExploit": true,
       "epss": 0.3211,
       "epssPercentile": 0.98262,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 64,
       "signalFactors": [
@@ -182779,7 +182779,7 @@
       "publicExploit": true,
       "epss": 0.40919,
       "epssPercentile": 0.98614,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 64,
       "signalFactors": [
@@ -189539,7 +189539,7 @@
       "publicExploit": false,
       "epss": 0.12561,
       "epssPercentile": 0.96104,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 63,
       "signalFactors": [
@@ -189703,8 +189703,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.24349,
-      "epssPercentile": 0.97794,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.97795,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 63,
       "signalFactors": [
@@ -189869,7 +189869,7 @@
       "publicExploit": false,
       "epss": 0.16988,
       "epssPercentile": 0.96969,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 63,
       "signalFactors": [
@@ -190034,7 +190034,7 @@
       "publicExploit": false,
       "epss": 0.22951,
       "epssPercentile": 0.9768,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 63,
       "signalFactors": [
@@ -190199,7 +190199,7 @@
       "publicExploit": false,
       "epss": 0.23968,
       "epssPercentile": 0.97765,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 63,
       "signalFactors": [
@@ -190364,7 +190364,7 @@
       "publicExploit": false,
       "epss": 0.27076,
       "epssPercentile": 0.97985,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 63,
       "signalFactors": [
@@ -190529,7 +190529,7 @@
       "publicExploit": true,
       "epss": 0.24738,
       "epssPercentile": 0.97828,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 63,
       "signalFactors": [
@@ -190694,7 +190694,7 @@
       "publicExploit": false,
       "epss": 0.24623,
       "epssPercentile": 0.97816,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 63,
       "signalFactors": [
@@ -198559,7 +198559,7 @@
       "publicExploit": false,
       "epss": 0.16468,
       "epssPercentile": 0.96886,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 62,
       "signalFactors": [
@@ -198723,8 +198723,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.27909,
-      "epssPercentile": 0.98038,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.98039,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 62,
       "signalFactors": [
@@ -198889,7 +198889,7 @@
       "publicExploit": false,
       "epss": 0.49083,
       "epssPercentile": 0.98847,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 62,
       "signalFactors": [
@@ -199051,8 +199051,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.1895,
-      "epssPercentile": 0.97211,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.97212,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 62,
       "signalFactors": [
@@ -199217,7 +199217,7 @@
       "publicExploit": false,
       "epss": 0.21424,
       "epssPercentile": 0.97535,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 62,
       "signalFactors": [
@@ -199382,7 +199382,7 @@
       "publicExploit": false,
       "epss": 0.23215,
       "epssPercentile": 0.97703,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 62,
       "signalFactors": [
@@ -206314,8 +206314,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.2162,
-      "epssPercentile": 0.97551,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.97552,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 61,
       "signalFactors": [
@@ -206479,8 +206479,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.27798,
-      "epssPercentile": 0.98031,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.98032,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 61,
       "signalFactors": [
@@ -206645,7 +206645,7 @@
       "publicExploit": false,
       "epss": 0.15522,
       "epssPercentile": 0.967,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Security Tools",
       "threatSignal": 61,
       "signalFactors": [
@@ -206811,7 +206811,7 @@
       "publicExploit": true,
       "epss": 0.23708,
       "epssPercentile": 0.97746,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 61,
       "signalFactors": [
@@ -206975,8 +206975,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.0269,
-      "epssPercentile": 0.85298,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.85301,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 61,
       "signalFactors": [
@@ -207140,8 +207140,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.02706,
-      "epssPercentile": 0.85388,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.85391,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 61,
       "signalFactors": [
@@ -207305,8 +207305,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.46446,
-      "epssPercentile": 0.98781,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.9878,
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 61,
       "signalFactors": [
@@ -207470,8 +207470,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.13556,
-      "epssPercentile": 0.9633,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.96331,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 61,
       "signalFactors": [
@@ -207635,8 +207635,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.06683,
-      "epssPercentile": 0.93672,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.93674,
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 61,
       "signalFactors": [
@@ -207801,7 +207801,7 @@
       "publicExploit": false,
       "epss": 0.15983,
       "epssPercentile": 0.96793,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 61,
       "signalFactors": [
@@ -207965,8 +207965,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.01806,
-      "epssPercentile": 0.77694,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.77697,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 61,
       "signalFactors": [
@@ -217541,8 +217541,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.10593,
-      "epssPercentile": 0.95638,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95639,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 60,
       "signalFactors": [
@@ -217707,8 +217707,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.19106,
-      "epssPercentile": 0.97233,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.97234,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 60,
       "signalFactors": [
@@ -217873,8 +217873,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.02072,
-      "epssPercentile": 0.80678,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.80679,
+      "epssDate": "2026-09-28",
       "technology": "OT / ICS",
       "threatSignal": 60,
       "signalFactors": [
@@ -218038,8 +218038,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.09295,
-      "epssPercentile": 0.95207,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95209,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 60,
       "signalFactors": [
@@ -218203,8 +218203,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.07917,
-      "epssPercentile": 0.9453,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.94532,
+      "epssDate": "2026-09-28",
       "technology": "Security Tools",
       "threatSignal": 60,
       "signalFactors": [
@@ -218366,8 +218366,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.1653,
-      "epssPercentile": 0.96902,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.96903,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 60,
       "signalFactors": [
@@ -218532,7 +218532,7 @@
       "publicExploit": false,
       "epss": 0.12172,
       "epssPercentile": 0.96025,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 60,
       "signalFactors": [
@@ -218697,7 +218697,7 @@
       "publicExploit": false,
       "epss": 0.23003,
       "epssPercentile": 0.97684,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Developer / CI-CD",
       "threatSignal": 60,
       "signalFactors": [
@@ -218861,8 +218861,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.05739,
-      "epssPercentile": 0.92795,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.92797,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 60,
       "signalFactors": [
@@ -219026,8 +219026,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.09502,
-      "epssPercentile": 0.95282,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95283,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 60,
       "signalFactors": [
@@ -219191,8 +219191,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.08523,
-      "epssPercentile": 0.94866,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.94867,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 60,
       "signalFactors": [
@@ -219356,8 +219356,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.07921,
-      "epssPercentile": 0.94532,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.94534,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 60,
       "signalFactors": [
@@ -228597,7 +228597,7 @@
       "publicExploit": false,
       "epss": 0.03802,
       "epssPercentile": 0.89641,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 59,
       "signalFactors": [
@@ -228761,8 +228761,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.03191,
-      "epssPercentile": 0.87606,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.8761,
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 59,
       "signalFactors": [
@@ -228926,8 +228926,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": true,
       "epss": 0.06671,
-      "epssPercentile": 0.93662,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.93664,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 59,
       "signalFactors": [
@@ -229092,8 +229092,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.1667,
-      "epssPercentile": 0.96924,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.96925,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 59,
       "signalFactors": [
@@ -229257,8 +229257,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.04468,
-      "epssPercentile": 0.91107,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.91112,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 59,
       "signalFactors": [
@@ -229420,8 +229420,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.04156,
-      "epssPercentile": 0.90516,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.90518,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 59,
       "signalFactors": [
@@ -229585,8 +229585,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.02988,
-      "epssPercentile": 0.86796,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.86799,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 59,
       "signalFactors": [
@@ -229751,7 +229751,7 @@
       "publicExploit": false,
       "epss": 0.32688,
       "epssPercentile": 0.98292,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 59,
       "signalFactors": [
@@ -229913,8 +229913,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.13732,
-      "epssPercentile": 0.96381,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.96382,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 59,
       "signalFactors": [
@@ -230078,8 +230078,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.14468,
-      "epssPercentile": 0.96515,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.96516,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 59,
       "signalFactors": [
@@ -238275,8 +238275,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.11977,
-      "epssPercentile": 0.95991,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95992,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 58,
       "signalFactors": [
@@ -238440,8 +238440,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.09515,
-      "epssPercentile": 0.95286,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95288,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 58,
       "signalFactors": [
@@ -238605,8 +238605,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.14016,
-      "epssPercentile": 0.96435,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.96436,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 58,
       "signalFactors": [
@@ -238768,8 +238768,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.10049,
-      "epssPercentile": 0.9547,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95471,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 58,
       "signalFactors": [
@@ -246197,8 +246197,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.17823,
-      "epssPercentile": 0.97074,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.97075,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 57,
       "signalFactors": [
@@ -246362,8 +246362,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.06746,
-      "epssPercentile": 0.93739,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.93741,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 57,
       "signalFactors": [
@@ -246527,8 +246527,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.02615,
-      "epssPercentile": 0.84827,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.8483,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 57,
       "signalFactors": [
@@ -246692,8 +246692,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.1957,
-      "epssPercentile": 0.97298,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.97299,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 57,
       "signalFactors": [
@@ -246857,8 +246857,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.03778,
-      "epssPercentile": 0.8957,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.89571,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 57,
       "signalFactors": [
@@ -247022,8 +247022,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.05204,
-      "epssPercentile": 0.92196,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.92198,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 57,
       "signalFactors": [
@@ -247187,8 +247187,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.12011,
-      "epssPercentile": 0.95997,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95998,
+      "epssDate": "2026-09-28",
       "technology": "Security Tools",
       "threatSignal": 57,
       "signalFactors": [
@@ -247352,8 +247352,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.05563,
-      "epssPercentile": 0.92584,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.92586,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 57,
       "signalFactors": [
@@ -247517,8 +247517,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.03046,
-      "epssPercentile": 0.87031,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.87034,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 57,
       "signalFactors": [
@@ -257744,8 +257744,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.01411,
-      "epssPercentile": 0.71604,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.71605,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 56,
       "signalFactors": [
@@ -257907,8 +257907,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.01388,
-      "epssPercentile": 0.71164,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.71166,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 56,
       "signalFactors": [
@@ -258072,8 +258072,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00892,
-      "epssPercentile": 0.57843,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.57848,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 56,
       "signalFactors": [
@@ -258238,8 +258238,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00924,
-      "epssPercentile": 0.58867,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.58875,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 56,
       "signalFactors": [
@@ -258403,8 +258403,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00694,
-      "epssPercentile": 0.51019,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.51022,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 56,
       "signalFactors": [
@@ -258568,8 +258568,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00455,
-      "epssPercentile": 0.36982,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.3699,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 56,
       "signalFactors": [
@@ -258731,8 +258731,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00935,
-      "epssPercentile": 0.59225,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.59233,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 56,
       "signalFactors": [
@@ -258896,8 +258896,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00392,
-      "epssPercentile": 0.30696,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.30695,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 56,
       "signalFactors": [
@@ -259061,8 +259061,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00635,
-      "epssPercentile": 0.48358,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.48365,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 56,
       "signalFactors": [
@@ -259226,8 +259226,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.14292,
-      "epssPercentile": 0.96484,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.96485,
+      "epssDate": "2026-09-28",
       "technology": "Browsers",
       "threatSignal": 56,
       "signalFactors": [
@@ -259391,8 +259391,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00701,
-      "epssPercentile": 0.51321,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.51325,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 56,
       "signalFactors": [
@@ -259556,8 +259556,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.01465,
-      "epssPercentile": 0.72627,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.72633,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 56,
       "signalFactors": [
@@ -259721,8 +259721,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.17634,
-      "epssPercentile": 0.97053,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.97054,
+      "epssDate": "2026-09-28",
       "technology": "Email / Collaboration",
       "threatSignal": 56,
       "signalFactors": [
@@ -259886,8 +259886,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.01062,
-      "epssPercentile": 0.63219,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.63228,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 56,
       "signalFactors": [
@@ -260051,8 +260051,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.10682,
-      "epssPercentile": 0.95664,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.95665,
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 56,
       "signalFactors": [
@@ -260216,8 +260216,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.01048,
-      "epssPercentile": 0.62802,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.6281,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 56,
       "signalFactors": [
@@ -260381,8 +260381,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.01696,
-      "epssPercentile": 0.76221,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.76226,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 56,
       "signalFactors": [
@@ -267468,7 +267468,7 @@
       "publicExploit": false,
       "epss": 0.20719,
       "epssPercentile": 0.9746,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 55,
       "signalFactors": [
@@ -267632,8 +267632,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.04251,
-      "epssPercentile": 0.90706,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.90709,
+      "epssDate": "2026-09-28",
       "technology": "Security Tools",
       "threatSignal": 55,
       "signalFactors": [
@@ -267797,8 +267797,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": true,
       "epss": 0.22475,
-      "epssPercentile": 0.97634,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.97633,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 55,
       "signalFactors": [
@@ -267962,8 +267962,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.03702,
-      "epssPercentile": 0.89349,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.89351,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 55,
       "signalFactors": [
@@ -268127,8 +268127,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.02807,
-      "epssPercentile": 0.85957,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.85959,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 55,
       "signalFactors": [
@@ -271590,8 +271590,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00487,
-      "epssPercentile": 0.39478,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.39482,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 54,
       "signalFactors": [
@@ -271755,8 +271755,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.01671,
-      "epssPercentile": 0.75871,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.75875,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 54,
       "signalFactors": [
@@ -271920,8 +271920,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.1338,
-      "epssPercentile": 0.96292,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.96293,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 54,
       "signalFactors": [
@@ -274890,15 +274890,15 @@
       "networkExploitable": true,
       "noPrivilegesRequired": false,
       "publicExploit": false,
-      "epss": 0.02344,
-      "epssPercentile": 0.8297,
-      "epssDate": "2026-09-27",
+      "epss": 0.02484,
+      "epssPercentile": 0.83967,
+      "epssDate": "2026-09-28",
       "technology": "Network Edge / VPN",
       "threatSignal": 53,
       "signalFactors": [
         "Confirmed active exploitation (CISA KEV) +35",
         "CVSS 6.6 +13",
-        "EPSS 2.3% +0",
+        "EPSS 2.5% +0",
         "Remediation urgency +5"
       ],
       "threatScore": 53,
@@ -275057,8 +275057,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00401,
-      "epssPercentile": 0.31787,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.31788,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 53,
       "signalFactors": [
@@ -275222,8 +275222,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00366,
-      "epssPercentile": 0.2794,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.27946,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 53,
       "signalFactors": [
@@ -275387,8 +275387,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00802,
-      "epssPercentile": 0.54887,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.54894,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 53,
       "signalFactors": [
@@ -275553,8 +275553,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00804,
-      "epssPercentile": 0.54997,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.55003,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 53,
       "signalFactors": [
@@ -275718,8 +275718,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.0484,
-      "epssPercentile": 0.91695,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.91698,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 53,
       "signalFactors": [
@@ -278521,8 +278521,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.03055,
-      "epssPercentile": 0.87077,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.8708,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 52,
       "signalFactors": [
@@ -278685,7 +278685,7 @@
       "publicExploit": false,
       "epss": 0.02899,
       "epssPercentile": 0.86412,
-      "epssDate": "2026-09-27",
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 52,
       "signalFactors": [
@@ -280332,8 +280332,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00266,
-      "epssPercentile": 0.16587,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.16588,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 51,
       "signalFactors": [
@@ -280497,8 +280497,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.01123,
-      "epssPercentile": 0.64897,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.64902,
+      "epssDate": "2026-09-28",
       "technology": "Identity / Access",
       "threatSignal": 51,
       "signalFactors": [
@@ -280662,8 +280662,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.01098,
-      "epssPercentile": 0.64275,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.64283,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 51,
       "signalFactors": [
@@ -280828,8 +280828,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00531,
-      "epssPercentile": 0.42571,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.42576,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 51,
       "signalFactors": [
@@ -280993,8 +280993,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.1353,
-      "epssPercentile": 0.96325,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.96326,
+      "epssDate": "2026-09-28",
       "technology": "Cloud / Virtualization",
       "threatSignal": 51,
       "signalFactors": [
@@ -281156,8 +281156,8 @@
       "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.02491,
-      "epssPercentile": 0.84021,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.84023,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 51,
       "signalFactors": [
@@ -281320,9 +281320,9 @@
       "networkExploitable": false,
       "noPrivilegesRequired": false,
       "publicExploit": false,
-      "epss": 0.01121,
-      "epssPercentile": 0.64853,
-      "epssDate": "2026-09-27",
+      "epss": 0.01079,
+      "epssPercentile": 0.63692,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 51,
       "signalFactors": [
@@ -282305,8 +282305,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.02554,
-      "epssPercentile": 0.84436,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.84442,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 50,
       "signalFactors": [
@@ -282801,8 +282801,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.0089,
-      "epssPercentile": 0.57754,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.5776,
+      "epssDate": "2026-09-28",
       "technology": "Other",
       "threatSignal": 49,
       "signalFactors": [
@@ -283558,8 +283558,8 @@
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.01218,
-      "epssPercentile": 0.67416,
-      "epssDate": "2026-09-27",
+      "epssPercentile": 0.67421,
+      "epssDate": "2026-09-28",
       "technology": "Operating Systems",
       "threatSignal": 47,
       "signalFactors": [
