@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T05:46:53.768708+00:00",
+  "generatedAt": "2026-09-29T12:57:35.364388+00:00",
   "has24hBaseline": true,
   "has7dBaseline": true,
   "movers24h": [
@@ -562,7 +562,7 @@
       "movement7d": 171,
       "cvssScore": 9.8,
       "epss": 0.14666,
-      "epssPercentile": 0.9655,
+      "epssPercentile": 0.96551,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": true,
@@ -1505,8 +1505,8 @@
       "dateAdded": "2026-03-09",
       "dueDate": "2026-03-23",
       "threatSignal": 77,
-      "movement24h": 109,
-      "movement7d": 177,
+      "movement24h": 110,
+      "movement7d": 178,
       "cvssScore": 7.5,
       "epss": 0.99677,
       "epssPercentile": 0.99949,
