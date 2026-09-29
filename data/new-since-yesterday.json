@@ -1,49 +1,6 @@
 {
-  "generatedAt": "2026-09-28T23:18:39.738659+00:00",
-  "since": "2026-09-27",
-  "count": 2,
-  "vulnerabilities": [
-    {
-      "cveID": "CVE-2026-88772",
-      "vendorProject": "Citrix",
-      "product": "NetScaler",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "dateAdded": "2026-09-27",
-      "dueDate": "2026-09-30",
-      "threatSignal": 68,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 9.5,
-      "epss": null,
-      "epssPercentile": null,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-88772"
-    },
-    {
-      "cveID": "CVE-2026-88771",
-      "vendorProject": "Citrix",
-      "product": "NetScaler",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Citrix NetScaler Improper Input Validation Vulnerability",
-      "dateAdded": "2026-09-27",
-      "dueDate": "2026-09-30",
-      "threatSignal": 68,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 9.5,
-      "epss": null,
-      "epssPercentile": null,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-88771"
-    }
-  ]
+  "generatedAt": "2026-09-29T05:46:53.768708+00:00",
+  "since": "2026-09-28",
+  "count": 0,
+  "vulnerabilities": []
 }
