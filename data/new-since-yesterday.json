@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-09-30T05:36:06.026031+00:00",
+  "generatedAt": "2026-09-30T22:18:42.990566+00:00",
   "since": "2026-09-29",
-  "count": 0,
-  "vulnerabilities": []
+  "count": 1,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-76504",
+      "vendorProject": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "technology": "Other",
+      "vulnerabilityName": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+      "dateAdded": "2026-09-30",
+      "dueDate": "2026-10-03",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.8,
+      "epss": null,
+      "epssPercentile": null,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76504"
+    }
+  ]
 }
