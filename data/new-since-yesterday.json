@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-10-01T22:43:18.190146+00:00",
-  "since": "2026-09-30",
-  "count": 1,
-  "vulnerabilities": [
-    {
-      "cveID": "CVE-2026-104286",
-      "vendorProject": "Fortinet",
-      "product": "FortiMail",
-      "technology": "Email / Collaboration",
-      "vulnerabilityName": "Fortinet FortiMail Path Traversal Vulnerability",
-      "dateAdded": "2026-10-01",
-      "dueDate": "2026-10-04",
-      "threatSignal": 69,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 9.8,
-      "epss": null,
-      "epssPercentile": null,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-104286"
-    }
-  ]
+  "generatedAt": "2026-10-02T05:41:55.863714+00:00",
+  "since": "2026-10-01",
+  "count": 0,
+  "vulnerabilities": []
 }
