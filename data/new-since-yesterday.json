@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-10-02T12:40:07.634439+00:00",
+  "generatedAt": "2026-10-02T22:16:51.883463+00:00",
   "since": "2026-10-01",
-  "count": 0,
-  "vulnerabilities": []
+  "count": 2,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-102490",
+      "vendorProject": "Zammad GmbH",
+      "product": "Zammad",
+      "technology": "Other",
+      "vulnerabilityName": "Zammad GmbH Zammad Improper Privilege Management Vulnerability",
+      "dateAdded": "2026-10-02",
+      "dueDate": "2026-10-05",
+      "threatSignal": 68,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.4,
+      "epss": 0.00262,
+      "epssPercentile": 0.16336,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-102490"
+    },
+    {
+      "cveID": "CVE-2026-102489",
+      "vendorProject": "Zammad GmbH",
+      "product": "Zammad",
+      "technology": "Other",
+      "vulnerabilityName": "Zammad GmbH Zammad Session Fixation Vulnerability",
+      "dateAdded": "2026-10-02",
+      "dueDate": "2026-10-05",
+      "threatSignal": 68,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.4,
+      "epss": 0.00582,
+      "epssPercentile": 0.45835,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-102489"
+    }
+  ]
 }
