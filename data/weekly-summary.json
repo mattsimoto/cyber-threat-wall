@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-02T22:16:51.883463+00:00",
-  "periodStart": "2026-09-26",
-  "periodEnd": "2026-10-02",
-  "newKEVs": 10,
+  "generatedAt": "2026-10-03T05:21:44.837597+00:00",
+  "periodStart": "2026-09-27",
+  "periodEnd": "2026-10-03",
+  "newKEVs": 7,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
@@ -14,10 +14,6 @@
       "count": 2
     },
     {
-      "vendor": "WordPress",
-      "count": 1
-    },
-    {
       "vendor": "Fortinet",
       "count": 1
     },
@@ -26,15 +22,7 @@
       "count": 1
     },
     {
-      "vendor": "Microsoft",
-      "count": 1
-    },
-    {
       "vendor": "Apple",
-      "count": 1
-    },
-    {
-      "vendor": "MikroTik",
       "count": 1
     }
   ],
@@ -45,18 +33,10 @@
     },
     {
       "technology": "Network Edge / VPN",
-      "count": 3
-    },
-    {
-      "technology": "Web Applications / CMS",
-      "count": 1
+      "count": 2
     },
     {
       "technology": "Email / Collaboration",
-      "count": 1
-    },
-    {
-      "technology": "Enterprise Software",
       "count": 1
     }
   ],
@@ -70,8 +50,8 @@
       "dateAdded": "2026-06-08",
       "dueDate": "2026-06-22",
       "threatSignal": 78,
-      "movement24h": 0,
-      "movement7d": 753,
+      "movement24h": 1,
+      "movement7d": 754,
       "cvssScore": 8.7,
       "epss": 0.9257,
       "epssPercentile": 0.99825,
@@ -92,7 +72,7 @@
       "dueDate": "2026-09-14",
       "threatSignal": 79,
       "movement24h": 1,
-      "movement7d": 638,
+      "movement7d": 640,
       "cvssScore": 8.8,
       "epss": 0.85169,
       "epssPercentile": 0.9971,
@@ -113,7 +93,7 @@
       "dueDate": "2026-08-08",
       "threatSignal": 92,
       "movement24h": 0,
-      "movement7d": 524,
+      "movement7d": 523,
       "cvssScore": 9.8,
       "epss": 0.8957,
       "epssPercentile": 0.99784,
@@ -133,8 +113,8 @@
       "dateAdded": "2026-04-14",
       "dueDate": "2026-04-28",
       "threatSignal": 64,
-      "movement24h": 516,
-      "movement7d": 510,
+      "movement24h": 3,
+      "movement7d": 514,
       "cvssScore": 6.5,
       "epss": 0.43378,
       "epssPercentile": 0.98695,
@@ -154,8 +134,8 @@
       "dateAdded": "2026-08-31",
       "dueDate": "2026-09-14",
       "threatSignal": 75,
-      "movement24h": -1,
-      "movement7d": 382,
+      "movement24h": 1,
+      "movement7d": 384,
       "cvssScore": 9.4,
       "epss": 0.61394,
       "epssPercentile": 0.99142,
@@ -175,8 +155,8 @@
       "dateAdded": "2026-09-09",
       "dueDate": "2026-09-12",
       "threatSignal": 71,
-      "movement24h": 126,
-      "movement7d": 170,
+      "movement24h": 0,
+      "movement7d": 171,
       "cvssScore": 9.3,
       "epss": 0.23158,
       "epssPercentile": 0.97707,
@@ -188,46 +168,25 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-19490"
     },
     {
-      "cveID": "CVE-2025-20281",
-      "vendorProject": "Cisco",
-      "product": "Identity Services Engine",
-      "technology": "Identity / Access",
-      "vulnerabilityName": "Cisco Identity Services Engine Injection Vulnerability",
-      "dateAdded": "2025-07-28",
-      "dueDate": "2025-08-18",
-      "threatSignal": 80,
-      "movement24h": 0,
-      "movement7d": 116,
-      "cvssScore": 10.0,
-      "epss": 0.97601,
-      "epssPercentile": 0.99902,
+      "cveID": "CVE-2026-87902",
+      "vendorProject": "WordPress",
+      "product": "Core",
+      "technology": "Web Applications / CMS",
+      "vulnerabilityName": "WordPress Core Remote File Inclusion Vulnerability",
+      "dateAdded": "2026-09-25",
+      "dueDate": "2026-09-28",
+      "threatSignal": 72,
+      "movement24h": -163,
+      "movement7d": 133,
+      "cvssScore": 8.1,
+      "epss": 0.45501,
+      "epssPercentile": 0.98756,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
-      "publicExploit": true,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Cisco Identity Services Engine contains an injection vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC due to insufficient validation of user-supplied input allowing an attacker to exploit this vulnerability by submitting a crafted API request. Successful exploitation could allow an attacker to perform remote code execution and obtaining root privileges on an affected device.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2025-20281"
-    },
-    {
-      "cveID": "CVE-2023-41064",
-      "vendorProject": "Apple",
-      "product": "iOS, iPadOS, and macOS",
-      "technology": "Operating Systems",
-      "vulnerabilityName": "Apple iOS, iPadOS, and macOS ImageIO Buffer Overflow Vulnerability",
-      "dateAdded": "2023-09-11",
-      "dueDate": "2023-10-02",
-      "threatSignal": 67,
-      "movement24h": -2,
-      "movement7d": 105,
-      "cvssScore": 7.8,
-      "epss": 0.53403,
-      "epssPercentile": 0.98959,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
       "publicExploit": false,
       "noPrivilegesRequired": true,
-      "shortDescription": "Apple iOS, iPadOS, and macOS contain a buffer overflow vulnerability in ImageIO when processing a maliciously crafted image, which may lead to code execution. This vulnerability was chained with CVE-2023-41061.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2023-41064"
+      "shortDescription": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-87902"
     },
     {
       "cveID": "CVE-2022-4262",
@@ -238,8 +197,8 @@
       "dateAdded": "2022-12-05",
       "dueDate": "2022-12-26",
       "threatSignal": 63,
-      "movement24h": -3,
-      "movement7d": 96,
+      "movement24h": 3,
+      "movement7d": 99,
       "cvssScore": 8.8,
       "epss": 0.2351,
       "epssPercentile": 0.97736,
@@ -259,7 +218,7 @@
       "dateAdded": "2025-08-21",
       "dueDate": "2025-09-11",
       "threatSignal": 66,
-      "movement24h": -3,
+      "movement24h": 2,
       "movement7d": 94,
       "cvssScore": 10.0,
       "epss": 0.32498,
@@ -270,30 +229,30 @@
       "noPrivilegesRequired": true,
       "shortDescription": "Apple iOS, iPadOS, and macOS contain an out-of-bounds write vulnerability in the Image I/O framework.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2025-43300"
-    }
-  ],
-  "highestSignals": [
+    },
     {
-      "cveID": "CVE-2026-87902",
-      "vendorProject": "WordPress",
-      "product": "Core",
-      "technology": "Web Applications / CMS",
-      "vulnerabilityName": "WordPress Core Remote File Inclusion Vulnerability",
-      "dateAdded": "2026-09-25",
-      "dueDate": "2026-09-28",
-      "threatSignal": 75,
-      "movement24h": 254,
-      "movement7d": 0,
-      "cvssScore": 8.1,
-      "epss": 0.45501,
-      "epssPercentile": 0.98756,
+      "cveID": "CVE-2014-2120",
+      "vendorProject": "Cisco",
+      "product": "Adaptive Security Appliance (ASA)",
+      "technology": "Security Tools",
+      "vulnerabilityName": "Cisco Adaptive Security Appliance (ASA) Cross-Site Scripting (XSS) Vulnerability",
+      "dateAdded": "2024-11-12",
+      "dueDate": "2024-12-03",
+      "threatSignal": 57,
+      "movement24h": 0,
+      "movement7d": 57,
+      "cvssScore": 6.1,
+      "epss": 0.22558,
+      "epssPercentile": 0.97651,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": true,
-      "shortDescription": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-87902"
-    },
+      "shortDescription": "Cisco Adaptive Security Appliance (ASA) contains a cross-site scripting (XSS) vulnerability in the WebVPN login page. This vulnerability allows remote attackers to inject arbitrary web script or HTML via an unspecified parameter.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2014-2120"
+    }
+  ],
+  "highestSignals": [
     {
       "cveID": "CVE-2026-104286",
       "vendorProject": "Fortinet",
@@ -303,7 +262,7 @@
       "dateAdded": "2026-10-01",
       "dueDate": "2026-10-04",
       "threatSignal": 69,
-      "movement24h": 0,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.01779,
@@ -324,7 +283,7 @@
       "dateAdded": "2026-09-30",
       "dueDate": "2026-10-03",
       "threatSignal": 69,
-      "movement24h": 0,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.01575,
@@ -345,7 +304,7 @@
       "dateAdded": "2026-09-27",
       "dueDate": "2026-09-30",
       "threatSignal": 69,
-      "movement24h": 0,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 9.5,
       "epss": 0.01301,
@@ -366,7 +325,7 @@
       "dateAdded": "2026-09-27",
       "dueDate": "2026-09-30",
       "threatSignal": 69,
-      "movement24h": 0,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 9.5,
       "epss": 0.01063,
@@ -387,7 +346,7 @@
       "dateAdded": "2026-10-02",
       "dueDate": "2026-10-05",
       "threatSignal": 68,
-      "movement24h": 0,
+      "movement24h": 3,
       "movement7d": 0,
       "cvssScore": 9.4,
       "epss": 0.00262,
@@ -408,7 +367,7 @@
       "dateAdded": "2026-10-02",
       "dueDate": "2026-10-05",
       "threatSignal": 68,
-      "movement24h": 0,
+      "movement24h": 3,
       "movement7d": 0,
       "cvssScore": 9.4,
       "epss": 0.00582,
@@ -421,27 +380,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-102489"
     },
     {
-      "cveID": "CVE-2026-65660",
-      "vendorProject": "Microsoft",
-      "product": "SharePoint",
-      "technology": "Enterprise Software",
-      "vulnerabilityName": "Microsoft SharePoint Code Injection Vulnerability",
-      "dateAdded": "2026-09-25",
-      "dueDate": "2026-09-28",
-      "threatSignal": 68,
-      "movement24h": -2,
-      "movement7d": 41,
-      "cvssScore": 8.8,
-      "epss": 0.02101,
-      "epssPercentile": 0.81053,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-65660"
-    },
-    {
       "cveID": "CVE-2026-86950",
       "vendorProject": "Apple",
       "product": "Multiple Products",
@@ -449,8 +387,8 @@
       "vulnerabilityName": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
       "dateAdded": "2026-09-29",
       "dueDate": "2026-10-02",
-      "threatSignal": 67,
-      "movement24h": 0,
+      "threatSignal": 68,
+      "movement24h": 50,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.01242,
@@ -461,34 +399,13 @@
       "noPrivilegesRequired": true,
       "shortDescription": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-86950"
-    },
-    {
-      "cveID": "CVE-2026-67279",
-      "vendorProject": "MikroTik",
-      "product": "RouterOS",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
-      "dateAdded": "2026-09-25",
-      "dueDate": "2026-09-28",
-      "threatSignal": 64,
-      "movement24h": -2,
-      "movement7d": 37,
-      "cvssScore": 6.9,
-      "epss": 0.01027,
-      "epssPercentile": 0.6236,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": true,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthenticated exploitation of CVE-2026-86060.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-67279"
     }
   ],
   "observations": [
-    "CISA added 10 actively exploited vulnerabilities during the last 7 days.",
+    "CISA added 7 actively exploited vulnerabilities during the last 7 days.",
     "Other is the most represented technology category among this week's new KEVs (4).",
     "Citrix has the most new KEV entries this week (2).",
-    "CVE-2026-42271 is the largest 7-day rank riser, up 753 positions."
+    "CVE-2026-42271 is the largest 7-day rank riser, up 754 positions."
   ],
-  "executiveSummary": "CISA added 10 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (4). Citrix has the most new KEV entries this week (2). CVE-2026-42271 is the largest 7-day rank riser, up 753 positions."
+  "executiveSummary": "CISA added 7 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (4). Citrix has the most new KEV entries this week (2). CVE-2026-42271 is the largest 7-day rank riser, up 754 positions."
 }
