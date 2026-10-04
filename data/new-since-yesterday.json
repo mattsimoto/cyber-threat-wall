@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-10-04T12:29:14.319888+00:00",
+  "generatedAt": "2026-10-04T21:34:26.660805+00:00",
   "since": "2026-10-03",
-  "count": 0,
-  "vulnerabilities": []
+  "count": 1,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-88779",
+      "vendorProject": "Citrix",
+      "product": "NetScaler",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+      "dateAdded": "2026-10-04",
+      "dueDate": "2026-10-07",
+      "threatSignal": 66,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.7,
+      "epss": 0.00276,
+      "epssPercentile": 0.18203,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-88779"
+    }
+  ]
 }
