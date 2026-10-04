@@ -3,13 +3,13 @@
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
     "catalogVersion": "2026.10.02",
     "catalogDateReleased": "2026-10-02T15:19:38.2945Z",
-    "generatedAt": "2026-10-04T05:57:44.360681+00:00",
+    "generatedAt": "2026-10-04T12:29:14.319888+00:00",
     "kevSource": "https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json",
     "nvdSource": "https://services.nvd.nist.gov/rest/json/cves/2.0",
     "epssSource": "https://api.first.org/data/v1/epss",
     "nvdCachedEntries": 1733,
     "epssEntries": 1733,
-    "nvdRequestsThisRun": 0,
+    "nvdRequestsThisRun": 40,
     "rankingVersion": "3.0",
     "has24hBaseline": true,
     "has7dBaseline": true
@@ -254,8 +254,8 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-07-27T17:16:38.830",
       "nvdLastModified": "2026-08-06T05:17:05.170",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.8957,
       "epssPercentile": 0.99784,
@@ -41581,9 +41581,9 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2021-12-03T20:15:07.557",
       "nvdLastModified": "2026-08-27T04:16:38.863",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.82578,
       "epssPercentile": 0.99658,
       "epssDate": "2026-10-03",
@@ -67636,9 +67636,9 @@
       "cvssVector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:H/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
       "cvssVersion": "4.0",
       "nvdPublished": "2026-08-28T16:18:29.600",
-      "nvdLastModified": "2026-09-01T04:18:01.990",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "nvdLastModified": "2026-09-14T00:16:56.207",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.85169,
       "epssPercentile": 0.9971,
@@ -67827,10 +67827,10 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "3.1",
       "nvdPublished": "2026-06-04T14:16:45.177",
-      "nvdLastModified": "2026-08-10T20:19:44.760",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "nvdLastModified": "2026-10-01T18:17:28.647",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.77362,
       "epssPercentile": 0.99546,
       "epssDate": "2026-10-03",
@@ -82284,8 +82284,8 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-01-20T22:15:59.110",
       "nvdLastModified": "2026-08-25T04:18:11.067",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.70915,
       "epssPercentile": 0.99388,
@@ -106634,8 +106634,8 @@
       "cvssVector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
       "cvssVersion": "4.0",
       "nvdPublished": "2026-08-28T16:18:31.240",
-      "nvdLastModified": "2026-09-01T04:18:02.160",
-      "networkExploitable": false,
+      "nvdLastModified": "2026-09-14T00:16:56.777",
+      "networkExploitable": true,
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.61394,
@@ -106826,8 +106826,8 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-07-30T13:16:53.993",
       "nvdLastModified": "2026-08-19T04:17:24.940",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.02565,
       "epssPercentile": 0.84594,
@@ -107018,10 +107018,10 @@
       "cvssVector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
       "cvssVersion": "4.0",
       "nvdPublished": "2025-11-26T23:15:47.927",
-      "nvdLastModified": "2026-08-18T04:16:40.860",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "nvdLastModified": "2026-10-01T19:17:15.957",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.62459,
       "epssPercentile": 0.99167,
       "epssDate": "2026-10-03",
@@ -129785,8 +129785,8 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2023-11-21T22:15:08.613",
       "nvdLastModified": "2026-08-28T12:21:09.753",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.42919,
       "epssPercentile": 0.98684,
@@ -129976,7 +129976,7 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2019-07-15T19:15:16.983",
       "nvdLastModified": "2026-08-27T04:16:38.583",
-      "networkExploitable": false,
+      "networkExploitable": true,
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.56999,
@@ -137475,9 +137475,9 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
       "cvssVersion": "3.1",
       "nvdPublished": "2026-07-29T17:16:51.840",
-      "nvdLastModified": "2026-08-01T05:16:55.973",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "nvdLastModified": "2026-09-16T21:17:10.150",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.35096,
       "epssPercentile": 0.98398,
@@ -155427,8 +155427,8 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-07-17T18:17:17.340",
       "nvdLastModified": "2026-08-17T20:16:48.010",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.28658,
       "epssPercentile": 0.98089,
@@ -163158,9 +163158,9 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-08-26T20:17:56.010",
       "nvdLastModified": "2026-08-27T11:41:19.230",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.23988,
       "epssPercentile": 0.97778,
       "epssDate": "2026-10-03",
@@ -169777,8 +169777,8 @@
       "cvssVersion": "4.0",
       "nvdPublished": "2026-08-10T18:18:53.300",
       "nvdLastModified": "2026-08-12T15:18:30.347",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.19048,
       "epssPercentile": 0.97235,
@@ -178374,8 +178374,8 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-08-28T20:20:21.293",
       "nvdLastModified": "2026-09-03T13:06:15.630",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.14121,
       "epssPercentile": 0.96473,
@@ -178565,9 +178565,9 @@
       "cvssVersion": "4.0",
       "nvdPublished": "2026-07-17T17:17:18.150",
       "nvdLastModified": "2026-09-03T13:06:25.427",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.18979,
       "epssPercentile": 0.97227,
       "epssDate": "2026-10-03",
@@ -189070,8 +189070,8 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-09-01T22:17:13.170",
       "nvdLastModified": "2026-09-03T13:06:16.053",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.08757,
       "epssPercentile": 0.95018,
@@ -189261,9 +189261,9 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-07-14T18:18:15.413",
       "nvdLastModified": "2026-08-19T04:17:23.540",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.17535,
       "epssPercentile": 0.97057,
       "epssDate": "2026-10-03",
@@ -199535,10 +199535,10 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
       "cvssVersion": "3.1",
       "nvdPublished": "2026-08-17T22:17:23.580",
-      "nvdLastModified": "2026-08-20T19:16:57.867",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "nvdLastModified": "2026-10-02T19:16:42.033",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.09839,
       "epssPercentile": 0.95427,
       "epssDate": "2026-10-03",
@@ -206719,9 +206719,9 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-06-26T22:16:32.113",
       "nvdLastModified": "2026-09-03T13:05:55.387",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.02095,
       "epssPercentile": 0.81003,
       "epssDate": "2026-10-03",
@@ -206910,8 +206910,8 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-08-13T16:19:06.003",
       "nvdLastModified": "2026-08-24T13:19:17.577",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.11736,
       "epssPercentile": 0.95956,
@@ -207100,9 +207100,9 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "3.1",
       "nvdPublished": "2026-04-14T18:17:34.767",
-      "nvdLastModified": "2026-08-19T04:16:58.560",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "nvdLastModified": "2026-09-25T18:17:25.133",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.01619,
       "epssPercentile": 0.75234,
@@ -207291,9 +207291,9 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "3.1",
       "nvdPublished": "2026-08-06T22:18:14.533",
-      "nvdLastModified": "2026-08-19T04:17:34.547",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "nvdLastModified": "2026-09-15T12:47:12.333",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.01723,
       "epssPercentile": 0.76722,
@@ -214835,9 +214835,9 @@
       "cvssVersion": "4.0",
       "nvdPublished": "2026-08-19T17:21:01.130",
       "nvdLastModified": "2026-08-21T04:18:15.903",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.01686,
       "epssPercentile": 0.76223,
       "epssDate": "2026-10-03",
@@ -215026,9 +215026,9 @@
       "cvssVersion": "4.0",
       "nvdPublished": "2026-08-19T17:21:00.990",
       "nvdLastModified": "2026-08-21T04:18:15.753",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.01464,
       "epssPercentile": 0.72747,
       "epssDate": "2026-10-03",
@@ -215217,8 +215217,8 @@
       "cvssVersion": "4.0",
       "nvdPublished": "2026-08-02T23:16:26.210",
       "nvdLastModified": "2026-08-04T14:27:12.530",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.14622,
       "epssPercentile": 0.9656,
@@ -223711,8 +223711,8 @@
       "cvssVersion": "4.0",
       "nvdPublished": "2026-07-08T20:16:57.683",
       "nvdLastModified": "2026-09-03T13:05:59.573",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.00836,
       "epssPercentile": 0.56251,
@@ -223901,7 +223901,7 @@
       "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "3.1",
       "nvdPublished": "2026-09-01T22:17:13.290",
-      "nvdLastModified": "2026-09-03T13:06:16.230",
+      "nvdLastModified": "2026-09-21T14:17:21.703",
       "networkExploitable": false,
       "noPrivilegesRequired": false,
       "publicExploit": false,
@@ -224095,7 +224095,7 @@
       "nvdLastModified": "2026-08-27T04:16:39.223",
       "networkExploitable": false,
       "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "publicExploit": true,
       "epss": 0.08788,
       "epssPercentile": 0.95032,
       "epssDate": "2026-10-03",
@@ -224284,8 +224284,8 @@
       "cvssVersion": "4.0",
       "nvdPublished": "2026-06-30T13:19:33.450",
       "nvdLastModified": "2026-08-27T04:18:00.787",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.01011,
       "epssPercentile": 0.61919,
@@ -224475,8 +224475,8 @@
       "cvssVersion": "4.0",
       "nvdPublished": "2026-08-01T20:16:37.157",
       "nvdLastModified": "2026-08-05T05:16:46.967",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.07882,
       "epssPercentile": 0.94545,
@@ -224666,8 +224666,8 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-02-10T16:16:09.630",
       "nvdLastModified": "2026-07-28T05:17:04.113",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.29601,
       "epssPercentile": 0.98144,
@@ -234046,6 +234046,198 @@
       ]
     },
     {
+      "cveID": "CVE-2015-3246",
+      "vendorProject": "Red Hat",
+      "product": "Libuser",
+      "vulnerabilityName": "Red Hat Libuser Race Condition Vulnerability",
+      "dateAdded": "2026-08-26",
+      "shortDescription": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation. ",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-09-09",
+      "knownRansomwareCampaignUse": "Unknown",
+      "forensicTriage": "No",
+      "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://access.redhat.com/articles/1537873 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
+      "cwes": [
+        "CWE-264",
+        "CWE-367"
+      ],
+      "cvssScore": 7.4,
+      "cvssVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cvssVersion": "3.1",
+      "nvdPublished": "2015-08-11T14:59:07.040",
+      "nvdLastModified": "2026-10-02T11:33:29.473",
+      "networkExploitable": false,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
+      "epss": 0.08434,
+      "epssPercentile": 0.94846,
+      "epssDate": "2026-10-03",
+      "technology": "Other",
+      "threatSignal": 61,
+      "signalFactors": [
+        "Confirmed active exploitation (CISA KEV) +35",
+        "CVSS 7.4 +15",
+        "EPSS 8.4% +2",
+        "KEV recency +4",
+        "Remediation urgency +5"
+      ],
+      "threatScore": 61,
+      "movement24h": 310,
+      "movement7d": 301,
+      "rankHistory": [
+        {
+          "date": "2026-09-05",
+          "rank": 734,
+          "signal": 58
+        },
+        {
+          "date": "2026-09-06",
+          "rank": 810,
+          "signal": 58
+        },
+        {
+          "date": "2026-09-07",
+          "rank": 863,
+          "signal": 58
+        },
+        {
+          "date": "2026-09-08",
+          "rank": 927,
+          "signal": 58
+        },
+        {
+          "date": "2026-09-09",
+          "rank": 1003,
+          "signal": 58
+        },
+        {
+          "date": "2026-09-10",
+          "rank": 1021,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-11",
+          "rank": 1124,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-12",
+          "rank": 1208,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-13",
+          "rank": 1288,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-14",
+          "rank": 1342,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-15",
+          "rank": 1367,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-16",
+          "rank": 1369,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-17",
+          "rank": 1369,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-18",
+          "rank": 1372,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-19",
+          "rank": 1374,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-20",
+          "rank": 1374,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-21",
+          "rank": 1375,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-22",
+          "rank": 1375,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-23",
+          "rank": 1312,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-24",
+          "rank": 1369,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-25",
+          "rank": 1374,
+          "signal": 59
+        },
+        {
+          "date": "2026-09-26",
+          "rank": 1544,
+          "signal": 56
+        },
+        {
+          "date": "2026-09-27",
+          "rank": 1543,
+          "signal": 56
+        },
+        {
+          "date": "2026-09-28",
+          "rank": 1545,
+          "signal": 56
+        },
+        {
+          "date": "2026-09-29",
+          "rank": 1547,
+          "signal": 56
+        },
+        {
+          "date": "2026-09-30",
+          "rank": 1548,
+          "signal": 56
+        },
+        {
+          "date": "2026-10-01",
+          "rank": 1549,
+          "signal": 56
+        },
+        {
+          "date": "2026-10-02",
+          "rank": 1552,
+          "signal": 56
+        },
+        {
+          "date": "2026-10-03",
+          "rank": 1552,
+          "signal": 56
+        },
+        {
+          "date": "2026-10-04",
+          "rank": 1242,
+          "signal": 61
+        }
+      ]
+    },
+    {
       "cveID": "CVE-2015-5287",
       "vendorProject": "Red Hat",
       "product": "Automatic Bug Reporting Tool",
@@ -234067,7 +234259,7 @@
       "nvdLastModified": "2026-08-27T04:16:38.280",
       "networkExploitable": false,
       "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "publicExploit": true,
       "epss": 0.04962,
       "epssPercentile": 0.9193,
       "epssDate": "2026-10-03",
@@ -234081,8 +234273,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -234231,7 +234423,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1242,
+          "rank": 1243,
           "signal": 61
         }
       ]
@@ -234255,9 +234447,9 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
       "cvssVersion": "3.1",
       "nvdPublished": "2026-08-11T17:17:48.833",
-      "nvdLastModified": "2026-08-12T15:02:21.707",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "nvdLastModified": "2026-09-16T21:17:12.103",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.0101,
       "epssPercentile": 0.61891,
@@ -234272,8 +234464,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -234422,7 +234614,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1243,
+          "rank": 1244,
           "signal": 61
         }
       ]
@@ -234463,8 +234655,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -234613,7 +234805,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1244,
+          "rank": 1245,
           "signal": 61
         }
       ]
@@ -234654,8 +234846,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -234804,7 +234996,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1245,
+          "rank": 1246,
           "signal": 61
         }
       ]
@@ -234845,8 +235037,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -234995,7 +235187,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1246,
+          "rank": 1247,
           "signal": 61
         }
       ]
@@ -235037,8 +235229,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": 52,
+      "movement24h": -1,
+      "movement7d": 51,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -235187,7 +235379,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1247,
+          "rank": 1248,
           "signal": 61
         }
       ]
@@ -235228,8 +235420,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -235378,7 +235570,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1248,
+          "rank": 1249,
           "signal": 61
         }
       ]
@@ -235419,8 +235611,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -235569,7 +235761,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1249,
+          "rank": 1250,
           "signal": 61
         }
       ]
@@ -235610,8 +235802,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -235760,7 +235952,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1250,
+          "rank": 1251,
           "signal": 61
         }
       ]
@@ -235801,8 +235993,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -235951,7 +236143,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1251,
+          "rank": 1252,
           "signal": 61
         }
       ]
@@ -235992,8 +236184,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -236142,7 +236334,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1252,
+          "rank": 1253,
           "signal": 61
         }
       ]
@@ -236183,8 +236375,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -236333,7 +236525,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1253,
+          "rank": 1254,
           "signal": 61
         }
       ]
@@ -236374,8 +236566,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -236524,7 +236716,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1254,
+          "rank": 1255,
           "signal": 61
         }
       ]
@@ -236565,8 +236757,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -236715,7 +236907,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1255,
+          "rank": 1256,
           "signal": 61
         }
       ]
@@ -236756,8 +236948,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -236906,7 +237098,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1256,
+          "rank": 1257,
           "signal": 61
         }
       ]
@@ -236946,8 +237138,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -237096,7 +237288,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1257,
+          "rank": 1258,
           "signal": 61
         }
       ]
@@ -237136,8 +237328,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -237286,7 +237478,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1258,
+          "rank": 1259,
           "signal": 61
         }
       ]
@@ -237326,8 +237518,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -237476,7 +237668,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1259,
+          "rank": 1260,
           "signal": 61
         }
       ]
@@ -237516,8 +237708,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -237666,7 +237858,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1260,
+          "rank": 1261,
           "signal": 61
         }
       ]
@@ -237706,8 +237898,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -237856,7 +238048,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1261,
+          "rank": 1262,
           "signal": 61
         }
       ]
@@ -237896,8 +238088,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -238046,7 +238238,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1262,
+          "rank": 1263,
           "signal": 61
         }
       ]
@@ -238086,8 +238278,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -238236,7 +238428,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1263,
+          "rank": 1264,
           "signal": 61
         }
       ]
@@ -238276,8 +238468,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -238426,7 +238618,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1264,
+          "rank": 1265,
           "signal": 61
         }
       ]
@@ -238466,8 +238658,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -238616,7 +238808,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1265,
+          "rank": 1266,
           "signal": 61
         }
       ]
@@ -238656,8 +238848,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -238806,7 +238998,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1266,
+          "rank": 1267,
           "signal": 61
         }
       ]
@@ -238846,8 +239038,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -238996,7 +239188,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1267,
+          "rank": 1268,
           "signal": 61
         }
       ]
@@ -239037,8 +239229,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -239187,7 +239379,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1268,
+          "rank": 1269,
           "signal": 61
         }
       ]
@@ -239227,8 +239419,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -239377,7 +239569,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1269,
+          "rank": 1270,
           "signal": 61
         }
       ]
@@ -239417,8 +239609,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -239567,7 +239759,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1270,
+          "rank": 1271,
           "signal": 61
         }
       ]
@@ -239607,8 +239799,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -239757,7 +239949,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1271,
+          "rank": 1272,
           "signal": 61
         }
       ]
@@ -239797,8 +239989,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -239947,7 +240139,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1272,
+          "rank": 1273,
           "signal": 61
         }
       ]
@@ -239987,8 +240179,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -240137,7 +240329,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1273,
+          "rank": 1274,
           "signal": 61
         }
       ]
@@ -240178,8 +240370,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -240328,7 +240520,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1274,
+          "rank": 1275,
           "signal": 61
         }
       ]
@@ -240368,8 +240560,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -240518,7 +240710,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1275,
+          "rank": 1276,
           "signal": 61
         }
       ]
@@ -240556,8 +240748,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -240706,7 +240898,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1276,
+          "rank": 1277,
           "signal": 61
         }
       ]
@@ -240747,8 +240939,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -240897,7 +241089,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1277,
+          "rank": 1278,
           "signal": 61
         }
       ]
@@ -240937,8 +241129,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -241087,7 +241279,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1278,
+          "rank": 1279,
           "signal": 61
         }
       ]
@@ -241127,8 +241319,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -241277,7 +241469,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1279,
+          "rank": 1280,
           "signal": 61
         }
       ]
@@ -241318,8 +241510,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -241468,7 +241660,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1280,
+          "rank": 1281,
           "signal": 61
         }
       ]
@@ -241508,8 +241700,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -241658,7 +241850,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1281,
+          "rank": 1282,
           "signal": 61
         }
       ]
@@ -241698,8 +241890,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -241848,7 +242040,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1282,
+          "rank": 1283,
           "signal": 61
         }
       ]
@@ -241888,8 +242080,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -242038,7 +242230,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1283,
+          "rank": 1284,
           "signal": 61
         }
       ]
@@ -242078,8 +242270,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -242228,7 +242420,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1284,
+          "rank": 1285,
           "signal": 61
         }
       ]
@@ -242266,8 +242458,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -242416,7 +242608,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1285,
+          "rank": 1286,
           "signal": 61
         }
       ]
@@ -242454,8 +242646,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -242604,7 +242796,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1286,
+          "rank": 1287,
           "signal": 61
         }
       ]
@@ -242645,8 +242837,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -242795,7 +242987,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1287,
+          "rank": 1288,
           "signal": 61
         }
       ]
@@ -242835,8 +243027,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -242985,7 +243177,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1288,
+          "rank": 1289,
           "signal": 61
         }
       ]
@@ -243025,8 +243217,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -243175,7 +243367,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1289,
+          "rank": 1290,
           "signal": 61
         }
       ]
@@ -243216,8 +243408,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -243366,7 +243558,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1290,
+          "rank": 1291,
           "signal": 61
         }
       ]
@@ -243406,8 +243598,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -243556,7 +243748,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1291,
+          "rank": 1292,
           "signal": 61
         }
       ]
@@ -243594,8 +243786,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -243744,7 +243936,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1292,
+          "rank": 1293,
           "signal": 61
         }
       ]
@@ -243784,8 +243976,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -243934,7 +244126,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1293,
+          "rank": 1294,
           "signal": 61
         }
       ]
@@ -243972,8 +244164,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -244122,7 +244314,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1294,
+          "rank": 1295,
           "signal": 61
         }
       ]
@@ -244162,8 +244354,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -244312,7 +244504,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1295,
+          "rank": 1296,
           "signal": 61
         }
       ]
@@ -244350,8 +244542,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -244500,7 +244692,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1296,
+          "rank": 1297,
           "signal": 61
         }
       ]
@@ -244540,8 +244732,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -244690,7 +244882,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1297,
+          "rank": 1298,
           "signal": 61
         }
       ]
@@ -244730,8 +244922,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -244880,7 +245072,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1298,
+          "rank": 1299,
           "signal": 61
         }
       ]
@@ -244920,8 +245112,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -245070,7 +245262,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1299,
+          "rank": 1300,
           "signal": 61
         }
       ]
@@ -245108,8 +245300,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -245258,7 +245450,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1300,
+          "rank": 1301,
           "signal": 61
         }
       ]
@@ -245298,8 +245490,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 61,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -245448,7 +245640,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1301,
+          "rank": 1302,
           "signal": 61
         }
       ]
@@ -245490,8 +245682,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -245640,7 +245832,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1302,
+          "rank": 1303,
           "signal": 60
         }
       ]
@@ -245665,9 +245857,9 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "cvssVersion": "3.1",
       "nvdPublished": "2026-04-09T20:16:25.063",
-      "nvdLastModified": "2026-08-10T13:19:04.337",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
+      "nvdLastModified": "2026-09-21T19:17:04.670",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
       "publicExploit": false,
       "epss": 0.06561,
       "epssPercentile": 0.93621,
@@ -245682,8 +245874,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -245832,7 +246024,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1303,
+          "rank": 1304,
           "signal": 60
         }
       ]
@@ -245873,8 +246065,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -246023,7 +246215,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1304,
+          "rank": 1305,
           "signal": 60
         }
       ]
@@ -246064,8 +246256,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -246214,7 +246406,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1305,
+          "rank": 1306,
           "signal": 60
         }
       ]
@@ -246255,8 +246447,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": -1,
+      "movement7d": -7,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -246405,7 +246597,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1306,
+          "rank": 1307,
           "signal": 60
         }
       ]
@@ -246446,8 +246638,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": -1,
+      "movement7d": -7,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -246596,7 +246788,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1307,
+          "rank": 1308,
           "signal": 60
         }
       ]
@@ -246638,8 +246830,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": -1,
+      "movement7d": -7,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -246788,7 +246980,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1308,
+          "rank": 1309,
           "signal": 60
         }
       ]
@@ -246830,8 +247022,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": -1,
+      "movement7d": -7,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -246980,7 +247172,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1309,
+          "rank": 1310,
           "signal": 60
         }
       ]
@@ -247021,8 +247213,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": -1,
+      "movement7d": -7,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -247171,7 +247363,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1310,
+          "rank": 1311,
           "signal": 60
         }
       ]
@@ -247213,8 +247405,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": -1,
+      "movement7d": -7,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -247363,7 +247555,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1311,
+          "rank": 1312,
           "signal": 60
         }
       ]
@@ -247404,8 +247596,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": -1,
+      "movement7d": -7,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -247554,7 +247746,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1312,
+          "rank": 1313,
           "signal": 60
         }
       ]
@@ -247595,8 +247787,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": -1,
+      "movement7d": -7,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -247745,7 +247937,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1313,
+          "rank": 1314,
           "signal": 60
         }
       ]
@@ -247785,8 +247977,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -119,
+      "movement24h": -1,
+      "movement7d": -120,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -247935,7 +248127,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1314,
+          "rank": 1315,
           "signal": 60
         }
       ]
@@ -247976,8 +248168,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -248126,7 +248318,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1315,
+          "rank": 1316,
           "signal": 60
         }
       ]
@@ -248166,8 +248358,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -248316,7 +248508,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1316,
+          "rank": 1317,
           "signal": 60
         }
       ]
@@ -248356,8 +248548,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -248506,7 +248698,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1317,
+          "rank": 1318,
           "signal": 60
         }
       ]
@@ -248547,8 +248739,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -248697,7 +248889,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1318,
+          "rank": 1319,
           "signal": 60
         }
       ]
@@ -248737,8 +248929,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -248887,7 +249079,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1319,
+          "rank": 1320,
           "signal": 60
         }
       ]
@@ -248927,8 +249119,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -249077,7 +249269,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1320,
+          "rank": 1321,
           "signal": 60
         }
       ]
@@ -249117,8 +249309,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -249267,7 +249459,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1321,
+          "rank": 1322,
           "signal": 60
         }
       ]
@@ -249307,8 +249499,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -249457,7 +249649,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1322,
+          "rank": 1323,
           "signal": 60
         }
       ]
@@ -249497,8 +249689,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -249647,7 +249839,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1323,
+          "rank": 1324,
           "signal": 60
         }
       ]
@@ -249685,8 +249877,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -249835,7 +250027,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1324,
+          "rank": 1325,
           "signal": 60
         }
       ]
@@ -249873,8 +250065,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -250023,7 +250215,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1325,
+          "rank": 1326,
           "signal": 60
         }
       ]
@@ -250061,8 +250253,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -250211,7 +250403,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1326,
+          "rank": 1327,
           "signal": 60
         }
       ]
@@ -250251,8 +250443,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -250401,7 +250593,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1327,
+          "rank": 1328,
           "signal": 60
         }
       ]
@@ -250441,8 +250633,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -250591,7 +250783,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1328,
+          "rank": 1329,
           "signal": 60
         }
       ]
@@ -250631,8 +250823,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -250781,7 +250973,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1329,
+          "rank": 1330,
           "signal": 60
         }
       ]
@@ -250821,8 +251013,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -250971,7 +251163,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1330,
+          "rank": 1331,
           "signal": 60
         }
       ]
@@ -251011,8 +251203,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -251161,7 +251353,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1331,
+          "rank": 1332,
           "signal": 60
         }
       ]
@@ -251201,8 +251393,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -251351,7 +251543,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1332,
+          "rank": 1333,
           "signal": 60
         }
       ]
@@ -251392,8 +251584,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -251542,7 +251734,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1333,
+          "rank": 1334,
           "signal": 60
         }
       ]
@@ -251583,8 +251775,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -251733,7 +251925,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1334,
+          "rank": 1335,
           "signal": 60
         }
       ]
@@ -251773,8 +251965,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -251923,7 +252115,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1335,
+          "rank": 1336,
           "signal": 60
         }
       ]
@@ -251963,8 +252155,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -252113,7 +252305,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1336,
+          "rank": 1337,
           "signal": 60
         }
       ]
@@ -252151,8 +252343,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -252301,7 +252493,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1337,
+          "rank": 1338,
           "signal": 60
         }
       ]
@@ -252341,8 +252533,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -252491,7 +252683,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1338,
+          "rank": 1339,
           "signal": 60
         }
       ]
@@ -252531,8 +252723,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -252681,7 +252873,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1339,
+          "rank": 1340,
           "signal": 60
         }
       ]
@@ -252721,8 +252913,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -252871,7 +253063,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1340,
+          "rank": 1341,
           "signal": 60
         }
       ]
@@ -252911,8 +253103,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -253061,7 +253253,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1341,
+          "rank": 1342,
           "signal": 60
         }
       ]
@@ -253101,8 +253293,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -253251,7 +253443,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1342,
+          "rank": 1343,
           "signal": 60
         }
       ]
@@ -253291,8 +253483,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -253441,7 +253633,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1343,
+          "rank": 1344,
           "signal": 60
         }
       ]
@@ -253481,8 +253673,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -253631,7 +253823,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1344,
+          "rank": 1345,
           "signal": 60
         }
       ]
@@ -253671,8 +253863,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -253821,7 +254013,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1345,
+          "rank": 1346,
           "signal": 60
         }
       ]
@@ -253861,8 +254053,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -254011,7 +254203,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1346,
+          "rank": 1347,
           "signal": 60
         }
       ]
@@ -254051,8 +254243,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -254201,7 +254393,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1347,
+          "rank": 1348,
           "signal": 60
         }
       ]
@@ -254241,8 +254433,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -254391,7 +254583,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1348,
+          "rank": 1349,
           "signal": 60
         }
       ]
@@ -254429,8 +254621,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -254579,7 +254771,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1349,
+          "rank": 1350,
           "signal": 60
         }
       ]
@@ -254617,8 +254809,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -254767,7 +254959,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1350,
+          "rank": 1351,
           "signal": 60
         }
       ]
@@ -254805,8 +254997,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -254955,7 +255147,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1351,
+          "rank": 1352,
           "signal": 60
         }
       ]
@@ -254995,8 +255187,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -255145,7 +255337,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1352,
+          "rank": 1353,
           "signal": 60
         }
       ]
@@ -255183,8 +255375,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -255333,7 +255525,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1353,
+          "rank": 1354,
           "signal": 60
         }
       ]
@@ -255371,8 +255563,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -255521,7 +255713,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1354,
+          "rank": 1355,
           "signal": 60
         }
       ]
@@ -255561,8 +255753,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -255711,7 +255903,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1355,
+          "rank": 1356,
           "signal": 60
         }
       ]
@@ -255751,8 +255943,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -255901,7 +256093,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1356,
+          "rank": 1357,
           "signal": 60
         }
       ]
@@ -255941,8 +256133,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -256091,7 +256283,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1357,
+          "rank": 1358,
           "signal": 60
         }
       ]
@@ -256131,8 +256323,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -256281,7 +256473,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1358,
+          "rank": 1359,
           "signal": 60
         }
       ]
@@ -256321,8 +256513,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -256471,7 +256663,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1359,
+          "rank": 1360,
           "signal": 60
         }
       ]
@@ -256511,8 +256703,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -256661,7 +256853,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1360,
+          "rank": 1361,
           "signal": 60
         }
       ]
@@ -256701,8 +256893,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -256851,7 +257043,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1361,
+          "rank": 1362,
           "signal": 60
         }
       ]
@@ -256891,8 +257083,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -257041,7 +257233,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1362,
+          "rank": 1363,
           "signal": 60
         }
       ]
@@ -257081,8 +257273,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -257231,7 +257423,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1363,
+          "rank": 1364,
           "signal": 60
         }
       ]
@@ -257271,8 +257463,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -257421,7 +257613,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1364,
+          "rank": 1365,
           "signal": 60
         }
       ]
@@ -257461,8 +257653,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -257611,7 +257803,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1365,
+          "rank": 1366,
           "signal": 60
         }
       ]
@@ -257651,8 +257843,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -257801,7 +257993,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1366,
+          "rank": 1367,
           "signal": 60
         }
       ]
@@ -257841,8 +258033,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -257991,7 +258183,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1367,
+          "rank": 1368,
           "signal": 60
         }
       ]
@@ -258031,8 +258223,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -258181,7 +258373,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1368,
+          "rank": 1369,
           "signal": 60
         }
       ]
@@ -258221,8 +258413,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -258371,7 +258563,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1369,
+          "rank": 1370,
           "signal": 60
         }
       ]
@@ -258412,8 +258604,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -258562,7 +258754,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1370,
+          "rank": 1371,
           "signal": 60
         }
       ]
@@ -258603,8 +258795,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -258753,7 +258945,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1371,
+          "rank": 1372,
           "signal": 60
         }
       ]
@@ -258794,8 +258986,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -258944,7 +259136,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1372,
+          "rank": 1373,
           "signal": 60
         }
       ]
@@ -258984,8 +259176,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -259134,7 +259326,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1373,
+          "rank": 1374,
           "signal": 60
         }
       ]
@@ -259174,8 +259366,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -259324,7 +259516,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1374,
+          "rank": 1375,
           "signal": 60
         }
       ]
@@ -259364,8 +259556,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -259514,7 +259706,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1375,
+          "rank": 1376,
           "signal": 60
         }
       ]
@@ -259554,8 +259746,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -259704,7 +259896,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1376,
+          "rank": 1377,
           "signal": 60
         }
       ]
@@ -259742,8 +259934,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -259892,7 +260084,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1377,
+          "rank": 1378,
           "signal": 60
         }
       ]
@@ -259932,8 +260124,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -260082,7 +260274,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1378,
+          "rank": 1379,
           "signal": 60
         }
       ]
@@ -260122,8 +260314,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -260272,7 +260464,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1379,
+          "rank": 1380,
           "signal": 60
         }
       ]
@@ -260310,8 +260502,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 60,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -260460,7 +260652,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1380,
+          "rank": 1381,
           "signal": 60
         }
       ]
@@ -260501,8 +260693,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -260651,7 +260843,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1381,
+          "rank": 1382,
           "signal": 59
         }
       ]
@@ -260692,8 +260884,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -260842,7 +261034,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1382,
+          "rank": 1383,
           "signal": 59
         }
       ]
@@ -260884,8 +261076,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -261034,7 +261226,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1383,
+          "rank": 1384,
           "signal": 59
         }
       ]
@@ -261075,8 +261267,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -261225,7 +261417,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1384,
+          "rank": 1385,
           "signal": 59
         }
       ]
@@ -261267,8 +261459,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -261417,7 +261609,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1385,
+          "rank": 1386,
           "signal": 59
         }
       ]
@@ -261458,8 +261650,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -261608,7 +261800,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1386,
+          "rank": 1387,
           "signal": 59
         }
       ]
@@ -261649,8 +261841,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -261799,7 +261991,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1387,
+          "rank": 1388,
           "signal": 59
         }
       ]
@@ -261840,8 +262032,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -261990,7 +262182,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1388,
+          "rank": 1389,
           "signal": 59
         }
       ]
@@ -262031,8 +262223,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -262181,7 +262373,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1389,
+          "rank": 1390,
           "signal": 59
         }
       ]
@@ -262222,8 +262414,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -262372,7 +262564,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1390,
+          "rank": 1391,
           "signal": 59
         }
       ]
@@ -262413,8 +262605,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -262563,7 +262755,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1391,
+          "rank": 1392,
           "signal": 59
         }
       ]
@@ -262604,8 +262796,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -262754,7 +262946,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1392,
+          "rank": 1393,
           "signal": 59
         }
       ]
@@ -262794,8 +262986,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -262944,7 +263136,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1393,
+          "rank": 1394,
           "signal": 59
         }
       ]
@@ -262984,8 +263176,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -263134,7 +263326,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1394,
+          "rank": 1395,
           "signal": 59
         }
       ]
@@ -263172,8 +263364,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -263322,7 +263514,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1395,
+          "rank": 1396,
           "signal": 59
         }
       ]
@@ -263362,8 +263554,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -263512,7 +263704,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1396,
+          "rank": 1397,
           "signal": 59
         }
       ]
@@ -263552,8 +263744,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -263702,7 +263894,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1397,
+          "rank": 1398,
           "signal": 59
         }
       ]
@@ -263740,8 +263932,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -263890,7 +264082,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1398,
+          "rank": 1399,
           "signal": 59
         }
       ]
@@ -263931,8 +264123,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -264081,7 +264273,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1399,
+          "rank": 1400,
           "signal": 59
         }
       ]
@@ -264121,8 +264313,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -264271,7 +264463,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1400,
+          "rank": 1401,
           "signal": 59
         }
       ]
@@ -264311,8 +264503,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -264461,7 +264653,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1401,
+          "rank": 1402,
           "signal": 59
         }
       ]
@@ -264502,8 +264694,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -264652,7 +264844,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1402,
+          "rank": 1403,
           "signal": 59
         }
       ]
@@ -264692,8 +264884,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -264842,7 +265034,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1403,
+          "rank": 1404,
           "signal": 59
         }
       ]
@@ -264880,8 +265072,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -265030,7 +265222,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1404,
+          "rank": 1405,
           "signal": 59
         }
       ]
@@ -265070,8 +265262,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -265220,7 +265412,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1405,
+          "rank": 1406,
           "signal": 59
         }
       ]
@@ -265260,8 +265452,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -265410,7 +265602,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1406,
+          "rank": 1407,
           "signal": 59
         }
       ]
@@ -265448,8 +265640,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -265598,7 +265790,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1407,
+          "rank": 1408,
           "signal": 59
         }
       ]
@@ -265638,8 +265830,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -265788,7 +265980,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1408,
+          "rank": 1409,
           "signal": 59
         }
       ]
@@ -265828,8 +266020,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -265978,7 +266170,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1409,
+          "rank": 1410,
           "signal": 59
         }
       ]
@@ -266018,8 +266210,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -266168,7 +266360,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1410,
+          "rank": 1411,
           "signal": 59
         }
       ]
@@ -266208,8 +266400,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -266358,7 +266550,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1411,
+          "rank": 1412,
           "signal": 59
         }
       ]
@@ -266398,8 +266590,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -266548,7 +266740,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1412,
+          "rank": 1413,
           "signal": 59
         }
       ]
@@ -266588,8 +266780,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -266738,7 +266930,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1413,
+          "rank": 1414,
           "signal": 59
         }
       ]
@@ -266778,8 +266970,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -266928,7 +267120,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1414,
+          "rank": 1415,
           "signal": 59
         }
       ]
@@ -266969,8 +267161,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -267119,7 +267311,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1415,
+          "rank": 1416,
           "signal": 59
         }
       ]
@@ -267159,8 +267351,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -267309,7 +267501,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1416,
+          "rank": 1417,
           "signal": 59
         }
       ]
@@ -267349,8 +267541,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -267499,7 +267691,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1417,
+          "rank": 1418,
           "signal": 59
         }
       ]
@@ -267540,8 +267732,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -267690,7 +267882,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1418,
+          "rank": 1419,
           "signal": 59
         }
       ]
@@ -267730,8 +267922,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -267880,7 +268072,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1419,
+          "rank": 1420,
           "signal": 59
         }
       ]
@@ -267921,8 +268113,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -268071,7 +268263,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1420,
+          "rank": 1421,
           "signal": 59
         }
       ]
@@ -268111,8 +268303,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -268261,7 +268453,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1421,
+          "rank": 1422,
           "signal": 59
         }
       ]
@@ -268299,8 +268491,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -268449,7 +268641,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1422,
+          "rank": 1423,
           "signal": 59
         }
       ]
@@ -268489,8 +268681,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -268639,7 +268831,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1423,
+          "rank": 1424,
           "signal": 59
         }
       ]
@@ -268679,8 +268871,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -268829,7 +269021,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1424,
+          "rank": 1425,
           "signal": 59
         }
       ]
@@ -268869,8 +269061,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -269019,7 +269211,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1425,
+          "rank": 1426,
           "signal": 59
         }
       ]
@@ -269059,8 +269251,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -269209,7 +269401,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1426,
+          "rank": 1427,
           "signal": 59
         }
       ]
@@ -269249,8 +269441,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -269399,7 +269591,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1427,
+          "rank": 1428,
           "signal": 59
         }
       ]
@@ -269439,8 +269631,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -269589,7 +269781,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1428,
+          "rank": 1429,
           "signal": 59
         }
       ]
@@ -269629,8 +269821,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -269779,7 +269971,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1429,
+          "rank": 1430,
           "signal": 59
         }
       ]
@@ -269820,8 +270012,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -269970,7 +270162,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1430,
+          "rank": 1431,
           "signal": 59
         }
       ]
@@ -270010,8 +270202,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -270160,7 +270352,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1431,
+          "rank": 1432,
           "signal": 59
         }
       ]
@@ -270200,8 +270392,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -270350,7 +270542,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1432,
+          "rank": 1433,
           "signal": 59
         }
       ]
@@ -270388,8 +270580,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -270538,7 +270730,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1433,
+          "rank": 1434,
           "signal": 59
         }
       ]
@@ -270578,8 +270770,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -270728,7 +270920,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1434,
+          "rank": 1435,
           "signal": 59
         }
       ]
@@ -270768,8 +270960,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 59,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -270918,7 +271110,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1435,
+          "rank": 1436,
           "signal": 59
         }
       ]
@@ -270959,8 +271151,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -7,
+      "movement24h": -1,
+      "movement7d": -8,
       "rankHistory": [
         {
           "date": "2026-09-18",
@@ -271044,7 +271236,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1436,
+          "rank": 1437,
           "signal": 58
         }
       ]
@@ -271069,10 +271261,10 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
       "cvssVersion": "3.1",
       "nvdPublished": "2026-05-26T22:16:44.020",
-      "nvdLastModified": "2026-09-03T15:39:44.470",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
+      "nvdLastModified": "2026-10-01T18:17:18.153",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": true,
       "epss": 0.07056,
       "epssPercentile": 0.94019,
       "epssDate": "2026-10-03",
@@ -271086,8 +271278,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -203,
+      "movement24h": -1,
+      "movement7d": -204,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -271236,7 +271428,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1437,
+          "rank": 1438,
           "signal": 58
         }
       ]
@@ -271277,8 +271469,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -271427,7 +271619,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1438,
+          "rank": 1439,
           "signal": 58
         }
       ]
@@ -271468,8 +271660,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -271618,7 +271810,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1439,
+          "rank": 1440,
           "signal": 58
         }
       ]
@@ -271659,8 +271851,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -271809,7 +272001,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1440,
+          "rank": 1441,
           "signal": 58
         }
       ]
@@ -271850,8 +272042,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -272000,7 +272192,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1441,
+          "rank": 1442,
           "signal": 58
         }
       ]
@@ -272041,8 +272233,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -272191,7 +272383,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1442,
+          "rank": 1443,
           "signal": 58
         }
       ]
@@ -272232,8 +272424,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -272382,7 +272574,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1443,
+          "rank": 1444,
           "signal": 58
         }
       ]
@@ -272423,8 +272615,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -272573,7 +272765,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1444,
+          "rank": 1445,
           "signal": 58
         }
       ]
@@ -272614,8 +272806,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -272764,7 +272956,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1445,
+          "rank": 1446,
           "signal": 58
         }
       ]
@@ -272805,8 +272997,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -272955,7 +273147,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1446,
+          "rank": 1447,
           "signal": 58
         }
       ]
@@ -272996,8 +273188,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -273146,7 +273338,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1447,
+          "rank": 1448,
           "signal": 58
         }
       ]
@@ -273187,8 +273379,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -273337,7 +273529,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1448,
+          "rank": 1449,
           "signal": 58
         }
       ]
@@ -273378,8 +273570,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -273528,7 +273720,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1449,
+          "rank": 1450,
           "signal": 58
         }
       ]
@@ -273569,8 +273761,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -273719,7 +273911,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1450,
+          "rank": 1451,
           "signal": 58
         }
       ]
@@ -273760,8 +273952,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -273910,7 +274102,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1451,
+          "rank": 1452,
           "signal": 58
         }
       ]
@@ -273950,8 +274142,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -274100,7 +274292,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1452,
+          "rank": 1453,
           "signal": 58
         }
       ]
@@ -274140,8 +274332,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -274290,7 +274482,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1453,
+          "rank": 1454,
           "signal": 58
         }
       ]
@@ -274330,8 +274522,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -274480,7 +274672,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1454,
+          "rank": 1455,
           "signal": 58
         }
       ]
@@ -274521,8 +274713,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -274671,7 +274863,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1455,
+          "rank": 1456,
           "signal": 58
         }
       ]
@@ -274711,8 +274903,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -274861,7 +275053,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1456,
+          "rank": 1457,
           "signal": 58
         }
       ]
@@ -274901,8 +275093,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -275051,7 +275243,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1457,
+          "rank": 1458,
           "signal": 58
         }
       ]
@@ -275091,8 +275283,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -275241,7 +275433,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1458,
+          "rank": 1459,
           "signal": 58
         }
       ]
@@ -275282,8 +275474,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -275432,7 +275624,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1459,
+          "rank": 1460,
           "signal": 58
         }
       ]
@@ -275472,8 +275664,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -275622,7 +275814,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1460,
+          "rank": 1461,
           "signal": 58
         }
       ]
@@ -275662,8 +275854,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -275812,7 +276004,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1461,
+          "rank": 1462,
           "signal": 58
         }
       ]
@@ -275850,8 +276042,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -276000,7 +276192,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1462,
+          "rank": 1463,
           "signal": 58
         }
       ]
@@ -276038,8 +276230,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -276188,7 +276380,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1463,
+          "rank": 1464,
           "signal": 58
         }
       ]
@@ -276226,8 +276418,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -276376,7 +276568,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1464,
+          "rank": 1465,
           "signal": 58
         }
       ]
@@ -276416,8 +276608,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -276566,7 +276758,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1465,
+          "rank": 1466,
           "signal": 58
         }
       ]
@@ -276606,8 +276798,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -276756,7 +276948,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1466,
+          "rank": 1467,
           "signal": 58
         }
       ]
@@ -276796,8 +276988,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -276946,7 +277138,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1467,
+          "rank": 1468,
           "signal": 58
         }
       ]
@@ -276986,8 +277178,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -277136,7 +277328,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1468,
+          "rank": 1469,
           "signal": 58
         }
       ]
@@ -277174,8 +277366,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -277324,7 +277516,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1469,
+          "rank": 1470,
           "signal": 58
         }
       ]
@@ -277365,8 +277557,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -277515,7 +277707,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1470,
+          "rank": 1471,
           "signal": 58
         }
       ]
@@ -277556,8 +277748,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -277706,7 +277898,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1471,
+          "rank": 1472,
           "signal": 58
         }
       ]
@@ -277747,8 +277939,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -277897,7 +278089,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1472,
+          "rank": 1473,
           "signal": 58
         }
       ]
@@ -277937,8 +278129,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -278087,7 +278279,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1473,
+          "rank": 1474,
           "signal": 58
         }
       ]
@@ -278127,8 +278319,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -278277,7 +278469,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1474,
+          "rank": 1475,
           "signal": 58
         }
       ]
@@ -278317,8 +278509,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -278467,7 +278659,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1475,
+          "rank": 1476,
           "signal": 58
         }
       ]
@@ -278507,8 +278699,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -278657,7 +278849,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1476,
+          "rank": 1477,
           "signal": 58
         }
       ]
@@ -278698,8 +278890,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -278848,7 +279040,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1477,
+          "rank": 1478,
           "signal": 58
         }
       ]
@@ -278889,8 +279081,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -279039,7 +279231,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1478,
+          "rank": 1479,
           "signal": 58
         }
       ]
@@ -279077,8 +279269,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -279227,7 +279419,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1479,
+          "rank": 1480,
           "signal": 58
         }
       ]
@@ -279267,8 +279459,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -279417,7 +279609,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1480,
+          "rank": 1481,
           "signal": 58
         }
       ]
@@ -279455,8 +279647,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -279605,7 +279797,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1481,
+          "rank": 1482,
           "signal": 58
         }
       ]
@@ -279645,8 +279837,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -279795,7 +279987,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1482,
+          "rank": 1483,
           "signal": 58
         }
       ]
@@ -279833,8 +280025,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -279983,7 +280175,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1483,
+          "rank": 1484,
           "signal": 58
         }
       ]
@@ -280023,8 +280215,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 58,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -280173,7 +280365,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1484,
+          "rank": 1485,
           "signal": 58
         }
       ]
@@ -280214,8 +280406,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -280364,7 +280556,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1485,
+          "rank": 1486,
           "signal": 57
         }
       ]
@@ -280405,8 +280597,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -280555,7 +280747,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1486,
+          "rank": 1487,
           "signal": 57
         }
       ]
@@ -280596,8 +280788,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -280746,7 +280938,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1487,
+          "rank": 1488,
           "signal": 57
         }
       ]
@@ -280787,8 +280979,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -280937,7 +281129,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1488,
+          "rank": 1489,
           "signal": 57
         }
       ]
@@ -280979,8 +281171,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -281129,7 +281321,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1489,
+          "rank": 1490,
           "signal": 57
         }
       ]
@@ -281170,8 +281362,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -281320,7 +281512,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1490,
+          "rank": 1491,
           "signal": 57
         }
       ]
@@ -281362,8 +281554,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -281512,7 +281704,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1491,
+          "rank": 1492,
           "signal": 57
         }
       ]
@@ -281553,8 +281745,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -281703,7 +281895,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1492,
+          "rank": 1493,
           "signal": 57
         }
       ]
@@ -281743,8 +281935,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -281893,7 +282085,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1493,
+          "rank": 1494,
           "signal": 57
         }
       ]
@@ -281933,8 +282125,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -282083,7 +282275,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1494,
+          "rank": 1495,
           "signal": 57
         }
       ]
@@ -282123,8 +282315,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -282273,7 +282465,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1495,
+          "rank": 1496,
           "signal": 57
         }
       ]
@@ -282314,8 +282506,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -282464,7 +282656,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1496,
+          "rank": 1497,
           "signal": 57
         }
       ]
@@ -282502,8 +282694,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -282652,7 +282844,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1497,
+          "rank": 1498,
           "signal": 57
         }
       ]
@@ -282692,8 +282884,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -282842,7 +283034,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1498,
+          "rank": 1499,
           "signal": 57
         }
       ]
@@ -282882,8 +283074,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -283032,7 +283224,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1499,
+          "rank": 1500,
           "signal": 57
         }
       ]
@@ -283073,8 +283265,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -283223,7 +283415,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1500,
+          "rank": 1501,
           "signal": 57
         }
       ]
@@ -283263,8 +283455,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -283413,7 +283605,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1501,
+          "rank": 1502,
           "signal": 57
         }
       ]
@@ -283453,8 +283645,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -8,
+      "movement24h": -1,
+      "movement7d": -9,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -283603,7 +283795,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1502,
+          "rank": 1503,
           "signal": 57
         }
       ]
@@ -283643,8 +283835,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": 56,
+      "movement24h": -1,
+      "movement7d": 55,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -283793,7 +283985,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1503,
+          "rank": 1504,
           "signal": 57
         }
       ]
@@ -283833,8 +284025,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -283983,7 +284175,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1504,
+          "rank": 1505,
           "signal": 57
         }
       ]
@@ -284023,8 +284215,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -284173,7 +284365,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1505,
+          "rank": 1506,
           "signal": 57
         }
       ]
@@ -284213,8 +284405,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -284363,7 +284555,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1506,
+          "rank": 1507,
           "signal": 57
         }
       ]
@@ -284404,8 +284596,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -284554,7 +284746,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1507,
+          "rank": 1508,
           "signal": 57
         }
       ]
@@ -284594,8 +284786,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -284744,7 +284936,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1508,
+          "rank": 1509,
           "signal": 57
         }
       ]
@@ -284784,8 +284976,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -284934,7 +285126,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1509,
+          "rank": 1510,
           "signal": 57
         }
       ]
@@ -284974,8 +285166,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -285124,7 +285316,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1510,
+          "rank": 1511,
           "signal": 57
         }
       ]
@@ -285164,8 +285356,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -285314,7 +285506,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1511,
+          "rank": 1512,
           "signal": 57
         }
       ]
@@ -285354,8 +285546,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -285504,7 +285696,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1512,
+          "rank": 1513,
           "signal": 57
         }
       ]
@@ -285544,8 +285736,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -285694,7 +285886,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1513,
+          "rank": 1514,
           "signal": 57
         }
       ]
@@ -285734,8 +285926,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -285884,7 +286076,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1514,
+          "rank": 1515,
           "signal": 57
         }
       ]
@@ -285924,8 +286116,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -286074,7 +286266,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1515,
+          "rank": 1516,
           "signal": 57
         }
       ]
@@ -286114,8 +286306,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -286264,7 +286456,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1516,
+          "rank": 1517,
           "signal": 57
         }
       ]
@@ -286304,8 +286496,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -286454,7 +286646,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1517,
+          "rank": 1518,
           "signal": 57
         }
       ]
@@ -286494,8 +286686,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -286644,7 +286836,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1518,
+          "rank": 1519,
           "signal": 57
         }
       ]
@@ -286684,8 +286876,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -286834,7 +287026,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1519,
+          "rank": 1520,
           "signal": 57
         }
       ]
@@ -286874,8 +287066,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -287024,7 +287216,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1520,
+          "rank": 1521,
           "signal": 57
         }
       ]
@@ -287064,8 +287256,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -287214,7 +287406,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1521,
+          "rank": 1522,
           "signal": 57
         }
       ]
@@ -287254,8 +287446,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -287404,7 +287596,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1522,
+          "rank": 1523,
           "signal": 57
         }
       ]
@@ -287444,8 +287636,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -287594,7 +287786,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1523,
+          "rank": 1524,
           "signal": 57
         }
       ]
@@ -287632,8 +287824,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -287782,7 +287974,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1524,
+          "rank": 1525,
           "signal": 57
         }
       ]
@@ -287822,8 +288014,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -287972,7 +288164,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1525,
+          "rank": 1526,
           "signal": 57
         }
       ]
@@ -288012,8 +288204,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -288162,7 +288354,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1526,
+          "rank": 1527,
           "signal": 57
         }
       ]
@@ -288202,8 +288394,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -288352,7 +288544,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1527,
+          "rank": 1528,
           "signal": 57
         }
       ]
@@ -288392,8 +288584,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -288542,7 +288734,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1528,
+          "rank": 1529,
           "signal": 57
         }
       ]
@@ -288580,8 +288772,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -288730,7 +288922,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1529,
+          "rank": 1530,
           "signal": 57
         }
       ]
@@ -288770,8 +288962,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -288920,7 +289112,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1530,
+          "rank": 1531,
           "signal": 57
         }
       ]
@@ -288960,8 +289152,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -289110,7 +289302,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1531,
+          "rank": 1532,
           "signal": 57
         }
       ]
@@ -289151,8 +289343,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -289301,7 +289493,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1532,
+          "rank": 1533,
           "signal": 57
         }
       ]
@@ -289342,8 +289534,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -289492,7 +289684,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1533,
+          "rank": 1534,
           "signal": 57
         }
       ]
@@ -289530,8 +289722,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -289680,7 +289872,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1534,
+          "rank": 1535,
           "signal": 57
         }
       ]
@@ -289718,8 +289910,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -289868,7 +290060,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1535,
+          "rank": 1536,
           "signal": 57
         }
       ]
@@ -289908,8 +290100,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -290058,7 +290250,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1536,
+          "rank": 1537,
           "signal": 57
         }
       ]
@@ -290098,8 +290290,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -290248,7 +290440,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1537,
+          "rank": 1538,
           "signal": 57
         }
       ]
@@ -290288,8 +290480,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -290438,7 +290630,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1538,
+          "rank": 1539,
           "signal": 57
         }
       ]
@@ -290478,8 +290670,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -290628,7 +290820,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1539,
+          "rank": 1540,
           "signal": 57
         }
       ]
@@ -290668,8 +290860,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -290818,7 +291010,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1540,
+          "rank": 1541,
           "signal": 57
         }
       ]
@@ -290858,8 +291050,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -291008,7 +291200,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1541,
+          "rank": 1542,
           "signal": 57
         }
       ]
@@ -291048,8 +291240,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -291198,7 +291390,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1542,
+          "rank": 1543,
           "signal": 57
         }
       ]
@@ -291238,8 +291430,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -291388,7 +291580,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1543,
+          "rank": 1544,
           "signal": 57
         }
       ]
@@ -291426,8 +291618,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -291576,7 +291768,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1544,
+          "rank": 1545,
           "signal": 57
         }
       ]
@@ -291614,8 +291806,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -291764,7 +291956,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1545,
+          "rank": 1546,
           "signal": 57
         }
       ]
@@ -291805,8 +291997,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -291955,7 +292147,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1546,
+          "rank": 1547,
           "signal": 57
         }
       ]
@@ -291995,8 +292187,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -292145,7 +292337,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1547,
+          "rank": 1548,
           "signal": 57
         }
       ]
@@ -292186,8 +292378,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -292336,7 +292528,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1548,
+          "rank": 1549,
           "signal": 57
         }
       ]
@@ -292376,8 +292568,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -292526,7 +292718,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1549,
+          "rank": 1550,
           "signal": 57
         }
       ]
@@ -292564,8 +292756,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -292714,7 +292906,7 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1550,
+          "rank": 1551,
           "signal": 57
         }
       ]
@@ -292754,8 +292946,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 57,
-      "movement24h": 0,
-      "movement7d": -9,
+      "movement24h": -1,
+      "movement7d": -10,
       "rankHistory": [
         {
           "date": "2026-09-05",
@@ -292904,200 +293096,8 @@
         },
         {
           "date": "2026-10-04",
-          "rank": 1551,
+          "rank": 1552,
           "signal": 57
-        }
-      ]
-    },
-    {
-      "cveID": "CVE-2015-3246",
-      "vendorProject": "Red Hat",
-      "product": "Libuser",
-      "vulnerabilityName": "Red Hat Libuser Race Condition Vulnerability",
-      "dateAdded": "2026-08-26",
-      "shortDescription": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation. ",
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "dueDate": "2026-09-09",
-      "knownRansomwareCampaignUse": "Unknown",
-      "forensicTriage": "No",
-      "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://access.redhat.com/articles/1537873 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
-      "cwes": [
-        "CWE-264",
-        "CWE-367"
-      ],
-      "cvssScore": 5.1,
-      "cvssVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cvssVersion": "3.1",
-      "nvdPublished": "2015-08-11T14:59:07.040",
-      "nvdLastModified": "2026-08-27T04:16:36.600",
-      "networkExploitable": false,
-      "noPrivilegesRequired": false,
-      "publicExploit": false,
-      "epss": 0.08434,
-      "epssPercentile": 0.94846,
-      "epssDate": "2026-10-03",
-      "technology": "Other",
-      "threatSignal": 56,
-      "signalFactors": [
-        "Confirmed active exploitation (CISA KEV) +35",
-        "CVSS 5.1 +10",
-        "EPSS 8.4% +2",
-        "KEV recency +4",
-        "Remediation urgency +5"
-      ],
-      "threatScore": 56,
-      "movement24h": 0,
-      "movement7d": -9,
-      "rankHistory": [
-        {
-          "date": "2026-09-05",
-          "rank": 734,
-          "signal": 58
-        },
-        {
-          "date": "2026-09-06",
-          "rank": 810,
-          "signal": 58
-        },
-        {
-          "date": "2026-09-07",
-          "rank": 863,
-          "signal": 58
-        },
-        {
-          "date": "2026-09-08",
-          "rank": 927,
-          "signal": 58
-        },
-        {
-          "date": "2026-09-09",
-          "rank": 1003,
-          "signal": 58
-        },
-        {
-          "date": "2026-09-10",
-          "rank": 1021,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-11",
-          "rank": 1124,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-12",
-          "rank": 1208,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-13",
-          "rank": 1288,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-14",
-          "rank": 1342,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-15",
-          "rank": 1367,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-16",
-          "rank": 1369,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-17",
-          "rank": 1369,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-18",
-          "rank": 1372,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-19",
-          "rank": 1374,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-20",
-          "rank": 1374,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-21",
-          "rank": 1375,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-22",
-          "rank": 1375,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-23",
-          "rank": 1312,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-24",
-          "rank": 1369,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-25",
-          "rank": 1374,
-          "signal": 59
-        },
-        {
-          "date": "2026-09-26",
-          "rank": 1544,
-          "signal": 56
-        },
-        {
-          "date": "2026-09-27",
-          "rank": 1543,
-          "signal": 56
-        },
-        {
-          "date": "2026-09-28",
-          "rank": 1545,
-          "signal": 56
-        },
-        {
-          "date": "2026-09-29",
-          "rank": 1547,
-          "signal": 56
-        },
-        {
-          "date": "2026-09-30",
-          "rank": 1548,
-          "signal": 56
-        },
-        {
-          "date": "2026-10-01",
-          "rank": 1549,
-          "signal": 56
-        },
-        {
-          "date": "2026-10-02",
-          "rank": 1552,
-          "signal": 56
-        },
-        {
-          "date": "2026-10-03",
-          "rank": 1552,
-          "signal": 56
-        },
-        {
-          "date": "2026-10-04",
-          "rank": 1552,
-          "signal": 56
         }
       ]
     },
@@ -306600,7 +306600,7 @@
       "cvssVersion": "3.1",
       "nvdPublished": "2026-08-12T16:17:14.520",
       "nvdLastModified": "2026-08-28T12:21:47.053",
-      "networkExploitable": false,
+      "networkExploitable": true,
       "noPrivilegesRequired": false,
       "publicExploit": false,
       "epss": 0.00665,
