@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-10-04T21:34:26.660805+00:00",
-  "periodStart": "2026-09-28",
-  "periodEnd": "2026-10-04",
-  "newKEVs": 8,
+  "generatedAt": "2026-10-05T05:49:39.897973+00:00",
+  "periodStart": "2026-09-29",
+  "periodEnd": "2026-10-05",
+  "newKEVs": 6,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
-      "vendor": "Citrix",
-      "count": 3
-    },
-    {
       "vendor": "Zammad GmbH",
       "count": 2
-    },
-    {
-      "vendor": "Cisco",
-      "count": 1
     },
     {
       "vendor": "Fortinet",
       "count": 1
     },
     {
+      "vendor": "Cisco",
+      "count": 1
+    },
+    {
       "vendor": "Apple",
+      "count": 1
+    },
+    {
+      "vendor": "Citrix",
       "count": 1
     }
   ],
@@ -32,11 +32,11 @@
       "count": 4
     },
     {
-      "technology": "Network Edge / VPN",
-      "count": 3
+      "technology": "Email / Collaboration",
+      "count": 1
     },
     {
-      "technology": "Email / Collaboration",
+      "technology": "Network Edge / VPN",
       "count": 1
     }
   ],
@@ -51,7 +51,7 @@
       "dueDate": "2026-06-22",
       "threatSignal": 78,
       "movement24h": 0,
-      "movement7d": 753,
+      "movement7d": 755,
       "cvssScore": 8.7,
       "epss": 0.9257,
       "epssPercentile": 0.99825,
@@ -72,7 +72,7 @@
       "dueDate": "2026-09-14",
       "threatSignal": 79,
       "movement24h": 0,
-      "movement7d": 640,
+      "movement7d": 642,
       "cvssScore": 8.8,
       "epss": 0.85169,
       "epssPercentile": 0.9971,
@@ -113,8 +113,8 @@
       "dateAdded": "2026-04-14",
       "dueDate": "2026-04-28",
       "threatSignal": 64,
-      "movement24h": -2,
-      "movement7d": 512,
+      "movement24h": 0,
+      "movement7d": 514,
       "cvssScore": 6.5,
       "epss": 0.43378,
       "epssPercentile": 0.98696,
@@ -134,8 +134,8 @@
       "dateAdded": "2026-08-31",
       "dueDate": "2026-09-14",
       "threatSignal": 75,
-      "movement24h": 0,
-      "movement7d": 384,
+      "movement24h": 1,
+      "movement7d": 387,
       "cvssScore": 9.4,
       "epss": 0.61394,
       "epssPercentile": 0.99142,
@@ -155,8 +155,8 @@
       "dateAdded": "2026-07-13",
       "dueDate": "2026-07-16",
       "threatSignal": 67,
-      "movement24h": 357,
-      "movement7d": 350,
+      "movement24h": 2,
+      "movement7d": 354,
       "cvssScore": 8.1,
       "epss": 0.33871,
       "epssPercentile": 0.98352,
@@ -176,8 +176,8 @@
       "dateAdded": "2026-08-26",
       "dueDate": "2026-09-09",
       "threatSignal": 61,
-      "movement24h": 308,
-      "movement7d": 299,
+      "movement24h": 0,
+      "movement7d": 301,
       "cvssScore": 7.4,
       "epss": 0.08434,
       "epssPercentile": 0.94847,
@@ -197,8 +197,8 @@
       "dateAdded": "2026-09-09",
       "dueDate": "2026-09-12",
       "threatSignal": 71,
-      "movement24h": 1,
-      "movement7d": 171,
+      "movement24h": 0,
+      "movement7d": 173,
       "cvssScore": 9.3,
       "epss": 0.23158,
       "epssPercentile": 0.97709,
@@ -218,8 +218,8 @@
       "dateAdded": "2021-11-03",
       "dueDate": "2021-11-17",
       "threatSignal": 72,
-      "movement24h": 1,
-      "movement7d": 170,
+      "movement24h": 0,
+      "movement7d": 172,
       "cvssScore": 9.6,
       "epss": 0.63894,
       "epssPercentile": 0.99203,
@@ -239,8 +239,8 @@
       "dateAdded": "2026-09-25",
       "dueDate": "2026-09-28",
       "threatSignal": 72,
-      "movement24h": 0,
-      "movement7d": 133,
+      "movement24h": 1,
+      "movement7d": 135,
       "cvssScore": 8.1,
       "epss": 0.45501,
       "epssPercentile": 0.98757,
@@ -254,27 +254,6 @@
   ],
   "highestSignals": [
     {
-      "cveID": "CVE-2026-76504",
-      "vendorProject": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "technology": "Other",
-      "vulnerabilityName": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-      "dateAdded": "2026-09-30",
-      "dueDate": "2026-10-03",
-      "threatSignal": 70,
-      "movement24h": 43,
-      "movement7d": 0,
-      "cvssScore": 9.8,
-      "epss": 0.01575,
-      "epssPercentile": 0.74593,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76504"
-    },
-    {
       "cveID": "CVE-2026-104286",
       "vendorProject": "Fortinet",
       "product": "FortiMail",
@@ -282,8 +261,8 @@
       "vulnerabilityName": "Fortinet FortiMail Path Traversal Vulnerability",
       "dateAdded": "2026-10-01",
       "dueDate": "2026-10-04",
-      "threatSignal": 69,
-      "movement24h": 0,
+      "threatSignal": 70,
+      "movement24h": 42,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.02201,
@@ -296,46 +275,25 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-104286"
     },
     {
-      "cveID": "CVE-2026-88772",
-      "vendorProject": "Citrix",
-      "product": "NetScaler",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "dateAdded": "2026-09-27",
-      "dueDate": "2026-09-30",
-      "threatSignal": 69,
-      "movement24h": 1,
+      "cveID": "CVE-2026-76504",
+      "vendorProject": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "technology": "Other",
+      "vulnerabilityName": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+      "dateAdded": "2026-09-30",
+      "dueDate": "2026-10-03",
+      "threatSignal": 70,
+      "movement24h": -1,
       "movement7d": 0,
-      "cvssScore": 9.5,
-      "epss": 0.01301,
-      "epssPercentile": 0.69469,
+      "cvssScore": 9.8,
+      "epss": 0.01575,
+      "epssPercentile": 0.74593,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": true,
-      "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-88772"
-    },
-    {
-      "cveID": "CVE-2026-88771",
-      "vendorProject": "Citrix",
-      "product": "NetScaler",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Citrix NetScaler Improper Input Validation Vulnerability",
-      "dateAdded": "2026-09-27",
-      "dueDate": "2026-09-30",
-      "threatSignal": 69,
-      "movement24h": 1,
-      "movement7d": 0,
-      "cvssScore": 9.5,
-      "epss": 0.01063,
-      "epssPercentile": 0.63454,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-88771"
+      "shortDescription": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76504"
     },
     {
       "cveID": "CVE-2026-102490",
@@ -346,7 +304,7 @@
       "dateAdded": "2026-10-02",
       "dueDate": "2026-10-05",
       "threatSignal": 68,
-      "movement24h": 0,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 9.4,
       "epss": 0.00629,
@@ -367,7 +325,7 @@
       "dateAdded": "2026-10-02",
       "dueDate": "2026-10-05",
       "threatSignal": 68,
-      "movement24h": 0,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 9.4,
       "epss": 0.01396,
@@ -388,7 +346,7 @@
       "dateAdded": "2026-09-29",
       "dueDate": "2026-10-02",
       "threatSignal": 68,
-      "movement24h": 0,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.01242,
@@ -409,7 +367,7 @@
       "dateAdded": "2026-10-04",
       "dueDate": "2026-10-07",
       "threatSignal": 66,
-      "movement24h": 0,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 8.7,
       "epss": 0.00276,
@@ -423,10 +381,10 @@
     }
   ],
   "observations": [
-    "CISA added 8 actively exploited vulnerabilities during the last 7 days.",
+    "CISA added 6 actively exploited vulnerabilities during the last 7 days.",
     "Other is the most represented technology category among this week's new KEVs (4).",
-    "Citrix has the most new KEV entries this week (3).",
-    "CVE-2026-42271 is the largest 7-day rank riser, up 753 positions."
+    "Zammad GmbH has the most new KEV entries this week (2).",
+    "CVE-2026-42271 is the largest 7-day rank riser, up 755 positions."
   ],
-  "executiveSummary": "CISA added 8 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (4). Citrix has the most new KEV entries this week (3). CVE-2026-42271 is the largest 7-day rank riser, up 753 positions."
+  "executiveSummary": "CISA added 6 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (4). Zammad GmbH has the most new KEV entries this week (2). CVE-2026-42271 is the largest 7-day rank riser, up 755 positions."
 }
