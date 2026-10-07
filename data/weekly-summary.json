@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-06T18:28:32.196379+00:00",
-  "periodStart": "2026-09-30",
-  "periodEnd": "2026-10-06",
-  "newKEVs": 6,
+  "generatedAt": "2026-10-07T06:08:17.020711+00:00",
+  "periodStart": "2026-10-01",
+  "periodEnd": "2026-10-07",
+  "newKEVs": 5,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
@@ -18,10 +18,6 @@
       "count": 1
     },
     {
-      "vendor": "Apple",
-      "count": 1
-    },
-    {
       "vendor": "Citrix",
       "count": 1
     }
@@ -29,7 +25,7 @@
   "topTechnologies": [
     {
       "technology": "Other",
-      "count": 4
+      "count": 3
     },
     {
       "technology": "Email / Collaboration",
@@ -51,7 +47,7 @@
       "dueDate": "2026-09-14",
       "threatSignal": 79,
       "movement24h": 0,
-      "movement7d": 644,
+      "movement7d": 645,
       "cvssScore": 8.8,
       "epss": 0.84594,
       "epssPercentile": 0.99699,
@@ -71,8 +67,8 @@
       "dateAdded": "2026-08-21",
       "dueDate": "2026-08-24",
       "threatSignal": 76,
-      "movement24h": 576,
-      "movement7d": 573,
+      "movement24h": 1,
+      "movement7d": 574,
       "cvssScore": 8.9,
       "epss": 0.71663,
       "epssPercentile": 0.99408,
@@ -93,7 +89,7 @@
       "dueDate": "2026-04-28",
       "threatSignal": 64,
       "movement24h": 0,
-      "movement7d": 514,
+      "movement7d": 515,
       "cvssScore": 6.5,
       "epss": 0.43378,
       "epssPercentile": 0.98698,
@@ -113,8 +109,8 @@
       "dateAdded": "2026-08-18",
       "dueDate": "2026-08-21",
       "threatSignal": 76,
-      "movement24h": -1,
-      "movement7d": 474,
+      "movement24h": 1,
+      "movement7d": 476,
       "cvssScore": 9.1,
       "epss": 0.69536,
       "epssPercentile": 0.99348,
@@ -134,8 +130,8 @@
       "dateAdded": "2026-08-31",
       "dueDate": "2026-09-14",
       "threatSignal": 75,
-      "movement24h": -1,
-      "movement7d": 386,
+      "movement24h": 2,
+      "movement7d": 387,
       "cvssScore": 9.4,
       "epss": 0.61394,
       "epssPercentile": 0.99144,
@@ -155,8 +151,8 @@
       "dateAdded": "2026-07-13",
       "dueDate": "2026-07-16",
       "threatSignal": 67,
-      "movement24h": -1,
-      "movement7d": 353,
+      "movement24h": 2,
+      "movement7d": 356,
       "cvssScore": 8.1,
       "epss": 0.33871,
       "epssPercentile": 0.98355,
@@ -177,7 +173,7 @@
       "dueDate": "2026-09-09",
       "threatSignal": 61,
       "movement24h": 0,
-      "movement7d": 303,
+      "movement7d": 304,
       "cvssScore": 7.4,
       "epss": 0.08434,
       "epssPercentile": 0.94857,
@@ -198,7 +194,7 @@
       "dueDate": "2026-09-12",
       "threatSignal": 71,
       "movement24h": 0,
-      "movement7d": 173,
+      "movement7d": 172,
       "cvssScore": 9.3,
       "epss": 0.23158,
       "epssPercentile": 0.97713,
@@ -219,7 +215,7 @@
       "dueDate": "2021-11-17",
       "threatSignal": 72,
       "movement24h": 0,
-      "movement7d": 172,
+      "movement7d": 171,
       "cvssScore": 9.6,
       "epss": 0.63894,
       "epssPercentile": 0.99204,
@@ -240,7 +236,7 @@
       "dueDate": "2022-12-26",
       "threatSignal": 63,
       "movement24h": 0,
-      "movement7d": 99,
+      "movement7d": 100,
       "cvssScore": 8.8,
       "epss": 0.2351,
       "epssPercentile": 0.97744,
@@ -284,7 +280,7 @@
       "dueDate": "2026-10-03",
       "threatSignal": 70,
       "movement24h": 0,
-      "movement7d": 0,
+      "movement7d": 39,
       "cvssScore": 9.8,
       "epss": 0.01819,
       "epssPercentile": 0.78034,
@@ -304,7 +300,7 @@
       "dateAdded": "2026-10-02",
       "dueDate": "2026-10-05",
       "threatSignal": 69,
-      "movement24h": 34,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.4,
       "epss": 0.00629,
@@ -325,7 +321,7 @@
       "dateAdded": "2026-10-02",
       "dueDate": "2026-10-05",
       "threatSignal": 69,
-      "movement24h": 34,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.4,
       "epss": 0.01396,
@@ -338,27 +334,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-102489"
     },
     {
-      "cveID": "CVE-2026-86950",
-      "vendorProject": "Apple",
-      "product": "Multiple Products",
-      "technology": "Other",
-      "vulnerabilityName": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
-      "dateAdded": "2026-09-29",
-      "dueDate": "2026-10-02",
-      "threatSignal": 68,
-      "movement24h": 0,
-      "movement7d": 47,
-      "cvssScore": 8.8,
-      "epss": 0.01242,
-      "epssPercentile": 0.68213,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-86950"
-    },
-    {
       "cveID": "CVE-2026-88779",
       "vendorProject": "Citrix",
       "product": "NetScaler",
@@ -367,7 +342,7 @@
       "dateAdded": "2026-10-04",
       "dueDate": "2026-10-07",
       "threatSignal": 66,
-      "movement24h": -1,
+      "movement24h": 1,
       "movement7d": 0,
       "cvssScore": 8.7,
       "epss": 0.00592,
@@ -381,10 +356,10 @@
     }
   ],
   "observations": [
-    "CISA added 6 actively exploited vulnerabilities during the last 7 days.",
-    "Other is the most represented technology category among this week's new KEVs (4).",
+    "CISA added 5 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (3).",
     "Zammad GmbH has the most new KEV entries this week (2).",
-    "CVE-2026-81578 is the largest 7-day rank riser, up 644 positions."
+    "CVE-2026-81578 is the largest 7-day rank riser, up 645 positions."
   ],
-  "executiveSummary": "CISA added 6 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (4). Zammad GmbH has the most new KEV entries this week (2). CVE-2026-81578 is the largest 7-day rank riser, up 644 positions."
+  "executiveSummary": "CISA added 5 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (3). Zammad GmbH has the most new KEV entries this week (2). CVE-2026-81578 is the largest 7-day rank riser, up 645 positions."
 }
