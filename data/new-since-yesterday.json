@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-10-13T14:20:01.753414+00:00",
+  "generatedAt": "2026-10-13T22:52:06.429309+00:00",
   "since": "2026-10-12",
-  "count": 0,
-  "vulnerabilities": []
+  "count": 2,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-96951",
+      "vendorProject": "Microsoft",
+      "product": "Windows",
+      "technology": "Operating Systems",
+      "vulnerabilityName": "Microsoft Windows Command Injection Vulnerability",
+      "dateAdded": "2026-10-13",
+      "dueDate": "2026-10-16",
+      "threatSignal": 67,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.8,
+      "epss": null,
+      "epssPercentile": null,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-96951"
+    },
+    {
+      "cveID": "CVE-2026-104935",
+      "vendorProject": "Ivanti",
+      "product": "Connect Secure",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+      "dateAdded": "2026-10-13",
+      "dueDate": "2026-10-16",
+      "threatSignal": 66,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.6,
+      "epss": null,
+      "epssPercentile": null,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-104935"
+    }
+  ]
 }
