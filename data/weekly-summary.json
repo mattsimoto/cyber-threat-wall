@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T00:48:18.461055+00:00",
+  "generatedAt": "2026-10-13T14:20:01.753414+00:00",
   "periodStart": "2026-10-07",
   "periodEnd": "2026-10-13",
   "newKEVs": 5,
@@ -201,8 +201,8 @@
       "dateAdded": "2026-08-31",
       "dueDate": "2026-09-14",
       "threatSignal": 76,
-      "movement24h": 0,
-      "movement7d": 31,
+      "movement24h": 1,
+      "movement7d": 32,
       "cvssScore": 9.4,
       "epss": 0.63532,
       "epssPercentile": 0.99198,

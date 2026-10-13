@@ -3,7 +3,7 @@
     "title": "CISA Catalog of Known Exploited Vulnerabilities",
     "catalogVersion": "2026.10.08",
     "catalogDateReleased": "2026-10-08T20:09:18.9833Z",
-    "generatedAt": "2026-10-13T00:48:18.461055+00:00",
+    "generatedAt": "2026-10-13T14:20:01.753414+00:00",
     "kevSource": "https://raw.githubusercontent.com/cisagov/kev-data/develop/known_exploited_vulnerabilities.json",
     "nvdSource": "https://services.nvd.nist.gov/rest/json/cves/2.0",
     "epssSource": "https://api.first.org/data/v1/epss",
@@ -76530,197 +76530,6 @@
       ]
     },
     {
-      "cveID": "CVE-2013-0431",
-      "vendorProject": "Oracle",
-      "product": "Java Runtime Environment (JRE)",
-      "vulnerabilityName": "Oracle JRE Sandbox Bypass Vulnerability",
-      "dateAdded": "2022-05-25",
-      "shortDescription": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle allows remote attackers to bypass the Java security sandbox.",
-      "requiredAction": "Apply updates per vendor instructions.",
-      "dueDate": "2022-06-15",
-      "knownRansomwareCampaignUse": "Known",
-      "forensicTriage": "No",
-      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2013-0431",
-      "cwes": [
-        "CWE-693"
-      ],
-      "cvssScore": 5.3,
-      "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-      "cvssVersion": "3.1",
-      "nvdPublished": "2013-01-31T14:55:01.327",
-      "nvdLastModified": "2026-08-14T05:16:52.243",
-      "networkExploitable": true,
-      "noPrivilegesRequired": true,
-      "publicExploit": false,
-      "epss": 0.9015,
-      "epssPercentile": 0.99797,
-      "epssDate": "2026-10-12",
-      "technology": "Storage / Backup",
-      "threatSignal": 79,
-      "signalFactors": [
-        "Confirmed active exploitation (CISA KEV) +35",
-        "CVSS 5.3 +11",
-        "EPSS 90.1% +18",
-        "Remediation urgency +5",
-        "Known ransomware use +10"
-      ],
-      "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
-      "rankHistory": [
-        {
-          "date": "2026-09-14",
-          "rank": 401,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-15",
-          "rank": 410,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-16",
-          "rank": 411,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-17",
-          "rank": 411,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-18",
-          "rank": 411,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-19",
-          "rank": 411,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-20",
-          "rank": 411,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-21",
-          "rank": 411,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-22",
-          "rank": 411,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-23",
-          "rank": 1199,
-          "signal": 61
-        },
-        {
-          "date": "2026-09-24",
-          "rank": 394,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-25",
-          "rank": 397,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-26",
-          "rank": 397,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-27",
-          "rank": 397,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-28",
-          "rank": 397,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-29",
-          "rank": 398,
-          "signal": 79
-        },
-        {
-          "date": "2026-09-30",
-          "rank": 398,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-01",
-          "rank": 399,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-02",
-          "rank": 398,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-03",
-          "rank": 397,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-04",
-          "rank": 398,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-05",
-          "rank": 398,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-06",
-          "rank": 398,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-07",
-          "rank": 397,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-08",
-          "rank": 401,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-09",
-          "rank": 401,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-10",
-          "rank": 401,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-11",
-          "rank": 402,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-12",
-          "rank": 403,
-          "signal": 79
-        },
-        {
-          "date": "2026-10-13",
-          "rank": 403,
-          "signal": 79
-        }
-      ]
-    },
-    {
       "cveID": "CVE-2010-0840",
       "vendorProject": "Oracle",
       "product": "Java Runtime Environment (JRE)",
@@ -76753,8 +76562,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -76903,7 +76712,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 404,
+          "rank": 403,
           "signal": 79
         }
       ]
@@ -76943,8 +76752,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -77093,7 +76902,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 405,
+          "rank": 404,
           "signal": 79
         }
       ]
@@ -77133,8 +76942,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -77283,7 +77092,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 406,
+          "rank": 405,
           "signal": 79
         }
       ]
@@ -77323,8 +77132,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -77473,7 +77282,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 407,
+          "rank": 406,
           "signal": 79
         }
       ]
@@ -77513,8 +77322,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -77663,7 +77472,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 408,
+          "rank": 407,
           "signal": 79
         }
       ]
@@ -77704,8 +77513,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -77854,7 +77663,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 409,
+          "rank": 408,
           "signal": 79
         }
       ]
@@ -77894,8 +77703,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -78044,7 +77853,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 410,
+          "rank": 409,
           "signal": 79
         }
       ]
@@ -78084,8 +77893,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -78234,7 +78043,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 411,
+          "rank": 410,
           "signal": 79
         }
       ]
@@ -78274,8 +78083,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -78424,7 +78233,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 412,
+          "rank": 411,
           "signal": 79
         }
       ]
@@ -78464,8 +78273,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -78614,7 +78423,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 413,
+          "rank": 412,
           "signal": 79
         }
       ]
@@ -78654,8 +78463,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -78804,7 +78613,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 414,
+          "rank": 413,
           "signal": 79
         }
       ]
@@ -78845,8 +78654,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -78995,7 +78804,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 415,
+          "rank": 414,
           "signal": 79
         }
       ]
@@ -79035,8 +78844,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -79185,7 +78994,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 416,
+          "rank": 415,
           "signal": 79
         }
       ]
@@ -79224,8 +79033,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -79374,7 +79183,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 417,
+          "rank": 416,
           "signal": 79
         }
       ]
@@ -79414,8 +79223,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -79564,7 +79373,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 418,
+          "rank": 417,
           "signal": 79
         }
       ]
@@ -79604,8 +79413,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -79754,7 +79563,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 419,
+          "rank": 418,
           "signal": 79
         }
       ]
@@ -79794,8 +79603,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -79944,7 +79753,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 420,
+          "rank": 419,
           "signal": 79
         }
       ]
@@ -79984,8 +79793,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -80134,7 +79943,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 421,
+          "rank": 420,
           "signal": 79
         }
       ]
@@ -80174,8 +79983,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -80324,7 +80133,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 422,
+          "rank": 421,
           "signal": 79
         }
       ]
@@ -80364,8 +80173,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -80514,7 +80323,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 423,
+          "rank": 422,
           "signal": 79
         }
       ]
@@ -80554,8 +80363,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -80704,7 +80513,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 424,
+          "rank": 423,
           "signal": 79
         }
       ]
@@ -80744,8 +80553,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -80894,7 +80703,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 425,
+          "rank": 424,
           "signal": 79
         }
       ]
@@ -80934,8 +80743,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -81084,7 +80893,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 426,
+          "rank": 425,
           "signal": 79
         }
       ]
@@ -81125,8 +80934,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -81275,7 +81084,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 427,
+          "rank": 426,
           "signal": 79
         }
       ]
@@ -81317,8 +81126,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -81467,7 +81276,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 428,
+          "rank": 427,
           "signal": 79
         }
       ]
@@ -81507,8 +81316,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -81657,7 +81466,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 429,
+          "rank": 428,
           "signal": 79
         }
       ]
@@ -81697,8 +81506,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -81847,7 +81656,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 430,
+          "rank": 429,
           "signal": 79
         }
       ]
@@ -81887,8 +81696,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -82037,7 +81846,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 431,
+          "rank": 430,
           "signal": 79
         }
       ]
@@ -82077,8 +81886,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -82227,7 +82036,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 432,
+          "rank": 431,
           "signal": 79
         }
       ]
@@ -82269,8 +82078,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -82419,7 +82228,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 433,
+          "rank": 432,
           "signal": 79
         }
       ]
@@ -82457,8 +82266,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -82607,7 +82416,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 434,
+          "rank": 433,
           "signal": 79
         }
       ]
@@ -82647,8 +82456,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -82797,7 +82606,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 435,
+          "rank": 434,
           "signal": 79
         }
       ]
@@ -82835,8 +82644,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -82985,7 +82794,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 436,
+          "rank": 435,
           "signal": 79
         }
       ]
@@ -83025,8 +82834,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 79,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -83175,7 +82984,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 437,
+          "rank": 436,
           "signal": 79
         }
       ]
@@ -83217,8 +83026,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -83367,7 +83176,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 438,
+          "rank": 437,
           "signal": 78
         }
       ]
@@ -83408,8 +83217,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -83558,7 +83367,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 439,
+          "rank": 438,
           "signal": 78
         }
       ]
@@ -83599,8 +83408,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -83749,7 +83558,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 440,
+          "rank": 439,
           "signal": 78
         }
       ]
@@ -83789,8 +83598,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -83939,7 +83748,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 441,
+          "rank": 440,
           "signal": 78
         }
       ]
@@ -83979,8 +83788,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -84129,7 +83938,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 442,
+          "rank": 441,
           "signal": 78
         }
       ]
@@ -84169,8 +83978,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -84319,7 +84128,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 443,
+          "rank": 442,
           "signal": 78
         }
       ]
@@ -84359,8 +84168,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -84509,7 +84318,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 444,
+          "rank": 443,
           "signal": 78
         }
       ]
@@ -84549,8 +84358,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -84699,7 +84508,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 445,
+          "rank": 444,
           "signal": 78
         }
       ]
@@ -84739,8 +84548,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -84889,7 +84698,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 446,
+          "rank": 445,
           "signal": 78
         }
       ]
@@ -84929,8 +84738,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -85079,7 +84888,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 447,
+          "rank": 446,
           "signal": 78
         }
       ]
@@ -85119,8 +84928,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -85269,7 +85078,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 448,
+          "rank": 447,
           "signal": 78
         }
       ]
@@ -85309,8 +85118,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -85459,7 +85268,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 449,
+          "rank": 448,
           "signal": 78
         }
       ]
@@ -85500,8 +85309,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -85650,7 +85459,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 450,
+          "rank": 449,
           "signal": 78
         }
       ]
@@ -85690,8 +85499,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -85840,7 +85649,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 451,
+          "rank": 450,
           "signal": 78
         }
       ]
@@ -85880,8 +85689,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -86030,7 +85839,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 452,
+          "rank": 451,
           "signal": 78
         }
       ]
@@ -86071,8 +85880,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -86221,7 +86030,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 453,
+          "rank": 452,
           "signal": 78
         }
       ]
@@ -86262,8 +86071,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -86412,7 +86221,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 454,
+          "rank": 453,
           "signal": 78
         }
       ]
@@ -86452,8 +86261,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -86602,7 +86411,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 455,
+          "rank": 454,
           "signal": 78
         }
       ]
@@ -86642,8 +86451,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -86792,7 +86601,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 456,
+          "rank": 455,
           "signal": 78
         }
       ]
@@ -86833,8 +86642,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -86983,7 +86792,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 457,
+          "rank": 456,
           "signal": 78
         }
       ]
@@ -87023,8 +86832,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -87173,7 +86982,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 458,
+          "rank": 457,
           "signal": 78
         }
       ]
@@ -87211,8 +87020,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -87361,7 +87170,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 459,
+          "rank": 458,
           "signal": 78
         }
       ]
@@ -87401,8 +87210,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -87551,7 +87360,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 460,
+          "rank": 459,
           "signal": 78
         }
       ]
@@ -87592,8 +87401,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -87742,7 +87551,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 461,
+          "rank": 460,
           "signal": 78
         }
       ]
@@ -87782,8 +87591,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -87932,7 +87741,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 462,
+          "rank": 461,
           "signal": 78
         }
       ]
@@ -87972,8 +87781,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -88122,7 +87931,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 463,
+          "rank": 462,
           "signal": 78
         }
       ]
@@ -88162,8 +87971,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -88312,7 +88121,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 464,
+          "rank": 463,
           "signal": 78
         }
       ]
@@ -88352,8 +88161,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -88502,7 +88311,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 465,
+          "rank": 464,
           "signal": 78
         }
       ]
@@ -88542,8 +88351,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -88692,7 +88501,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 466,
+          "rank": 465,
           "signal": 78
         }
       ]
@@ -88732,8 +88541,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -88882,7 +88691,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 467,
+          "rank": 466,
           "signal": 78
         }
       ]
@@ -88923,8 +88732,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -89073,7 +88882,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 468,
+          "rank": 467,
           "signal": 78
         }
       ]
@@ -89113,8 +88922,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -89263,7 +89072,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 469,
+          "rank": 468,
           "signal": 78
         }
       ]
@@ -89303,8 +89112,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -89453,7 +89262,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 470,
+          "rank": 469,
           "signal": 78
         }
       ]
@@ -89493,8 +89302,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -89643,7 +89452,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 471,
+          "rank": 470,
           "signal": 78
         }
       ]
@@ -89683,8 +89492,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -89833,7 +89642,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 472,
+          "rank": 471,
           "signal": 78
         }
       ]
@@ -89872,8 +89681,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -90022,7 +89831,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 473,
+          "rank": 472,
           "signal": 78
         }
       ]
@@ -90060,8 +89869,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -90210,7 +90019,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 474,
+          "rank": 473,
           "signal": 78
         }
       ]
@@ -90251,8 +90060,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -90401,7 +90210,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 475,
+          "rank": 474,
           "signal": 78
         }
       ]
@@ -90441,8 +90250,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -90591,7 +90400,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 476,
+          "rank": 475,
           "signal": 78
         }
       ]
@@ -90632,8 +90441,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -90782,7 +90591,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 477,
+          "rank": 476,
           "signal": 78
         }
       ]
@@ -90823,8 +90632,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -90973,7 +90782,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 478,
+          "rank": 477,
           "signal": 78
         }
       ]
@@ -91013,8 +90822,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -91163,7 +90972,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 479,
+          "rank": 478,
           "signal": 78
         }
       ]
@@ -91203,8 +91012,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 78,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -91353,7 +91162,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 480,
+          "rank": 479,
           "signal": 78
         }
       ]
@@ -91394,8 +91203,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -91544,7 +91353,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 481,
+          "rank": 480,
           "signal": 77
         }
       ]
@@ -91585,8 +91394,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -91735,7 +91544,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 482,
+          "rank": 481,
           "signal": 77
         }
       ]
@@ -91777,8 +91586,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -91927,7 +91736,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 483,
+          "rank": 482,
           "signal": 77
         }
       ]
@@ -91968,8 +91777,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -92118,7 +91927,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 484,
+          "rank": 483,
           "signal": 77
         }
       ]
@@ -92159,8 +91968,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -92309,7 +92118,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 485,
+          "rank": 484,
           "signal": 77
         }
       ]
@@ -92350,8 +92159,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -92500,7 +92309,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 486,
+          "rank": 485,
           "signal": 77
         }
       ]
@@ -92541,8 +92350,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -92691,7 +92500,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 487,
+          "rank": 486,
           "signal": 77
         }
       ]
@@ -92731,8 +92540,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -119,
+      "movement24h": 1,
+      "movement7d": -118,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -92881,7 +92690,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 488,
+          "rank": 487,
           "signal": 77
         }
       ]
@@ -92921,8 +92730,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -93071,7 +92880,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 489,
+          "rank": 488,
           "signal": 77
         }
       ]
@@ -93112,8 +92921,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -93262,7 +93071,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 490,
+          "rank": 489,
           "signal": 77
         }
       ]
@@ -93302,8 +93111,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -93452,7 +93261,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 491,
+          "rank": 490,
           "signal": 77
         }
       ]
@@ -93492,8 +93301,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -93642,7 +93451,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 492,
+          "rank": 491,
           "signal": 77
         }
       ]
@@ -93682,8 +93491,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -93832,7 +93641,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 493,
+          "rank": 492,
           "signal": 77
         }
       ]
@@ -93872,8 +93681,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -94022,7 +93831,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 494,
+          "rank": 493,
           "signal": 77
         }
       ]
@@ -94062,8 +93871,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -94212,7 +94021,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 495,
+          "rank": 494,
           "signal": 77
         }
       ]
@@ -94252,8 +94061,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -94402,7 +94211,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 496,
+          "rank": 495,
           "signal": 77
         }
       ]
@@ -94442,8 +94251,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -94592,7 +94401,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 497,
+          "rank": 496,
           "signal": 77
         }
       ]
@@ -94633,8 +94442,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -94783,7 +94592,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 498,
+          "rank": 497,
           "signal": 77
         }
       ]
@@ -94823,8 +94632,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -94973,7 +94782,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 499,
+          "rank": 498,
           "signal": 77
         }
       ]
@@ -95013,8 +94822,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -95163,7 +94972,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 500,
+          "rank": 499,
           "signal": 77
         }
       ]
@@ -95205,8 +95014,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -95355,7 +95164,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 501,
+          "rank": 500,
           "signal": 77
         }
       ]
@@ -95395,8 +95204,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -95545,7 +95354,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 502,
+          "rank": 501,
           "signal": 77
         }
       ]
@@ -95569,7 +95378,7 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "cvssVersion": "3.1",
       "nvdPublished": "2010-04-28T22:30:00.793",
-      "nvdLastModified": "2026-08-14T05:16:51.240",
+      "nvdLastModified": "2026-10-02T14:55:25.677",
       "networkExploitable": true,
       "noPrivilegesRequired": true,
       "publicExploit": true,
@@ -95586,8 +95395,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -95736,7 +95545,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 503,
+          "rank": 502,
           "signal": 77
         }
       ]
@@ -95760,7 +95569,7 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
       "cvssVersion": "3.1",
       "nvdPublished": "2010-04-28T22:30:00.447",
-      "nvdLastModified": "2026-08-14T05:16:51.000",
+      "nvdLastModified": "2026-10-02T14:55:30.687",
       "networkExploitable": true,
       "noPrivilegesRequired": true,
       "publicExploit": true,
@@ -95777,8 +95586,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -95927,7 +95736,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 504,
+          "rank": 503,
           "signal": 77
         }
       ]
@@ -95965,8 +95774,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -96115,7 +95924,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 505,
+          "rank": 504,
           "signal": 77
         }
       ]
@@ -96155,8 +95964,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -96305,7 +96114,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 506,
+          "rank": 505,
           "signal": 77
         }
       ]
@@ -96345,8 +96154,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -96495,7 +96304,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 507,
+          "rank": 506,
           "signal": 77
         }
       ]
@@ -96535,8 +96344,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -96685,7 +96494,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 508,
+          "rank": 507,
           "signal": 77
         }
       ]
@@ -96725,8 +96534,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -96875,7 +96684,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 509,
+          "rank": 508,
           "signal": 77
         }
       ]
@@ -96915,8 +96724,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -97065,7 +96874,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 510,
+          "rank": 509,
           "signal": 77
         }
       ]
@@ -97105,8 +96914,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -97255,7 +97064,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 511,
+          "rank": 510,
           "signal": 77
         }
       ]
@@ -97296,8 +97105,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -97446,7 +97255,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 512,
+          "rank": 511,
           "signal": 77
         }
       ]
@@ -97487,8 +97296,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -97637,7 +97446,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 513,
+          "rank": 512,
           "signal": 77
         }
       ]
@@ -97677,8 +97486,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -97827,7 +97636,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 514,
+          "rank": 513,
           "signal": 77
         }
       ]
@@ -97866,8 +97675,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -98016,7 +97825,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 515,
+          "rank": 514,
           "signal": 77
         }
       ]
@@ -98056,8 +97865,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -98206,7 +98015,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 516,
+          "rank": 515,
           "signal": 77
         }
       ]
@@ -98246,8 +98055,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -98396,7 +98205,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 517,
+          "rank": 516,
           "signal": 77
         }
       ]
@@ -98436,8 +98245,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -98586,7 +98395,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 518,
+          "rank": 517,
           "signal": 77
         }
       ]
@@ -98626,8 +98435,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -98776,7 +98585,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 519,
+          "rank": 518,
           "signal": 77
         }
       ]
@@ -98816,8 +98625,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -98966,7 +98775,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 520,
+          "rank": 519,
           "signal": 77
         }
       ]
@@ -99006,8 +98815,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -99156,7 +98965,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 521,
+          "rank": 520,
           "signal": 77
         }
       ]
@@ -99196,8 +99005,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -99346,7 +99155,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 522,
+          "rank": 521,
           "signal": 77
         }
       ]
@@ -99386,8 +99195,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -99536,7 +99345,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 523,
+          "rank": 522,
           "signal": 77
         }
       ]
@@ -99576,8 +99385,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -99726,7 +99535,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 524,
+          "rank": 523,
           "signal": 77
         }
       ]
@@ -99766,8 +99575,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -99916,7 +99725,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 525,
+          "rank": 524,
           "signal": 77
         }
       ]
@@ -99956,8 +99765,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -100106,7 +99915,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 526,
+          "rank": 525,
           "signal": 77
         }
       ]
@@ -100147,8 +99956,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -100297,7 +100106,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 527,
+          "rank": 526,
           "signal": 77
         }
       ]
@@ -100337,8 +100146,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -100487,7 +100296,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 528,
+          "rank": 527,
           "signal": 77
         }
       ]
@@ -100527,8 +100336,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 77,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -100677,7 +100486,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 529,
+          "rank": 528,
           "signal": 77
         }
       ]
@@ -100718,8 +100527,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": 31,
+      "movement24h": 1,
+      "movement7d": 32,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -100868,7 +100677,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 530,
+          "rank": 529,
           "signal": 76
         }
       ]
@@ -100909,8 +100718,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": 1,
+      "movement7d": -5,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -101059,7 +100868,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 531,
+          "rank": 530,
           "signal": 76
         }
       ]
@@ -101100,8 +100909,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": 1,
+      "movement7d": -5,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -101250,7 +101059,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 532,
+          "rank": 531,
           "signal": 76
         }
       ]
@@ -101292,8 +101101,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": 1,
+      "movement7d": -5,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -101442,7 +101251,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 533,
+          "rank": 532,
           "signal": 76
         }
       ]
@@ -101483,8 +101292,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": 1,
+      "movement7d": -5,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -101633,7 +101442,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 534,
+          "rank": 533,
           "signal": 76
         }
       ]
@@ -101674,8 +101483,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": 1,
+      "movement7d": -5,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -101824,7 +101633,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 535,
+          "rank": 534,
           "signal": 76
         }
       ]
@@ -101865,8 +101674,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": 1,
+      "movement7d": -5,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -102015,7 +101824,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 536,
+          "rank": 535,
           "signal": 76
         }
       ]
@@ -102056,8 +101865,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": 1,
+      "movement7d": -5,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -102206,7 +102015,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 537,
+          "rank": 536,
           "signal": 76
         }
       ]
@@ -102248,8 +102057,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": 1,
+      "movement7d": -5,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -102398,7 +102207,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 538,
+          "rank": 537,
           "signal": 76
         }
       ]
@@ -102439,8 +102248,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": 1,
+      "movement7d": -5,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -102589,7 +102398,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 539,
+          "rank": 538,
           "signal": 76
         }
       ]
@@ -102630,8 +102439,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -6,
+      "movement24h": 1,
+      "movement7d": -5,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -102780,7 +102589,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 540,
+          "rank": 539,
           "signal": 76
         }
       ]
@@ -102821,8 +102630,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -102971,7 +102780,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 541,
+          "rank": 540,
           "signal": 76
         }
       ]
@@ -103011,8 +102820,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -103161,7 +102970,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 542,
+          "rank": 541,
           "signal": 76
         }
       ]
@@ -103201,8 +103010,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -103351,7 +103160,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 543,
+          "rank": 542,
           "signal": 76
         }
       ]
@@ -103391,8 +103200,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -103541,7 +103350,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 544,
+          "rank": 543,
           "signal": 76
         }
       ]
@@ -103581,8 +103390,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -103731,7 +103540,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 545,
+          "rank": 544,
           "signal": 76
         }
       ]
@@ -103769,8 +103578,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -103919,7 +103728,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 546,
+          "rank": 545,
           "signal": 76
         }
       ]
@@ -103961,8 +103770,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -104111,7 +103920,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 547,
+          "rank": 546,
           "signal": 76
         }
       ]
@@ -104151,8 +103960,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -104301,7 +104110,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 548,
+          "rank": 547,
           "signal": 76
         }
       ]
@@ -104340,8 +104149,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -104490,7 +104299,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 549,
+          "rank": 548,
           "signal": 76
         }
       ]
@@ -104516,7 +104325,7 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "3.1",
       "nvdPublished": "2020-10-28T18:15:12.647",
-      "nvdLastModified": "2026-08-13T05:17:17.430",
+      "nvdLastModified": "2026-10-02T04:17:58.520",
       "networkExploitable": true,
       "noPrivilegesRequired": true,
       "publicExploit": false,
@@ -104533,8 +104342,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -104683,7 +104492,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 550,
+          "rank": 549,
           "signal": 76
         }
       ]
@@ -104723,8 +104532,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -104873,7 +104682,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 551,
+          "rank": 550,
           "signal": 76
         }
       ]
@@ -104912,8 +104721,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -105062,7 +104871,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 552,
+          "rank": 551,
           "signal": 76
         }
       ]
@@ -105102,8 +104911,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -105252,7 +105061,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 553,
+          "rank": 552,
           "signal": 76
         }
       ]
@@ -105293,8 +105102,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -105443,7 +105252,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 554,
+          "rank": 553,
           "signal": 76
         }
       ]
@@ -105481,8 +105290,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -105631,7 +105440,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 555,
+          "rank": 554,
           "signal": 76
         }
       ]
@@ -105671,8 +105480,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -105821,7 +105630,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 556,
+          "rank": 555,
           "signal": 76
         }
       ]
@@ -105861,8 +105670,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -106011,7 +105820,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 557,
+          "rank": 556,
           "signal": 76
         }
       ]
@@ -106051,8 +105860,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -106201,7 +106010,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 558,
+          "rank": 557,
           "signal": 76
         }
       ]
@@ -106239,8 +106048,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -106389,7 +106198,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 559,
+          "rank": 558,
           "signal": 76
         }
       ]
@@ -106429,8 +106238,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -106579,7 +106388,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 560,
+          "rank": 559,
           "signal": 76
         }
       ]
@@ -106619,8 +106428,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -106769,7 +106578,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 561,
+          "rank": 560,
           "signal": 76
         }
       ]
@@ -106809,8 +106618,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -106959,7 +106768,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 562,
+          "rank": 561,
           "signal": 76
         }
       ]
@@ -106997,8 +106806,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -107147,7 +106956,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 563,
+          "rank": 562,
           "signal": 76
         }
       ]
@@ -107187,8 +106996,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -107337,7 +107146,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 564,
+          "rank": 563,
           "signal": 76
         }
       ]
@@ -107377,8 +107186,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 76,
-      "movement24h": 0,
-      "movement7d": -5,
+      "movement24h": 1,
+      "movement7d": -4,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -107527,7 +107336,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 565,
+          "rank": 564,
           "signal": 76
         }
       ]
@@ -107569,8 +107378,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 75,
-      "movement24h": 0,
-      "movement7d": -4,
+      "movement24h": 1,
+      "movement7d": -3,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -107719,7 +107528,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 566,
+          "rank": 565,
           "signal": 75
         }
       ]
@@ -107761,8 +107570,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 0,
-      "movement7d": -4,
+      "movement24h": 1,
+      "movement7d": -3,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -107911,7 +107720,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 567,
+          "rank": 566,
           "signal": 75
         }
       ]
@@ -107953,8 +107762,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -3,
+      "movement24h": 2,
+      "movement7d": -2,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -108103,7 +107912,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 568,
+          "rank": 567,
           "signal": 75
         }
       ]
@@ -108144,8 +107953,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -3,
+      "movement24h": 2,
+      "movement7d": -2,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -108294,7 +108103,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 569,
+          "rank": 568,
           "signal": 75
         }
       ]
@@ -108336,8 +108145,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -3,
+      "movement24h": 2,
+      "movement7d": -2,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -108486,7 +108295,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 570,
+          "rank": 569,
           "signal": 75
         }
       ]
@@ -108527,8 +108336,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -3,
+      "movement24h": 2,
+      "movement7d": -2,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -108677,7 +108486,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 571,
+          "rank": 570,
           "signal": 75
         }
       ]
@@ -108718,8 +108527,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -3,
+      "movement24h": 2,
+      "movement7d": -2,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -108868,7 +108677,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 572,
+          "rank": 571,
           "signal": 75
         }
       ]
@@ -108908,8 +108717,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -90,
+      "movement24h": 2,
+      "movement7d": -89,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -109058,7 +108867,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 573,
+          "rank": 572,
           "signal": 75
         }
       ]
@@ -109096,8 +108905,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -109246,7 +109055,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 574,
+          "rank": 573,
           "signal": 75
         }
       ]
@@ -109286,8 +109095,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -109436,7 +109245,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 575,
+          "rank": 574,
           "signal": 75
         }
       ]
@@ -109476,8 +109285,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -109626,7 +109435,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 576,
+          "rank": 575,
           "signal": 75
         }
       ]
@@ -109666,8 +109475,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -109816,7 +109625,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 577,
+          "rank": 576,
           "signal": 75
         }
       ]
@@ -109856,8 +109665,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -110006,7 +109815,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 578,
+          "rank": 577,
           "signal": 75
         }
       ]
@@ -110046,8 +109855,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -110196,7 +110005,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 579,
+          "rank": 578,
           "signal": 75
         }
       ]
@@ -110236,8 +110045,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -110386,7 +110195,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 580,
+          "rank": 579,
           "signal": 75
         }
       ]
@@ -110426,8 +110235,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -110576,7 +110385,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 581,
+          "rank": 580,
           "signal": 75
         }
       ]
@@ -110617,8 +110426,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -110767,7 +110576,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 582,
+          "rank": 581,
           "signal": 75
         }
       ]
@@ -110807,8 +110616,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -110957,7 +110766,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 583,
+          "rank": 582,
           "signal": 75
         }
       ]
@@ -110998,8 +110807,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -111148,7 +110957,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 584,
+          "rank": 583,
           "signal": 75
         }
       ]
@@ -111188,8 +110997,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -111338,7 +111147,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 585,
+          "rank": 584,
           "signal": 75
         }
       ]
@@ -111378,8 +111187,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -111528,7 +111337,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 586,
+          "rank": 585,
           "signal": 75
         }
       ]
@@ -111568,8 +111377,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -111718,7 +111527,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 587,
+          "rank": 586,
           "signal": 75
         }
       ]
@@ -111758,8 +111567,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -111908,7 +111717,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 588,
+          "rank": 587,
           "signal": 75
         }
       ]
@@ -111949,8 +111758,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -112099,7 +111908,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 589,
+          "rank": 588,
           "signal": 75
         }
       ]
@@ -112139,8 +111948,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -112289,7 +112098,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 590,
+          "rank": 589,
           "signal": 75
         }
       ]
@@ -112329,8 +112138,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -112479,7 +112288,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 591,
+          "rank": 590,
           "signal": 75
         }
       ]
@@ -112519,8 +112328,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -112669,7 +112478,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 592,
+          "rank": 591,
           "signal": 75
         }
       ]
@@ -112709,8 +112518,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -112859,7 +112668,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 593,
+          "rank": 592,
           "signal": 75
         }
       ]
@@ -112900,8 +112709,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -113050,7 +112859,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 594,
+          "rank": 593,
           "signal": 75
         }
       ]
@@ -113091,8 +112900,8 @@
         "Known ransomware use +10"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -113241,7 +113050,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 595,
+          "rank": 594,
           "signal": 75
         }
       ]
@@ -113282,8 +113091,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -113432,7 +113241,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 596,
+          "rank": 595,
           "signal": 75
         }
       ]
@@ -113472,8 +113281,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -113622,7 +113431,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 597,
+          "rank": 596,
           "signal": 75
         }
       ]
@@ -113660,8 +113469,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -113810,7 +113619,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 598,
+          "rank": 597,
           "signal": 75
         }
       ]
@@ -113850,8 +113659,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -114000,7 +113809,7 @@
         },
         {
           "date": "2026-10-13",
-          "rank": 599,
+          "rank": 598,
           "signal": 75
         }
       ]
@@ -114040,8 +113849,8 @@
         "Remediation urgency +5"
       ],
       "threatScore": 75,
-      "movement24h": 1,
-      "movement7d": -2,
+      "movement24h": 2,
+      "movement7d": -1,
       "rankHistory": [
         {
           "date": "2026-09-14",
@@ -114187,6 +113996,197 @@
           "date": "2026-10-12",
           "rank": 601,
           "signal": 75
+        },
+        {
+          "date": "2026-10-13",
+          "rank": 599,
+          "signal": 75
+        }
+      ]
+    },
+    {
+      "cveID": "CVE-2013-0431",
+      "vendorProject": "Oracle",
+      "product": "Java Runtime Environment (JRE)",
+      "vulnerabilityName": "Oracle JRE Sandbox Bypass Vulnerability",
+      "dateAdded": "2022-05-25",
+      "shortDescription": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle allows remote attackers to bypass the Java security sandbox.",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "dueDate": "2022-06-15",
+      "knownRansomwareCampaignUse": "Known",
+      "forensicTriage": "No",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2013-0431",
+      "cwes": [
+        "CWE-693"
+      ],
+      "cvssScore": 3.7,
+      "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "cvssVersion": "3.1",
+      "nvdPublished": "2013-01-31T14:55:01.327",
+      "nvdLastModified": "2026-10-02T14:55:14.407",
+      "networkExploitable": true,
+      "noPrivilegesRequired": true,
+      "publicExploit": false,
+      "epss": 0.9015,
+      "epssPercentile": 0.99797,
+      "epssDate": "2026-10-12",
+      "technology": "Storage / Backup",
+      "threatSignal": 75,
+      "signalFactors": [
+        "Confirmed active exploitation (CISA KEV) +35",
+        "CVSS 3.7 +7",
+        "EPSS 90.1% +18",
+        "Remediation urgency +5",
+        "Known ransomware use +10"
+      ],
+      "threatScore": 75,
+      "movement24h": -197,
+      "movement7d": -202,
+      "rankHistory": [
+        {
+          "date": "2026-09-14",
+          "rank": 401,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-15",
+          "rank": 410,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-16",
+          "rank": 411,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-17",
+          "rank": 411,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-18",
+          "rank": 411,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-19",
+          "rank": 411,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-20",
+          "rank": 411,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-21",
+          "rank": 411,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-22",
+          "rank": 411,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-23",
+          "rank": 1199,
+          "signal": 61
+        },
+        {
+          "date": "2026-09-24",
+          "rank": 394,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-25",
+          "rank": 397,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-26",
+          "rank": 397,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-27",
+          "rank": 397,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-28",
+          "rank": 397,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-29",
+          "rank": 398,
+          "signal": 79
+        },
+        {
+          "date": "2026-09-30",
+          "rank": 398,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-01",
+          "rank": 399,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-02",
+          "rank": 398,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-03",
+          "rank": 397,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-04",
+          "rank": 398,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-05",
+          "rank": 398,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-06",
+          "rank": 398,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-07",
+          "rank": 397,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-08",
+          "rank": 401,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-09",
+          "rank": 401,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-10",
+          "rank": 401,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-11",
+          "rank": 402,
+          "signal": 79
+        },
+        {
+          "date": "2026-10-12",
+          "rank": 403,
+          "signal": 79
         },
         {
           "date": "2026-10-13",
@@ -142976,7 +142976,7 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "3.1",
       "nvdPublished": "2012-05-03T22:55:02.967",
-      "nvdLastModified": "2026-08-04T05:16:24.223",
+      "nvdLastModified": "2026-10-01T20:17:14.953",
       "networkExploitable": true,
       "noPrivilegesRequired": true,
       "publicExploit": false,
@@ -174018,7 +174018,7 @@
       "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "cvssVersion": "3.1",
       "nvdPublished": "2020-10-28T18:15:12.740",
-      "nvdLastModified": "2026-08-13T05:17:17.627",
+      "nvdLastModified": "2026-10-01T20:17:17.020",
       "networkExploitable": true,
       "noPrivilegesRequired": true,
       "publicExploit": false,
