@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-10-14T21:47:40.947097+00:00",
-  "periodStart": "2026-10-08",
-  "periodEnd": "2026-10-14",
-  "newKEVs": 7,
+  "generatedAt": "2026-10-15T04:48:35.126334+00:00",
+  "periodStart": "2026-10-09",
+  "periodEnd": "2026-10-15",
+  "newKEVs": 11,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
+    {
+      "vendor": "Ahsay",
+      "count": 2
+    },
     {
       "vendor": "ProFTPD",
       "count": 1
@@ -26,7 +30,15 @@
       "count": 1
     },
     {
+      "vendor": "Cisco",
+      "count": 1
+    },
+    {
       "vendor": "Microsoft",
+      "count": 1
+    },
+    {
+      "vendor": "Palo Alto Networks",
       "count": 1
     },
     {
@@ -37,7 +49,11 @@
   "topTechnologies": [
     {
       "technology": "Other",
-      "count": 2
+      "count": 3
+    },
+    {
+      "technology": "Network Edge / VPN",
+      "count": 3
     },
     {
       "technology": "Web Applications / CMS",
@@ -48,15 +64,15 @@
       "count": 1
     },
     {
-      "technology": "Network Edge / VPN",
-      "count": 1
-    },
-    {
       "technology": "Operating Systems",
       "count": 1
     },
     {
       "technology": "Storage / Backup",
+      "count": 1
+    },
+    {
+      "technology": "Identity / Access",
       "count": 1
     }
   ],
@@ -71,7 +87,7 @@
       "dueDate": "2026-09-14",
       "threatSignal": 83,
       "movement24h": 0,
-      "movement7d": 808,
+      "movement7d": 812,
       "cvssScore": 10.0,
       "epss": 0.92956,
       "epssPercentile": 0.99833,
@@ -92,7 +108,7 @@
       "dueDate": "2026-06-15",
       "threatSignal": 91,
       "movement24h": 0,
-      "movement7d": 628,
+      "movement7d": 632,
       "cvssScore": 9.8,
       "epss": 0.96678,
       "epssPercentile": 0.99885,
@@ -104,25 +120,46 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-35273"
     },
     {
-      "cveID": "CVE-2026-50751",
-      "vendorProject": "Check Point",
-      "product": "Security Gateway",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Check Point Security Gateway Improper Authentication Vulnerability",
-      "dateAdded": "2026-06-08",
-      "dueDate": "2026-06-11",
-      "threatSignal": 88,
+      "cveID": "CVE-2021-3199",
+      "vendorProject": "ONLYOFFICE",
+      "product": "Docs",
+      "technology": "Enterprise Software",
+      "vulnerabilityName": "ONLYOFFICE Docs Server Path Traversal Vulnerability",
+      "dateAdded": "2026-10-08",
+      "dueDate": "2026-10-11",
+      "threatSignal": 74,
       "movement24h": 0,
-      "movement7d": 623,
-      "cvssScore": 9.3,
-      "epss": 0.85338,
-      "epssPercentile": 0.99717,
-      "knownRansomwareCampaignUse": "Known",
+      "movement7d": 138,
+      "cvssScore": 9.8,
+      "epss": 0.19352,
+      "epssPercentile": 0.97315,
+      "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
-      "publicExploit": false,
+      "publicExploit": true,
       "noPrivilegesRequired": true,
-      "shortDescription": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-50751"
+      "shortDescription": "ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2021-3199"
+    },
+    {
+      "cveID": "CVE-2023-22894",
+      "vendorProject": "Strapi",
+      "product": "Strapi",
+      "technology": "Storage / Backup",
+      "vulnerabilityName": "Strapi Cleartext Storage of Sensitive Information Vulnerability",
+      "dateAdded": "2026-10-08",
+      "dueDate": "2026-10-11",
+      "threatSignal": 61,
+      "movement24h": -3,
+      "movement7d": 137,
+      "cvssScore": 4.9,
+      "epss": 0.03609,
+      "epssPercentile": 0.89292,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": true,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with CVE-2023-22621 to achieve remote code execution. ",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2023-22894"
     },
     {
       "cveID": "CVE-2024-11182",
@@ -133,8 +170,8 @@
       "dateAdded": "2025-05-19",
       "dueDate": "2025-06-09",
       "threatSignal": 57,
-      "movement24h": -1,
-      "movement7d": 123,
+      "movement24h": -4,
+      "movement7d": 124,
       "cvssScore": 5.3,
       "epss": 0.31355,
       "epssPercentile": 0.98259,
@@ -154,8 +191,8 @@
       "dateAdded": "2023-06-07",
       "dueDate": "2023-06-28",
       "threatSignal": 66,
-      "movement24h": 0,
-      "movement7d": 100,
+      "movement24h": -1,
+      "movement7d": 103,
       "cvssScore": 8.8,
       "epss": 0.37858,
       "epssPercentile": 0.98529,
@@ -167,6 +204,27 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2023-3079"
     },
     {
+      "cveID": "CVE-2015-3306",
+      "vendorProject": "ProFTPD",
+      "product": "ProFTPD",
+      "technology": "Other",
+      "vulnerabilityName": "ProFTPD Improper Access Control Vulnerability",
+      "dateAdded": "2026-10-08",
+      "dueDate": "2026-10-11",
+      "threatSignal": 90,
+      "movement24h": 0,
+      "movement7d": 96,
+      "cvssScore": 10.0,
+      "epss": 0.99497,
+      "epssPercentile": 0.99945,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": true,
+      "noPrivilegesRequired": true,
+      "shortDescription": "ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2015-3306"
+    },
+    {
       "cveID": "CVE-2025-53690",
       "vendorProject": "Sitecore",
       "product": "Multiple Products",
@@ -175,8 +233,8 @@
       "dateAdded": "2025-09-04",
       "dueDate": "2025-09-25",
       "threatSignal": 70,
-      "movement24h": -1,
-      "movement7d": 77,
+      "movement24h": 0,
+      "movement7d": 80,
       "cvssScore": 9.0,
       "epss": 0.60601,
       "epssPercentile": 0.99135,
@@ -196,8 +254,8 @@
       "dateAdded": "2025-09-03",
       "dueDate": "2025-09-24",
       "threatSignal": 57,
-      "movement24h": 64,
-      "movement7d": 56,
+      "movement24h": -4,
+      "movement7d": 57,
       "cvssScore": 6.5,
       "epss": 0.20021,
       "epssPercentile": 0.97406,
@@ -209,48 +267,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2023-50224"
     },
     {
-      "cveID": "CVE-2025-9377",
-      "vendorProject": "TP-Link",
-      "product": "Multiple Routers",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "TP-Link Archer C7(EU) and TL-WR841N/ND(MS) OS Command Injection Vulnerability",
-      "dateAdded": "2025-09-03",
-      "dueDate": "2025-09-24",
-      "threatSignal": 65,
-      "movement24h": -1,
-      "movement7d": 41,
-      "cvssScore": 8.6,
-      "epss": 0.37731,
-      "epssPercentile": 0.98525,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "TP-Link Archer C7(EU) and TL-WR841N/ND(MS) contain an OS command injection vulnerability that exists in the Parental Control page. The impacted products could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2025-9377"
-    },
-    {
-      "cveID": "CVE-2025-66376",
-      "vendorProject": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "technology": "Email / Collaboration",
-      "vulnerabilityName": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting Vulnerability",
-      "dateAdded": "2026-03-18",
-      "dueDate": "2026-04-01",
-      "threatSignal": 58,
-      "movement24h": 1,
-      "movement7d": 40,
-      "cvssScore": 6.1,
-      "epss": 0.20227,
-      "epssPercentile": 0.97433,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability in the Classic UI where attackers could abuse Cascading Style Sheets (CSS) @import directives in email HTML.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2025-66376"
-    },
-    {
       "cveID": "CVE-2014-1761",
       "vendorProject": "Microsoft",
       "product": "Word",
@@ -259,8 +275,8 @@
       "dateAdded": "2022-02-15",
       "dueDate": "2022-08-15",
       "threatSignal": 72,
-      "movement24h": 0,
-      "movement7d": 39,
+      "movement24h": 2,
+      "movement7d": 45,
       "cvssScore": 7.8,
       "epss": 0.77734,
       "epssPercentile": 0.99564,
@@ -283,7 +299,7 @@
       "dueDate": "2026-10-11",
       "threatSignal": 90,
       "movement24h": 0,
-      "movement7d": 0,
+      "movement7d": 96,
       "cvssScore": 10.0,
       "epss": 0.99497,
       "epssPercentile": 0.99945,
@@ -304,7 +320,7 @@
       "dueDate": "2026-10-11",
       "threatSignal": 85,
       "movement24h": 0,
-      "movement7d": 0,
+      "movement7d": 36,
       "cvssScore": 7.5,
       "epss": 0.99409,
       "epssPercentile": 0.99942,
@@ -325,7 +341,7 @@
       "dueDate": "2026-10-11",
       "threatSignal": 85,
       "movement24h": 0,
-      "movement7d": 0,
+      "movement7d": 12,
       "cvssScore": 8.1,
       "epss": 0.96052,
       "epssPercentile": 0.99878,
@@ -346,7 +362,7 @@
       "dueDate": "2026-10-11",
       "threatSignal": 74,
       "movement24h": 0,
-      "movement7d": 0,
+      "movement7d": 138,
       "cvssScore": 9.8,
       "epss": 0.19352,
       "epssPercentile": 0.97315,
@@ -366,7 +382,7 @@
       "dateAdded": "2026-10-13",
       "dueDate": "2026-10-16",
       "threatSignal": 71,
-      "movement24h": 218,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 8.6,
       "epss": 0.25982,
@@ -379,6 +395,48 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-104935"
     },
     {
+      "cveID": "CVE-2026-76519",
+      "vendorProject": "Cisco",
+      "product": "Secure Email Gateway",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+      "dateAdded": "2026-10-14",
+      "dueDate": "2026-10-17",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.8,
+      "epss": null,
+      "epssPercentile": null,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76519"
+    },
+    {
+      "cveID": "CVE-2026-105134",
+      "vendorProject": "Ahsay",
+      "product": "AhsayCBS",
+      "technology": "Other",
+      "vulnerabilityName": "Ahsay AhsayCBS Command Injection Vulnerability",
+      "dateAdded": "2026-10-14",
+      "dueDate": "2026-10-17",
+      "threatSignal": 68,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.3,
+      "epss": 0.01843,
+      "epssPercentile": 0.78594,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component\u2019s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be chained with CVE-2026-105133.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-105134"
+    },
+    {
       "cveID": "CVE-2026-96951",
       "vendorProject": "Microsoft",
       "product": "Windows",
@@ -387,7 +445,7 @@
       "dateAdded": "2026-10-13",
       "dueDate": "2026-10-16",
       "threatSignal": 67,
-      "movement24h": -1,
+      "movement24h": -2,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.01506,
@@ -400,6 +458,27 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-96951"
     },
     {
+      "cveID": "CVE-2026-0322",
+      "vendorProject": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Palo Alto Networks PAN-OS Code Injection Vulnerability",
+      "dateAdded": "2026-10-14",
+      "dueDate": "2026-10-17",
+      "threatSignal": 66,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.6,
+      "epss": null,
+      "epssPercentile": null,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-0322"
+    },
+    {
       "cveID": "CVE-2023-22894",
       "vendorProject": "Strapi",
       "product": "Strapi",
@@ -408,8 +487,8 @@
       "dateAdded": "2026-10-08",
       "dueDate": "2026-10-11",
       "threatSignal": 61,
-      "movement24h": 0,
-      "movement7d": 0,
+      "movement24h": -3,
+      "movement7d": 137,
       "cvssScore": 4.9,
       "epss": 0.03609,
       "epssPercentile": 0.89292,
@@ -422,10 +501,10 @@
     }
   ],
   "observations": [
-    "CISA added 7 actively exploited vulnerabilities during the last 7 days.",
-    "Other is the most represented technology category among this week's new KEVs (2).",
-    "ProFTPD has the most new KEV entries this week (1).",
-    "CVE-2026-85706 is the largest 7-day rank riser, up 808 positions."
+    "CISA added 11 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (3).",
+    "Ahsay has the most new KEV entries this week (2).",
+    "CVE-2026-85706 is the largest 7-day rank riser, up 812 positions."
   ],
-  "executiveSummary": "CISA added 7 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (2). ProFTPD has the most new KEV entries this week (1). CVE-2026-85706 is the largest 7-day rank riser, up 808 positions."
+  "executiveSummary": "CISA added 11 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (3). Ahsay has the most new KEV entries this week (2). CVE-2026-85706 is the largest 7-day rank riser, up 812 positions."
 }
