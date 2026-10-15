@@ -17686,7 +17686,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-12319": {
-    "fetchedAt": "2026-09-12T10:50:48.176866+00:00",
+    "fetchedAt": "2026-10-15T11:33:52.605837+00:00",
     "cvssScore": 5.9,
     "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "cvssVersion": "3.1",
@@ -17700,7 +17700,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-12240": {
-    "fetchedAt": "2026-09-12T10:50:54.670147+00:00",
+    "fetchedAt": "2026-10-15T11:33:58.955707+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17715,7 +17715,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-12238": {
-    "fetchedAt": "2026-09-12T10:51:01.292503+00:00",
+    "fetchedAt": "2026-10-15T11:34:05.310955+00:00",
     "cvssScore": 6.5,
     "cvssVector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "cvssVersion": "3.1",
@@ -17729,7 +17729,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-12237": {
-    "fetchedAt": "2026-09-12T10:51:07.760893+00:00",
+    "fetchedAt": "2026-10-15T11:34:11.604645+00:00",
     "cvssScore": 7.5,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "cvssVersion": "3.1",
@@ -17743,7 +17743,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-12235": {
-    "fetchedAt": "2026-09-12T10:51:14.159694+00:00",
+    "fetchedAt": "2026-10-15T11:34:17.898694+00:00",
     "cvssScore": 7.5,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "cvssVersion": "3.1",
@@ -17757,7 +17757,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-12234": {
-    "fetchedAt": "2026-09-12T10:51:20.562636+00:00",
+    "fetchedAt": "2026-10-15T11:34:24.232174+00:00",
     "cvssScore": 7.5,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "cvssVersion": "3.1",
@@ -17771,7 +17771,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-12233": {
-    "fetchedAt": "2026-09-12T10:51:26.890517+00:00",
+    "fetchedAt": "2026-10-15T11:34:30.560212+00:00",
     "cvssScore": 7.5,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "cvssVersion": "3.1",
@@ -17785,7 +17785,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-12232": {
-    "fetchedAt": "2026-09-12T10:51:33.286422+00:00",
+    "fetchedAt": "2026-10-15T11:34:36.858373+00:00",
     "cvssScore": 6.5,
     "cvssVector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "cvssVersion": "3.1",
@@ -17799,7 +17799,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-12231": {
-    "fetchedAt": "2026-09-12T10:51:39.770118+00:00",
+    "fetchedAt": "2026-10-15T11:34:43.192239+00:00",
     "cvssScore": 7.5,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "cvssVersion": "3.1",
@@ -17813,7 +17813,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-11826": {
-    "fetchedAt": "2026-09-12T10:51:46.120014+00:00",
+    "fetchedAt": "2026-10-15T11:34:49.485770+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17827,7 +17827,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-11292": {
-    "fetchedAt": "2026-09-12T10:51:52.442738+00:00",
+    "fetchedAt": "2026-10-15T11:34:55.789888+00:00",
     "cvssScore": 8.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17841,7 +17841,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-0261": {
-    "fetchedAt": "2026-09-12T10:51:58.764378+00:00",
+    "fetchedAt": "2026-10-15T11:35:02.118854+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17855,7 +17855,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2017-0001": {
-    "fetchedAt": "2026-09-12T10:52:05.082035+00:00",
+    "fetchedAt": "2026-10-15T11:35:08.440272+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17867,7 +17867,7 @@
     "noPrivilegesRequired": false
   },
   "CVE-2016-8562": {
-    "fetchedAt": "2026-09-12T10:52:11.496674+00:00",
+    "fetchedAt": "2026-10-15T11:35:14.740760+00:00",
     "cvssScore": 7.5,
     "cvssVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17879,7 +17879,7 @@
     "noPrivilegesRequired": false
   },
   "CVE-2016-7855": {
-    "fetchedAt": "2026-09-12T10:52:17.824383+00:00",
+    "fetchedAt": "2026-10-15T11:35:21.294004+00:00",
     "cvssScore": 8.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17893,7 +17893,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2016-7262": {
-    "fetchedAt": "2026-09-12T10:52:24.191612+00:00",
+    "fetchedAt": "2026-10-15T11:35:27.617736+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17905,7 +17905,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2016-7193": {
-    "fetchedAt": "2026-09-12T10:52:30.513956+00:00",
+    "fetchedAt": "2026-10-15T11:35:33.899438+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17919,7 +17919,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2016-5195": {
-    "fetchedAt": "2026-09-12T10:52:36.908949+00:00",
+    "fetchedAt": "2026-10-15T11:35:40.338889+00:00",
     "cvssScore": 7.0,
     "cvssVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17933,7 +17933,7 @@
     "noPrivilegesRequired": false
   },
   "CVE-2016-4117": {
-    "fetchedAt": "2026-09-12T10:52:43.464177+00:00",
+    "fetchedAt": "2026-10-15T11:35:46.731417+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17945,19 +17945,19 @@
     "noPrivilegesRequired": true
   },
   "CVE-2016-1019": {
-    "fetchedAt": "2026-09-12T10:52:50.113842+00:00",
+    "fetchedAt": "2026-10-15T11:35:53.072812+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
     "cwes": [],
     "nvdPublished": "2016-04-07T10:59:01.447",
-    "nvdLastModified": "2026-08-14T05:16:53.280",
+    "nvdLastModified": "2026-10-01T20:17:16.080",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
   },
   "CVE-2016-0099": {
-    "fetchedAt": "2026-09-12T10:52:56.563865+00:00",
+    "fetchedAt": "2026-10-15T11:35:59.439304+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17971,7 +17971,7 @@
     "noPrivilegesRequired": false
   },
   "CVE-2015-7645": {
-    "fetchedAt": "2026-09-12T10:53:02.890849+00:00",
+    "fetchedAt": "2026-10-15T11:36:05.739724+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17983,7 +17983,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2015-5119": {
-    "fetchedAt": "2026-09-12T10:53:09.212999+00:00",
+    "fetchedAt": "2026-10-15T11:36:12.152794+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -17997,7 +17997,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2015-4902": {
-    "fetchedAt": "2026-09-12T10:53:15.614448+00:00",
+    "fetchedAt": "2026-10-15T11:36:18.525785+00:00",
     "cvssScore": 5.3,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
     "cvssVersion": "3.1",
@@ -18011,7 +18011,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2015-3043": {
-    "fetchedAt": "2026-09-12T10:53:22.165492+00:00",
+    "fetchedAt": "2026-10-15T11:36:25.122294+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18025,7 +18025,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2015-2590": {
-    "fetchedAt": "2026-09-12T10:53:28.552873+00:00",
+    "fetchedAt": "2026-10-15T11:36:31.412963+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18037,7 +18037,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2015-2545": {
-    "fetchedAt": "2026-09-12T10:53:34.877461+00:00",
+    "fetchedAt": "2026-10-15T11:36:37.778385+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18049,7 +18049,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2015-2424": {
-    "fetchedAt": "2026-09-12T10:53:41.195651+00:00",
+    "fetchedAt": "2026-10-15T11:36:44.069468+00:00",
     "cvssScore": 8.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18063,7 +18063,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2015-2387": {
-    "fetchedAt": "2026-09-12T10:53:47.515871+00:00",
+    "fetchedAt": "2026-10-15T11:36:50.414036+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18077,7 +18077,7 @@
     "noPrivilegesRequired": false
   },
   "CVE-2015-1701": {
-    "fetchedAt": "2026-09-12T10:53:53.861535+00:00",
+    "fetchedAt": "2026-10-15T11:36:56.762910+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18089,7 +18089,7 @@
     "noPrivilegesRequired": false
   },
   "CVE-2015-1642": {
-    "fetchedAt": "2026-09-12T10:54:00.183710+00:00",
+    "fetchedAt": "2026-10-15T11:37:03.038535+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18103,7 +18103,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2014-4114": {
-    "fetchedAt": "2026-09-12T10:54:06.548050+00:00",
+    "fetchedAt": "2026-10-15T11:37:09.532924+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18115,7 +18115,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2014-0496": {
-    "fetchedAt": "2026-09-12T10:54:12.876894+00:00",
+    "fetchedAt": "2026-10-15T11:37:15.839173+00:00",
     "cvssScore": 8.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18129,7 +18129,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2013-5065": {
-    "fetchedAt": "2026-09-12T10:54:19.194113+00:00",
+    "fetchedAt": "2026-10-15T11:37:22.195619+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18141,7 +18141,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2013-3897": {
-    "fetchedAt": "2026-09-12T10:54:25.588449+00:00",
+    "fetchedAt": "2026-10-15T11:37:28.715872+00:00",
     "cvssScore": 8.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18155,7 +18155,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2013-3346": {
-    "fetchedAt": "2026-09-12T10:54:31.913021+00:00",
+    "fetchedAt": "2026-10-15T11:37:35.001308+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18169,7 +18169,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2013-1675": {
-    "fetchedAt": "2026-09-12T10:54:38.356894+00:00",
+    "fetchedAt": "2026-10-15T11:37:41.295331+00:00",
     "cvssScore": 6.5,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
     "cvssVersion": "3.1",
@@ -18183,7 +18183,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2013-1347": {
-    "fetchedAt": "2026-09-12T10:54:44.686438+00:00",
+    "fetchedAt": "2026-10-15T11:37:47.604953+00:00",
     "cvssScore": 8.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -18197,7 +18197,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2013-0641": {
-    "fetchedAt": "2026-09-12T10:54:51.005547+00:00",
+    "fetchedAt": "2026-10-15T11:37:54.287247+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -23144,7 +23144,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2026-76461": {
-    "fetchedAt": "2026-09-15T04:57:57.087871+00:00",
+    "fetchedAt": "2026-10-15T11:33:46.220999+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -23152,7 +23152,7 @@
       "CWE-89"
     ],
     "nvdPublished": "2026-09-14T17:17:51.113",
-    "nvdLastModified": "2026-09-15T04:18:15.100",
+    "nvdLastModified": "2026-09-15T12:47:32.497",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
