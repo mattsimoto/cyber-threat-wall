@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-15T17:08:28.619286+00:00",
+  "generatedAt": "2026-10-15T21:30:12.601749+00:00",
   "periodStart": "2026-10-09",
   "periodEnd": "2026-10-15",
-  "newKEVs": 11,
+  "newKEVs": 12,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
@@ -30,6 +30,10 @@
       "count": 1
     },
     {
+      "vendor": "Atlassian",
+      "count": 1
+    },
+    {
       "vendor": "Cisco",
       "count": 1
     },
@@ -40,16 +44,12 @@
     {
       "vendor": "Palo Alto Networks",
       "count": 1
-    },
-    {
-      "vendor": "Strapi",
-      "count": 1
     }
   ],
   "topTechnologies": [
     {
       "technology": "Other",
-      "count": 3
+      "count": 4
     },
     {
       "technology": "Network Edge / VPN",
@@ -191,8 +191,8 @@
       "dateAdded": "2026-10-08",
       "dueDate": "2026-10-11",
       "threatSignal": 61,
-      "movement24h": -3,
-      "movement7d": 137,
+      "movement24h": -4,
+      "movement7d": 136,
       "cvssScore": 4.9,
       "epss": 0.03609,
       "epssPercentile": 0.89311,
@@ -233,8 +233,8 @@
       "dateAdded": "2025-05-19",
       "dueDate": "2025-06-09",
       "threatSignal": 57,
-      "movement24h": -4,
-      "movement7d": 124,
+      "movement24h": -5,
+      "movement7d": 123,
       "cvssScore": 5.3,
       "epss": 0.31355,
       "epssPercentile": 0.98262,
@@ -254,8 +254,8 @@
       "dateAdded": "2023-06-07",
       "dueDate": "2023-06-28",
       "threatSignal": 66,
-      "movement24h": -1,
-      "movement7d": 103,
+      "movement24h": -2,
+      "movement7d": 102,
       "cvssScore": 8.8,
       "epss": 0.37858,
       "epssPercentile": 0.9853,
@@ -395,6 +395,27 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-104935"
     },
     {
+      "cveID": "CVE-2026-21589",
+      "vendorProject": "Atlassian",
+      "product": "Multiple Products",
+      "technology": "Other",
+      "vulnerabilityName": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+      "dateAdded": "2026-10-15",
+      "dueDate": "2026-10-18",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.3,
+      "epss": 0.02777,
+      "epssPercentile": 0.86118,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-21589"
+    },
+    {
       "cveID": "CVE-2026-105134",
       "vendorProject": "Ahsay",
       "product": "AhsayCBS",
@@ -445,7 +466,7 @@
       "dateAdded": "2026-10-13",
       "dueDate": "2026-10-16",
       "threatSignal": 67,
-      "movement24h": -2,
+      "movement24h": -3,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.01512,
@@ -477,34 +498,13 @@
       "noPrivilegesRequired": false,
       "shortDescription": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-0322"
-    },
-    {
-      "cveID": "CVE-2023-22894",
-      "vendorProject": "Strapi",
-      "product": "Strapi",
-      "technology": "Storage / Backup",
-      "vulnerabilityName": "Strapi Cleartext Storage of Sensitive Information Vulnerability",
-      "dateAdded": "2026-10-08",
-      "dueDate": "2026-10-11",
-      "threatSignal": 61,
-      "movement24h": -3,
-      "movement7d": 137,
-      "cvssScore": 4.9,
-      "epss": 0.03609,
-      "epssPercentile": 0.89311,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": true,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version. This vulnerability can be chained with CVE-2023-22621 to achieve remote code execution. ",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2023-22894"
     }
   ],
   "observations": [
-    "CISA added 11 actively exploited vulnerabilities during the last 7 days.",
-    "Other is the most represented technology category among this week's new KEVs (3).",
+    "CISA added 12 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (4).",
     "Ahsay has the most new KEV entries this week (2).",
     "CVE-2026-85706 is the largest 7-day rank riser, up 812 positions."
   ],
-  "executiveSummary": "CISA added 11 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (3). Ahsay has the most new KEV entries this week (2). CVE-2026-85706 is the largest 7-day rank riser, up 812 positions."
+  "executiveSummary": "CISA added 12 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (4). Ahsay has the most new KEV entries this week (2). CVE-2026-85706 is the largest 7-day rank riser, up 812 positions."
 }

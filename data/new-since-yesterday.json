@@ -1,8 +1,29 @@
 {
-  "generatedAt": "2026-10-15T17:08:28.619286+00:00",
+  "generatedAt": "2026-10-15T21:30:12.601749+00:00",
   "since": "2026-10-14",
-  "count": 4,
+  "count": 5,
   "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-21589",
+      "vendorProject": "Atlassian",
+      "product": "Multiple Products",
+      "technology": "Other",
+      "vulnerabilityName": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+      "dateAdded": "2026-10-15",
+      "dueDate": "2026-10-18",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.3,
+      "epss": 0.02777,
+      "epssPercentile": 0.86118,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-21589"
+    },
     {
       "cveID": "CVE-2026-105134",
       "vendorProject": "Ahsay",
