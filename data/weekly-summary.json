@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-16T16:46:12.254933+00:00",
+  "generatedAt": "2026-10-16T21:17:02.345732+00:00",
   "periodStart": "2026-10-10",
   "periodEnd": "2026-10-16",
-  "newKEVs": 7,
+  "newKEVs": 9,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
@@ -22,29 +22,37 @@
       "count": 1
     },
     {
+      "vendor": "BeyondTrust",
+      "count": 1
+    },
+    {
       "vendor": "Microsoft",
       "count": 1
     },
     {
       "vendor": "Palo Alto Networks",
       "count": 1
+    },
+    {
+      "vendor": "Fortinet",
+      "count": 1
     }
   ],
   "topTechnologies": [
+    {
+      "technology": "Other",
+      "count": 3
+    },
     {
       "technology": "Network Edge / VPN",
       "count": 3
     },
     {
-      "technology": "Other",
+      "technology": "Identity / Access",
       "count": 2
     },
     {
       "technology": "Operating Systems",
-      "count": 1
-    },
-    {
-      "technology": "Identity / Access",
       "count": 1
     }
   ],
@@ -163,8 +171,8 @@
       "dateAdded": "2025-05-19",
       "dueDate": "2025-06-09",
       "threatSignal": 57,
-      "movement24h": 0,
-      "movement7d": 123,
+      "movement24h": -2,
+      "movement7d": 121,
       "cvssScore": 5.3,
       "epss": 0.31355,
       "epssPercentile": 0.98264,
@@ -174,6 +182,27 @@
       "noPrivilegesRequired": true,
       "shortDescription": "MDaemon Email Server contains a cross-site scripting (XSS) vulnerability that allows a remote attacker to load arbitrary JavaScript code via an HTML e-mail message.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2024-11182"
+    },
+    {
+      "cveID": "CVE-2026-58704",
+      "vendorProject": "Google",
+      "product": "Pixel",
+      "technology": "Other",
+      "vulnerabilityName": "Google Pixel Improper Authorization Vulnerability",
+      "dateAdded": "2026-09-16",
+      "dueDate": "2026-09-19",
+      "threatSignal": 65,
+      "movement24h": 82,
+      "movement7d": 82,
+      "cvssScore": 8.8,
+      "epss": 0.00591,
+      "epssPercentile": 0.47139,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-58704"
     },
     {
       "cveID": "CVE-2025-53690",
@@ -205,8 +234,8 @@
       "dateAdded": "2025-09-03",
       "dueDate": "2025-09-24",
       "threatSignal": 57,
-      "movement24h": 0,
-      "movement7d": 56,
+      "movement24h": -2,
+      "movement7d": 54,
       "cvssScore": 6.5,
       "epss": 0.20021,
       "epssPercentile": 0.97413,
@@ -226,8 +255,8 @@
       "dateAdded": "2026-09-29",
       "dueDate": "2026-10-13",
       "threatSignal": 65,
-      "movement24h": 0,
-      "movement7d": 46,
+      "movement24h": -1,
+      "movement7d": 45,
       "cvssScore": 8.8,
       "epss": 0.01242,
       "epssPercentile": 0.68688,
@@ -237,27 +266,6 @@
       "noPrivilegesRequired": true,
       "shortDescription": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-86950"
-    },
-    {
-      "cveID": "CVE-2014-1761",
-      "vendorProject": "Microsoft",
-      "product": "Word",
-      "technology": "Other",
-      "vulnerabilityName": "Microsoft Word Memory Corruption Vulnerability",
-      "dateAdded": "2022-02-15",
-      "dueDate": "2022-08-15",
-      "threatSignal": 72,
-      "movement24h": 1,
-      "movement7d": 43,
-      "cvssScore": 7.8,
-      "epss": 0.77734,
-      "epssPercentile": 0.99565,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Microsoft Word contains a memory corruption vulnerability which when exploited could allow for remote code execution.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2014-1761"
     }
   ],
   "highestSignals": [
@@ -346,6 +354,27 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76519"
     },
     {
+      "cveID": "CVE-2026-102764",
+      "vendorProject": "BeyondTrust",
+      "product": "Remote Support",
+      "technology": "Identity / Access",
+      "vulnerabilityName": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "dateAdded": "2026-10-16",
+      "dueDate": "2026-10-19",
+      "threatSignal": 68,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.3,
+      "epss": 0.00601,
+      "epssPercentile": 0.47647,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-102764"
+    },
+    {
       "cveID": "CVE-2026-96951",
       "vendorProject": "Microsoft",
       "product": "Windows",
@@ -354,7 +383,7 @@
       "dateAdded": "2026-10-13",
       "dueDate": "2026-10-16",
       "threatSignal": 67,
-      "movement24h": 0,
+      "movement24h": -1,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.01512,
@@ -375,7 +404,7 @@
       "dateAdded": "2026-10-14",
       "dueDate": "2026-10-17",
       "threatSignal": 66,
-      "movement24h": 0,
+      "movement24h": -1,
       "movement7d": 0,
       "cvssScore": 8.6,
       "epss": 0.01215,
@@ -388,6 +417,27 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-0322"
     },
     {
+      "cveID": "CVE-2025-61624",
+      "vendorProject": "Fortinet",
+      "product": "Multiple Products",
+      "technology": "Other",
+      "vulnerabilityName": "Fortinet Multiple Products Path Traversal Vulnerability",
+      "dateAdded": "2026-10-16",
+      "dueDate": "2026-10-19",
+      "threatSignal": 62,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 6.5,
+      "epss": 0.0058,
+      "epssPercentile": 0.46551,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2025-61624"
+    },
+    {
       "cveID": "CVE-2026-105133",
       "vendorProject": "Ahsay",
       "product": "AhsayCBS",
@@ -396,7 +446,7 @@
       "dateAdded": "2026-10-14",
       "dueDate": "2026-10-17",
       "threatSignal": 60,
-      "movement24h": 1,
+      "movement24h": -1,
       "movement7d": 0,
       "cvssScore": 5.5,
       "epss": 0.00854,
@@ -410,10 +460,10 @@
     }
   ],
   "observations": [
-    "CISA added 7 actively exploited vulnerabilities during the last 7 days.",
-    "Network Edge / VPN is the most represented technology category among this week's new KEVs (3).",
+    "CISA added 9 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (3).",
     "Ahsay has the most new KEV entries this week (2).",
     "CVE-2026-85706 is the largest 7-day rank riser, up 811 positions."
   ],
-  "executiveSummary": "CISA added 7 actively exploited vulnerabilities during the last 7 days. Network Edge / VPN is the most represented technology category among this week's new KEVs (3). Ahsay has the most new KEV entries this week (2). CVE-2026-85706 is the largest 7-day rank riser, up 811 positions."
+  "executiveSummary": "CISA added 9 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (3). Ahsay has the most new KEV entries this week (2). CVE-2026-85706 is the largest 7-day rank riser, up 811 positions."
 }
