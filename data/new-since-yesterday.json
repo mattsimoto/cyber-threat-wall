@@ -1,49 +1,6 @@
 {
-  "generatedAt": "2026-10-16T21:17:02.345732+00:00",
-  "since": "2026-10-15",
-  "count": 2,
-  "vulnerabilities": [
-    {
-      "cveID": "CVE-2026-102764",
-      "vendorProject": "BeyondTrust",
-      "product": "Remote Support",
-      "technology": "Identity / Access",
-      "vulnerabilityName": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-      "dateAdded": "2026-10-16",
-      "dueDate": "2026-10-19",
-      "threatSignal": 68,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 9.3,
-      "epss": 0.00601,
-      "epssPercentile": 0.47647,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-102764"
-    },
-    {
-      "cveID": "CVE-2025-61624",
-      "vendorProject": "Fortinet",
-      "product": "Multiple Products",
-      "technology": "Other",
-      "vulnerabilityName": "Fortinet Multiple Products Path Traversal Vulnerability",
-      "dateAdded": "2026-10-16",
-      "dueDate": "2026-10-19",
-      "threatSignal": 62,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 6.5,
-      "epss": 0.0058,
-      "epssPercentile": 0.46551,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2025-61624"
-    }
-  ]
+  "generatedAt": "2026-10-17T04:35:46.990936+00:00",
+  "since": "2026-10-16",
+  "count": 0,
+  "vulnerabilities": []
 }
