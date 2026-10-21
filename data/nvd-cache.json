@@ -24342,5 +24342,19 @@
     "publicExploit": false,
     "networkExploitable": false,
     "noPrivilegesRequired": false
+  },
+  "CVE-2026-106931": {
+    "fetchedAt": "2026-10-21T11:53:42.385343+00:00",
+    "cvssScore": 8.5,
+    "cvssVector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "cvssVersion": "4.0",
+    "cwes": [
+      "CWE-78"
+    ],
+    "nvdPublished": "2026-10-14T05:16:42.633",
+    "nvdLastModified": "2026-10-21T04:17:08.083",
+    "publicExploit": false,
+    "networkExploitable": false,
+    "noPrivilegesRequired": false
   }
 }

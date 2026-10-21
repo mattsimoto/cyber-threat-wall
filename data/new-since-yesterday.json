@@ -1,8 +1,29 @@
 {
-  "generatedAt": "2026-10-21T04:55:17.387519+00:00",
+  "generatedAt": "2026-10-21T11:53:50.073807+00:00",
   "since": "2026-10-20",
   "count": 6,
   "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-106931",
+      "vendorProject": "EG Secure Solutions",
+      "product": "SiteGuard Server Edition",
+      "technology": "Enterprise Software",
+      "vulnerabilityName": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+      "dateAdded": "2026-10-20",
+      "dueDate": "2026-10-23",
+      "threatSignal": 66,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.5,
+      "epss": 0.00662,
+      "epssPercentile": 0.50774,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-106931"
+    },
     {
       "cveID": "CVE-2026-96656",
       "vendorProject": "Plex",
@@ -107,27 +128,6 @@
       "noPrivilegesRequired": false,
       "shortDescription": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. ",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-96652"
-    },
-    {
-      "cveID": "CVE-2026-106931",
-      "vendorProject": "EG Secure Solutions",
-      "product": "SiteGuard Server Edition",
-      "technology": "Enterprise Software",
-      "vulnerabilityName": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-      "dateAdded": "2026-10-20",
-      "dueDate": "2026-10-23",
-      "threatSignal": 49,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": null,
-      "epss": 0.00662,
-      "epssPercentile": 0.50774,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-106931"
     }
   ]
 }
