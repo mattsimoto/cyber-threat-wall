@@ -23838,7 +23838,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2026-93952": {
-    "fetchedAt": "2026-09-23T04:48:02.800166+00:00",
+    "fetchedAt": "2026-10-23T04:55:11.707438+00:00",
     "cvssScore": 9.5,
     "cvssVector": "CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
     "cvssVersion": "4.0",
@@ -23846,13 +23846,13 @@
       "CWE-20"
     ],
     "nvdPublished": "2026-09-22T08:16:43.047",
-    "nvdLastModified": "2026-09-23T04:17:58.007",
+    "nvdLastModified": "2026-09-23T14:32:12.417",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
   },
   "CVE-2026-94127": {
-    "fetchedAt": "2026-09-23T04:48:09.092860+00:00",
+    "fetchedAt": "2026-10-23T04:55:18.086067+00:00",
     "cvssScore": 9.3,
     "cvssVector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
     "cvssVersion": "4.0",
@@ -23860,13 +23860,13 @@
       "CWE-122"
     ],
     "nvdPublished": "2026-09-22T15:17:24.313",
-    "nvdLastModified": "2026-09-23T04:17:58.180",
+    "nvdLastModified": "2026-09-23T14:32:07.910",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
   },
   "CVE-2026-93616": {
-    "fetchedAt": "2026-09-23T04:48:15.372356+00:00",
+    "fetchedAt": "2026-10-23T04:55:27.126838+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -23874,13 +23874,13 @@
       "CWE-22"
     ],
     "nvdPublished": "2026-09-22T13:17:11.963",
-    "nvdLastModified": "2026-09-23T04:17:57.453",
+    "nvdLastModified": "2026-09-23T16:38:38.987",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
   },
   "CVE-2026-85102": {
-    "fetchedAt": "2026-09-23T04:48:21.628058+00:00",
+    "fetchedAt": "2026-10-23T04:55:37.620815+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -23888,7 +23888,7 @@
       "CWE-295"
     ],
     "nvdPublished": "2026-09-09T13:20:43.793",
-    "nvdLastModified": "2026-09-23T04:17:56.393",
+    "nvdLastModified": "2026-09-23T18:22:07.453",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
