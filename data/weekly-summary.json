@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-23T17:11:24.485831+00:00",
+  "generatedAt": "2026-10-23T21:26:38.432850+00:00",
   "periodStart": "2026-10-17",
   "periodEnd": "2026-10-23",
-  "newKEVs": 8,
+  "newKEVs": 9,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
@@ -11,6 +11,10 @@
     },
     {
       "vendor": "BeyondTrust",
+      "count": 1
+    },
+    {
+      "vendor": "Arista",
       "count": 1
     },
     {
@@ -33,6 +37,10 @@
     },
     {
       "technology": "Identity / Access",
+      "count": 1
+    },
+    {
+      "technology": "Cloud / Virtualization",
       "count": 1
     },
     {
@@ -75,8 +83,8 @@
       "dateAdded": "2026-06-05",
       "dueDate": "2026-06-19",
       "threatSignal": 66,
-      "movement24h": -59,
-      "movement7d": 496,
+      "movement24h": -60,
+      "movement7d": 495,
       "cvssScore": 7.5,
       "epss": 0.43651,
       "epssPercentile": 0.98741,
@@ -96,8 +104,8 @@
       "dateAdded": "2026-09-16",
       "dueDate": "2026-09-19",
       "threatSignal": 60,
-      "movement24h": -67,
-      "movement7d": 431,
+      "movement24h": -68,
+      "movement7d": 430,
       "cvssScore": 7.8,
       "epss": 0.00233,
       "epssPercentile": 0.134,
@@ -138,8 +146,8 @@
       "dateAdded": "2026-09-18",
       "dueDate": "2026-09-21",
       "threatSignal": 65,
-      "movement24h": -56,
-      "movement7d": 134,
+      "movement24h": -57,
+      "movement7d": 133,
       "cvssScore": 9.8,
       "epss": 0.0288,
       "epssPercentile": 0.86761,
@@ -201,8 +209,8 @@
       "dateAdded": "2026-09-27",
       "dueDate": "2026-09-30",
       "threatSignal": 67,
-      "movement24h": -3,
-      "movement7d": 58,
+      "movement24h": -4,
+      "movement7d": 57,
       "cvssScore": 9.5,
       "epss": 0.05305,
       "epssPercentile": 0.92568,
@@ -222,8 +230,8 @@
       "dateAdded": "2026-09-27",
       "dueDate": "2026-09-30",
       "threatSignal": 67,
-      "movement24h": -3,
-      "movement7d": 58,
+      "movement24h": -4,
+      "movement7d": 57,
       "cvssScore": 9.5,
       "epss": 0.04722,
       "epssPercentile": 0.91805,
@@ -243,8 +251,8 @@
       "dateAdded": "2022-05-24",
       "dueDate": "2022-06-14",
       "threatSignal": 66,
-      "movement24h": -56,
-      "movement7d": 58,
+      "movement24h": -57,
+      "movement7d": 57,
       "cvssScore": 5.4,
       "epss": 0.22682,
       "epssPercentile": 0.97722,
@@ -279,6 +287,27 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-102764"
     },
     {
+      "cveID": "CVE-2026-114625",
+      "vendorProject": "Arista",
+      "product": "VeloCloud Orchestrator",
+      "technology": "Cloud / Virtualization",
+      "vulnerabilityName": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+      "dateAdded": "2026-10-23",
+      "dueDate": "2026-10-26",
+      "threatSignal": 68,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.4,
+      "epss": 0.00555,
+      "epssPercentile": 0.45586,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-114625"
+    },
+    {
       "cveID": "CVE-2026-106931",
       "vendorProject": "EG Secure Solutions",
       "product": "SiteGuard Server Edition",
@@ -287,7 +316,7 @@
       "dateAdded": "2026-10-20",
       "dueDate": "2026-10-23",
       "threatSignal": 66,
-      "movement24h": -63,
+      "movement24h": -64,
       "movement7d": 0,
       "cvssScore": 8.5,
       "epss": 0.0117,
@@ -308,7 +337,7 @@
       "dateAdded": "2026-10-20",
       "dueDate": "2026-10-23",
       "threatSignal": 66,
-      "movement24h": -63,
+      "movement24h": -64,
       "movement7d": 0,
       "cvssScore": 8.6,
       "epss": 0.00816,
@@ -329,7 +358,7 @@
       "dateAdded": "2026-10-20",
       "dueDate": "2026-11-03",
       "threatSignal": 64,
-      "movement24h": -59,
+      "movement24h": -60,
       "movement7d": 0,
       "cvssScore": 8.4,
       "epss": 0.00238,
@@ -350,7 +379,7 @@
       "dateAdded": "2026-10-20",
       "dueDate": "2026-10-23",
       "threatSignal": 63,
-      "movement24h": -61,
+      "movement24h": -62,
       "movement7d": 0,
       "cvssScore": 6.9,
       "epss": 0.00465,
@@ -371,8 +400,8 @@
       "dateAdded": "2026-10-16",
       "dueDate": "2026-10-19",
       "threatSignal": 63,
-      "movement24h": -61,
-      "movement7d": 47,
+      "movement24h": -62,
+      "movement7d": 46,
       "cvssScore": 6.5,
       "epss": 0.01081,
       "epssPercentile": 0.64866,
@@ -392,7 +421,7 @@
       "dateAdded": "2026-10-20",
       "dueDate": "2026-11-03",
       "threatSignal": 58,
-      "movement24h": -60,
+      "movement24h": -61,
       "movement7d": 0,
       "cvssScore": 5.3,
       "epss": 0.00455,
@@ -413,7 +442,7 @@
       "dateAdded": "2026-10-20",
       "dueDate": "2026-11-03",
       "threatSignal": 58,
-      "movement24h": -60,
+      "movement24h": -61,
       "movement7d": 0,
       "cvssScore": 5.3,
       "epss": 0.00455,
@@ -427,10 +456,10 @@
     }
   ],
   "observations": [
-    "CISA added 8 actively exploited vulnerabilities during the last 7 days.",
+    "CISA added 9 actively exploited vulnerabilities during the last 7 days.",
     "Enterprise Software is the most represented technology category among this week's new KEVs (5).",
     "Plex has the most new KEV entries this week (4).",
     "CVE-2026-35616 is the largest 7-day rank riser, up 886 positions."
   ],
-  "executiveSummary": "CISA added 8 actively exploited vulnerabilities during the last 7 days. Enterprise Software is the most represented technology category among this week's new KEVs (5). Plex has the most new KEV entries this week (4). CVE-2026-35616 is the largest 7-day rank riser, up 886 positions."
+  "executiveSummary": "CISA added 9 actively exploited vulnerabilities during the last 7 days. Enterprise Software is the most represented technology category among this week's new KEVs (5). Plex has the most new KEV entries this week (4). CVE-2026-35616 is the largest 7-day rank riser, up 886 positions."
 }

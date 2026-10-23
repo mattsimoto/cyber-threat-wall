@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-10-23T17:11:24.485831+00:00",
+  "generatedAt": "2026-10-23T21:26:38.432850+00:00",
   "since": "2026-10-22",
-  "count": 0,
-  "vulnerabilities": []
+  "count": 1,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-114625",
+      "vendorProject": "Arista",
+      "product": "VeloCloud Orchestrator",
+      "technology": "Cloud / Virtualization",
+      "vulnerabilityName": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+      "dateAdded": "2026-10-23",
+      "dueDate": "2026-10-26",
+      "threatSignal": 68,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.4,
+      "epss": 0.00555,
+      "epssPercentile": 0.45586,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-114625"
+    }
+  ]
 }
