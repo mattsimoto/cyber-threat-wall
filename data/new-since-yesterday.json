@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-10-23T21:26:38.432850+00:00",
-  "since": "2026-10-22",
+  "generatedAt": "2026-10-24T04:40:45.921093+00:00",
+  "since": "2026-10-23",
   "count": 1,
   "vulnerabilities": [
     {
-      "cveID": "CVE-2026-114625",
-      "vendorProject": "Arista",
-      "product": "VeloCloud Orchestrator",
-      "technology": "Cloud / Virtualization",
-      "vulnerabilityName": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+      "cveID": "CVE-2026-110447",
+      "vendorProject": "Collabora",
+      "product": "Collabora Online \u2013 Built-in CODE Server",
+      "technology": "Enterprise Software",
+      "vulnerabilityName": "Collabora Online \u2013 Built-in CODE Server OS Command Injection Vulnerability",
       "dateAdded": "2026-10-23",
       "dueDate": "2026-10-26",
-      "threatSignal": 68,
+      "threatSignal": 67,
       "movement24h": 0,
       "movement7d": 0,
-      "cvssScore": 9.4,
-      "epss": 0.00555,
-      "epssPercentile": 0.45586,
+      "cvssScore": 9.2,
+      "epss": 0.01225,
+      "epssPercentile": 0.68615,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-114625"
+      "noPrivilegesRequired": true,
+      "shortDescription": "Collabora Collabora Online \u2013 Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-110447"
     }
   ]
 }
