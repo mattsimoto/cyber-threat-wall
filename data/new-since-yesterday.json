@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-10-24T20:52:25.067845+00:00",
-  "since": "2026-10-23",
-  "count": 1,
-  "vulnerabilities": [
-    {
-      "cveID": "CVE-2026-110447",
-      "vendorProject": "Collabora",
-      "product": "Collabora Online \u2013 Built-in CODE Server",
-      "technology": "Enterprise Software",
-      "vulnerabilityName": "Collabora Online \u2013 Built-in CODE Server OS Command Injection Vulnerability",
-      "dateAdded": "2026-10-23",
-      "dueDate": "2026-10-26",
-      "threatSignal": 67,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 9.2,
-      "epss": 0.02285,
-      "epssPercentile": 0.83062,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Collabora Collabora Online \u2013 Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-110447"
-    }
-  ]
+  "generatedAt": "2026-10-25T04:45:48.751767+00:00",
+  "since": "2026-10-24",
+  "count": 0,
+  "vulnerabilities": []
 }
