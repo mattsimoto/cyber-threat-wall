@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-27T18:05:37.510878+00:00",
+  "generatedAt": "2026-10-27T22:17:17.420277+00:00",
   "since": "2026-10-26",
-  "count": 2,
+  "count": 4,
   "vulnerabilities": [
     {
       "cveID": "CVE-2026-109618",
@@ -44,6 +44,48 @@
       "noPrivilegesRequired": true,
       "shortDescription": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-109619"
+    },
+    {
+      "cveID": "CVE-2026-111497",
+      "vendorProject": "Google",
+      "product": "Brotli",
+      "technology": "Other",
+      "vulnerabilityName": "Google Brotli Unchecked Return Value Vulnerability",
+      "dateAdded": "2026-10-27",
+      "dueDate": "2026-11-10",
+      "threatSignal": 76,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.2,
+      "epss": 0.55483,
+      "epssPercentile": 0.9903,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-111497"
+    },
+    {
+      "cveID": "CVE-2026-48356",
+      "vendorProject": "Adobe",
+      "product": "Commerce and Magento",
+      "technology": "Other",
+      "vulnerabilityName": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "dateAdded": "2026-10-27",
+      "dueDate": "2026-11-10",
+      "threatSignal": 72,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.3,
+      "epss": 0.30582,
+      "epssPercentile": 0.98231,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-48356"
     }
   ]
 }
