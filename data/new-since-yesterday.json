@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-10-26T22:42:14.031693+00:00",
-  "since": "2026-10-25",
-  "count": 0,
-  "vulnerabilities": []
+  "generatedAt": "2026-10-27T05:10:17.604409+00:00",
+  "since": "2026-10-26",
+  "count": 2,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-109618",
+      "vendorProject": "PHP Group",
+      "product": "PHP",
+      "technology": "Other",
+      "vulnerabilityName": "PHP Memory Corruption Vulnerability",
+      "dateAdded": "2026-10-26",
+      "dueDate": "2026-10-29",
+      "threatSignal": 87,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.2,
+      "epss": 0.99981,
+      "epssPercentile": 0.99981,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-109618"
+    },
+    {
+      "cveID": "CVE-2026-109619",
+      "vendorProject": "PHP Group",
+      "product": "PHP",
+      "technology": "Other",
+      "vulnerabilityName": "PHP Stale Internal Request-State Vulnerability",
+      "dateAdded": "2026-10-26",
+      "dueDate": "2026-10-29",
+      "threatSignal": 87,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.2,
+      "epss": 0.99997,
+      "epssPercentile": 0.99989,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-109619"
+    }
+  ]
 }
