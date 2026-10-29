@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-10-29T13:06:40.854406+00:00",
+  "generatedAt": "2026-10-29T22:47:15.376240+00:00",
   "since": "2026-10-28",
-  "count": 0,
-  "vulnerabilities": []
+  "count": 2,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-97229",
+      "vendorProject": "GitLab",
+      "product": "Community Edition and Enterprise Edition",
+      "technology": "Developer / CI-CD",
+      "vulnerabilityName": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+      "dateAdded": "2026-10-29",
+      "dueDate": "2026-11-01",
+      "threatSignal": 73,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 10.0,
+      "epss": 0.18427,
+      "epssPercentile": 0.97229,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-97229"
+    },
+    {
+      "cveID": "CVE-2026-76418",
+      "vendorProject": "Cisco",
+      "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+      "dateAdded": "2026-10-29",
+      "dueDate": "2026-11-01",
+      "threatSignal": 66,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.6,
+      "epss": 0.00574,
+      "epssPercentile": 0.47308,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76418"
+    }
+  ]
 }
