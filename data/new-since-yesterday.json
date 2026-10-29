@@ -1,49 +1,6 @@
 {
-  "generatedAt": "2026-10-28T22:37:54.898478+00:00",
-  "since": "2026-10-27",
-  "count": 2,
-  "vulnerabilities": [
-    {
-      "cveID": "CVE-2026-46300",
-      "vendorProject": "Linux",
-      "product": "Kernel",
-      "technology": "Operating Systems",
-      "vulnerabilityName": "Linux Kernel Missing Initialization of a Variable Vulnerability",
-      "dateAdded": "2026-10-28",
-      "dueDate": "2026-10-31",
-      "threatSignal": 67,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 7.8,
-      "epss": 0.10192,
-      "epssPercentile": 0.95651,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-46300"
-    },
-    {
-      "cveID": "CVE-2026-41709",
-      "vendorProject": "Broadcom",
-      "product": "VMware ESX",
-      "technology": "Cloud / Virtualization",
-      "vulnerabilityName": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
-      "dateAdded": "2026-10-28",
-      "dueDate": "2026-11-11",
-      "threatSignal": 52,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 2.7,
-      "epss": 0.00297,
-      "epssPercentile": 0.22291,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-41709"
-    }
-  ]
+  "generatedAt": "2026-10-29T05:52:03.575019+00:00",
+  "since": "2026-10-28",
+  "count": 0,
+  "vulnerabilities": []
 }
