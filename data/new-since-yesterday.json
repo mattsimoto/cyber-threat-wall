@@ -1,49 +1,6 @@
 {
-  "generatedAt": "2026-10-30T22:24:11.496051+00:00",
-  "since": "2026-10-29",
-  "count": 2,
-  "vulnerabilities": [
-    {
-      "cveID": "CVE-2026-111357",
-      "vendorProject": "Ivanti",
-      "product": "Connect Secure",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
-      "dateAdded": "2026-10-30",
-      "dueDate": "2026-11-02",
-      "threatSignal": 63,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 7.0,
-      "epss": 0.00316,
-      "epssPercentile": 0.24569,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-111357"
-    },
-    {
-      "cveID": "CVE-2026-118527",
-      "vendorProject": "Ivanti",
-      "product": "Connect Secure",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-      "dateAdded": "2026-10-30",
-      "dueDate": "2026-11-13",
-      "threatSignal": 47,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": null,
-      "epss": null,
-      "epssPercentile": null,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-118527"
-    }
-  ]
+  "generatedAt": "2026-10-31T05:47:29.629584+00:00",
+  "since": "2026-10-30",
+  "count": 0,
+  "vulnerabilities": []
 }
