@@ -24034,7 +24034,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2026-102490": {
-    "fetchedAt": "2026-10-02T22:16:36.907834+00:00",
+    "fetchedAt": "2026-11-02T06:11:00.248344+00:00",
     "cvssScore": 9.4,
     "cvssVector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:A/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:Y/R:X/V:C/RE:X/U:X",
     "cvssVersion": "4.0",
@@ -24042,13 +24042,13 @@
       "CWE-269"
     ],
     "nvdPublished": "2026-09-30T17:16:40.707",
-    "nvdLastModified": "2026-10-02T17:55:31.627",
+    "nvdLastModified": "2026-10-09T14:21:05.030",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
   },
   "CVE-2026-102489": {
-    "fetchedAt": "2026-10-02T22:16:43.250562+00:00",
+    "fetchedAt": "2026-11-02T06:11:06.601647+00:00",
     "cvssScore": 9.4,
     "cvssVector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:A/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:Y/R:X/V:C/RE:X/U:X",
     "cvssVersion": "4.0",
@@ -24056,7 +24056,7 @@
       "CWE-384"
     ],
     "nvdPublished": "2026-09-30T17:16:40.550",
-    "nvdLastModified": "2026-10-02T17:55:35.280",
+    "nvdLastModified": "2026-10-10T04:18:08.040",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
