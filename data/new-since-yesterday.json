@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-11-03T14:24:39.783091+00:00",
+  "generatedAt": "2026-11-03T23:29:57.115709+00:00",
   "since": "2026-11-02",
-  "count": 0,
-  "vulnerabilities": []
+  "count": 1,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-119977",
+      "vendorProject": "WordPress",
+      "product": "WordPress Core",
+      "technology": "Web Applications / CMS",
+      "vulnerabilityName": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+      "dateAdded": "2026-11-03",
+      "dueDate": "2026-11-06",
+      "threatSignal": 65,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.1,
+      "epss": 0.006,
+      "epssPercentile": 0.48751,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-119977"
+    }
+  ]
 }
