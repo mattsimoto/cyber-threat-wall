@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-06T19:30:49.747292+00:00",
-  "periodStart": "2026-10-31",
-  "periodEnd": "2026-11-06",
-  "newKEVs": 4,
+  "generatedAt": "2026-11-07T06:06:23.315317+00:00",
+  "periodStart": "2026-11-01",
+  "periodEnd": "2026-11-07",
+  "newKEVs": 3,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
-      "vendor": "Ivanti",
-      "count": 2
+      "vendor": "WordPress",
+      "count": 1
     },
     {
-      "vendor": "WordPress",
+      "vendor": "SonicWall",
       "count": 1
     },
     {
@@ -20,11 +20,11 @@
   ],
   "topTechnologies": [
     {
-      "technology": "Network Edge / VPN",
-      "count": 2
+      "technology": "Web Applications / CMS",
+      "count": 1
     },
     {
-      "technology": "Web Applications / CMS",
+      "technology": "Network Edge / VPN",
       "count": 1
     },
     {
@@ -42,7 +42,7 @@
       "dateAdded": "2026-10-16",
       "dueDate": "2026-10-19",
       "threatSignal": 82,
-      "movement24h": 2,
+      "movement24h": 0,
       "movement7d": 646,
       "cvssScore": 9.3,
       "epss": 0.77994,
@@ -63,8 +63,8 @@
       "dateAdded": "2026-10-29",
       "dueDate": "2026-11-01",
       "threatSignal": 80,
-      "movement24h": -56,
-      "movement7d": 412,
+      "movement24h": 0,
+      "movement7d": 411,
       "cvssScore": 10.0,
       "epss": 0.6522,
       "epssPercentile": 0.99258,
@@ -84,7 +84,7 @@
       "dateAdded": "2026-09-08",
       "dueDate": "2026-09-11",
       "threatSignal": 71,
-      "movement24h": -1,
+      "movement24h": 0,
       "movement7d": 276,
       "cvssScore": 10.0,
       "epss": 0.34741,
@@ -105,8 +105,8 @@
       "dateAdded": "2026-10-20",
       "dueDate": "2026-11-03",
       "threatSignal": 60,
-      "movement24h": 1,
-      "movement7d": 187,
+      "movement24h": -1,
+      "movement7d": 186,
       "cvssScore": 5.3,
       "epss": 0.10724,
       "epssPercentile": 0.95842,
@@ -126,8 +126,8 @@
       "dateAdded": "2026-10-20",
       "dueDate": "2026-11-03",
       "threatSignal": 60,
-      "movement24h": 1,
-      "movement7d": 187,
+      "movement24h": -1,
+      "movement7d": 186,
       "cvssScore": 5.3,
       "epss": 0.11886,
       "epssPercentile": 0.9612,
@@ -147,7 +147,7 @@
       "dateAdded": "2025-08-18",
       "dueDate": "2025-09-08",
       "threatSignal": 67,
-      "movement24h": 115,
+      "movement24h": 0,
       "movement7d": 116,
       "cvssScore": 9.8,
       "epss": 0.32872,
@@ -168,7 +168,7 @@
       "dateAdded": "2026-09-14",
       "dueDate": "2026-09-17",
       "threatSignal": 72,
-      "movement24h": 92,
+      "movement24h": 0,
       "movement7d": 92,
       "cvssScore": 9.8,
       "epss": 0.4016,
@@ -181,27 +181,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76461"
     },
     {
-      "cveID": "CVE-2024-12686",
-      "vendorProject": "BeyondTrust",
-      "product": "Privileged Remote Access (PRA) and Remote Support (RS)",
-      "technology": "Other",
-      "vulnerabilityName": "BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) OS Command Injection Vulnerability",
-      "dateAdded": "2025-01-13",
-      "dueDate": "2025-02-03",
-      "threatSignal": 61,
-      "movement24h": 0,
-      "movement7d": 67,
-      "cvssScore": 7.2,
-      "epss": 0.32575,
-      "epssPercentile": 0.98346,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) contain an OS command injection vulnerability that can be exploited by an attacker with existing administrative privileges to upload a malicious file. Successful exploitation of this vulnerability can allow a remote attacker to execute underlying operating system commands within the context of the site user.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2024-12686"
-    },
-    {
       "cveID": "CVE-2022-41073",
       "vendorProject": "Microsoft",
       "product": "Windows",
@@ -210,7 +189,7 @@
       "dateAdded": "2022-11-08",
       "dueDate": "2022-12-09",
       "threatSignal": 67,
-      "movement24h": 59,
+      "movement24h": 0,
       "movement7d": 61,
       "cvssScore": 7.8,
       "epss": 0.02627,
@@ -231,7 +210,7 @@
       "dateAdded": "2022-05-23",
       "dueDate": "2022-06-13",
       "threatSignal": 67,
-      "movement24h": -1,
+      "movement24h": 0,
       "movement7d": 59,
       "cvssScore": 7.8,
       "epss": 0.02539,
@@ -242,6 +221,27 @@
       "noPrivilegesRequired": false,
       "shortDescription": "Microsoft Update Notification Manager contains an unspecified vulnerability that allows for privilege escalation.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2020-0638"
+    },
+    {
+      "cveID": "CVE-2026-21519",
+      "vendorProject": "Microsoft",
+      "product": "Windows",
+      "technology": "Operating Systems",
+      "vulnerabilityName": "Microsoft Windows Type Confusion Vulnerability",
+      "dateAdded": "2026-02-10",
+      "dueDate": "2026-03-03",
+      "threatSignal": 59,
+      "movement24h": -1,
+      "movement7d": 51,
+      "cvssScore": 7.8,
+      "epss": 0.02567,
+      "epssPercentile": 0.85213,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": false,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Microsoft Desktop Windows Manager contains a type confusion vulnerability that could allow an authorized attacker to elevate privileges locally.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-21519"
     }
   ],
   "highestSignals": [
@@ -253,8 +253,8 @@
       "vulnerabilityName": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
       "dateAdded": "2026-11-03",
       "dueDate": "2026-11-06",
-      "threatSignal": 65,
-      "movement24h": 0,
+      "threatSignal": 66,
+      "movement24h": 52,
       "movement7d": 0,
       "cvssScore": 8.1,
       "epss": 0.01157,
@@ -267,25 +267,25 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-119977"
     },
     {
-      "cveID": "CVE-2026-111357",
-      "vendorProject": "Ivanti",
-      "product": "Connect Secure",
+      "cveID": "CVE-2026-19868",
+      "vendorProject": "SonicWall",
+      "product": "SonicOS SSLVPN",
       "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
-      "dateAdded": "2026-10-30",
-      "dueDate": "2026-11-02",
-      "threatSignal": 64,
-      "movement24h": 1,
-      "movement7d": 41,
-      "cvssScore": 7.0,
-      "epss": 0.00533,
-      "epssPercentile": 0.45192,
+      "vulnerabilityName": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+      "dateAdded": "2026-11-06",
+      "dueDate": "2026-11-20",
+      "threatSignal": 62,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 7.5,
+      "epss": null,
+      "epssPercentile": null,
       "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
+      "networkExploitable": true,
       "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-111357"
+      "noPrivilegesRequired": true,
+      "shortDescription": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-19868"
     },
     {
       "cveID": "CVE-2024-27834",
@@ -307,34 +307,13 @@
       "noPrivilegesRequired": false,
       "shortDescription": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2024-27834"
-    },
-    {
-      "cveID": "CVE-2026-118527",
-      "vendorProject": "Ivanti",
-      "product": "Connect Secure",
-      "technology": "Network Edge / VPN",
-      "vulnerabilityName": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-      "dateAdded": "2026-10-30",
-      "dueDate": "2026-11-13",
-      "threatSignal": 49,
-      "movement24h": 5,
-      "movement7d": 3,
-      "cvssScore": null,
-      "epss": 0.00822,
-      "epssPercentile": 0.57487,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-118527"
     }
   ],
   "observations": [
-    "CISA added 4 actively exploited vulnerabilities during the last 7 days.",
-    "Network Edge / VPN is the most represented technology category among this week's new KEVs (2).",
-    "Ivanti has the most new KEV entries this week (2).",
+    "CISA added 3 actively exploited vulnerabilities during the last 7 days.",
+    "Web Applications / CMS is the most represented technology category among this week's new KEVs (1).",
+    "WordPress has the most new KEV entries this week (1).",
     "CVE-2026-102764 is the largest 7-day rank riser, up 646 positions."
   ],
-  "executiveSummary": "CISA added 4 actively exploited vulnerabilities during the last 7 days. Network Edge / VPN is the most represented technology category among this week's new KEVs (2). Ivanti has the most new KEV entries this week (2). CVE-2026-102764 is the largest 7-day rank riser, up 646 positions."
+  "executiveSummary": "CISA added 3 actively exploited vulnerabilities during the last 7 days. Web Applications / CMS is the most represented technology category among this week's new KEVs (1). WordPress has the most new KEV entries this week (1). CVE-2026-102764 is the largest 7-day rank riser, up 646 positions."
 }
