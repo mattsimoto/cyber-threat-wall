@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-11-10T19:51:07.143508+00:00",
-  "periodStart": "2026-11-04",
-  "periodEnd": "2026-11-10",
-  "newKEVs": 7,
+  "generatedAt": "2026-11-11T06:34:18.160042+00:00",
+  "periodStart": "2026-11-05",
+  "periodEnd": "2026-11-11",
+  "newKEVs": 12,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
+    {
+      "vendor": "Barracuda Networks",
+      "count": 2
+    },
     {
       "vendor": "GPUStack",
       "count": 1
@@ -22,11 +26,19 @@
       "count": 1
     },
     {
-      "vendor": "WordPress",
+      "vendor": "Google",
+      "count": 1
+    },
+    {
+      "vendor": "Cisco",
       "count": 1
     },
     {
       "vendor": "SonicWall",
+      "count": 1
+    },
+    {
+      "vendor": "Microsoft",
       "count": 1
     },
     {
@@ -37,18 +49,22 @@
   "topTechnologies": [
     {
       "technology": "Other",
-      "count": 3
+      "count": 6
     },
     {
       "technology": "Identity / Access",
       "count": 2
     },
     {
-      "technology": "Web Applications / CMS",
+      "technology": "Network Edge / VPN",
+      "count": 2
+    },
+    {
+      "technology": "Browsers",
       "count": 1
     },
     {
-      "technology": "Network Edge / VPN",
+      "technology": "Email / Collaboration",
       "count": 1
     }
   ],
@@ -63,7 +79,7 @@
       "dueDate": "2026-09-11",
       "threatSignal": 84,
       "movement24h": 0,
-      "movement7d": 903,
+      "movement7d": 902,
       "cvssScore": 10.0,
       "epss": 0.99376,
       "epssPercentile": 0.9994,
@@ -73,27 +89,6 @@
       "noPrivilegesRequired": true,
       "shortDescription": "Adobe Commerce and Magento Open Source contain an improper neutralization of special elements used in a template engine vulnerability that could allow an attacker to execute arbitrary code.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-75650"
-    },
-    {
-      "cveID": "CVE-2026-102764",
-      "vendorProject": "BeyondTrust",
-      "product": "Remote Support",
-      "technology": "Identity / Access",
-      "vulnerabilityName": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-      "dateAdded": "2026-10-16",
-      "dueDate": "2026-10-19",
-      "threatSignal": 82,
-      "movement24h": 1,
-      "movement7d": 645,
-      "cvssScore": 9.3,
-      "epss": 0.77994,
-      "epssPercentile": 0.99576,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-102764"
     },
     {
       "cveID": "CVE-2026-59310",
@@ -115,27 +110,6 @@
       "noPrivilegesRequired": true,
       "shortDescription": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-59310"
-    },
-    {
-      "cveID": "CVE-2026-97229",
-      "vendorProject": "GitLab",
-      "product": "Community Edition and Enterprise Edition",
-      "technology": "Developer / CI-CD",
-      "vulnerabilityName": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
-      "dateAdded": "2026-10-29",
-      "dueDate": "2026-11-01",
-      "threatSignal": 80,
-      "movement24h": 0,
-      "movement7d": 299,
-      "cvssScore": 10.0,
-      "epss": 0.6522,
-      "epssPercentile": 0.99261,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-97229"
     },
     {
       "cveID": "CVE-2026-102489",
@@ -167,7 +141,7 @@
       "dateAdded": "2026-08-18",
       "dueDate": "2026-08-21",
       "threatSignal": 68,
-      "movement24h": 201,
+      "movement24h": 0,
       "movement7d": 200,
       "cvssScore": 9.8,
       "epss": 0.18057,
@@ -188,8 +162,8 @@
       "dateAdded": "2026-10-20",
       "dueDate": "2026-11-03",
       "threatSignal": 60,
-      "movement24h": 0,
-      "movement7d": 185,
+      "movement24h": -6,
+      "movement7d": 129,
       "cvssScore": 5.3,
       "epss": 0.10724,
       "epssPercentile": 0.95858,
@@ -209,8 +183,8 @@
       "dateAdded": "2025-08-18",
       "dueDate": "2025-09-08",
       "threatSignal": 67,
-      "movement24h": -3,
-      "movement7d": 109,
+      "movement24h": -1,
+      "movement7d": 107,
       "cvssScore": 9.8,
       "epss": 0.32872,
       "epssPercentile": 0.98366,
@@ -230,8 +204,8 @@
       "dateAdded": "2023-06-23",
       "dueDate": "2023-07-14",
       "threatSignal": 68,
-      "movement24h": -3,
-      "movement7d": 95,
+      "movement24h": 0,
+      "movement7d": 94,
       "cvssScore": 7.8,
       "epss": 0.58157,
       "epssPercentile": 0.99098,
@@ -262,6 +236,48 @@
       "noPrivilegesRequired": true,
       "shortDescription": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76461"
+    },
+    {
+      "cveID": "CVE-2021-22893",
+      "vendorProject": "Ivanti",
+      "product": "Pulse Connect Secure",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Ivanti Pulse Connect Secure Use-After-Free Vulnerability",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "threatSignal": 80,
+      "movement24h": 0,
+      "movement7d": 80,
+      "cvssScore": 10.0,
+      "epss": 0.47508,
+      "epssPercentile": 0.98853,
+      "knownRansomwareCampaignUse": "Known",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Ivanti Pulse Connect Secure contains a use-after-free vulnerability that allow a remote, unauthenticated attacker to execute code via license services.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2021-22893"
+    },
+    {
+      "cveID": "CVE-2026-48356",
+      "vendorProject": "Adobe",
+      "product": "Commerce and Magento",
+      "technology": "Other",
+      "vulnerabilityName": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "dateAdded": "2026-10-27",
+      "dueDate": "2026-11-10",
+      "threatSignal": 75,
+      "movement24h": 72,
+      "movement7d": 71,
+      "cvssScore": 9.3,
+      "epss": 0.47472,
+      "epssPercentile": 0.98852,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-48356"
     }
   ],
   "highestSignals": [
@@ -329,6 +345,27 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-123218"
     },
     {
+      "cveID": "CVE-2026-116606",
+      "vendorProject": "Barracuda Networks",
+      "product": "Barracuda Email Security Gateway (ESG)",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "dateAdded": "2026-11-10",
+      "dueDate": "2026-11-13",
+      "threatSignal": 68,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.3,
+      "epss": 0.01602,
+      "epssPercentile": 0.76026,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance\u2019s global configuration. This vulnerability can be chained with CVE-2026-111560.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-116606"
+    },
+    {
       "cveID": "CVE-2026-123158",
       "vendorProject": "OpenBSD",
       "product": "OpenSSH",
@@ -337,7 +374,7 @@
       "dateAdded": "2026-11-09",
       "dueDate": "2026-11-12",
       "threatSignal": 68,
-      "movement24h": 152,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 8.1,
       "epss": 0.16501,
@@ -350,25 +387,67 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-123158"
     },
     {
-      "cveID": "CVE-2026-119977",
-      "vendorProject": "WordPress",
-      "product": "WordPress Core",
-      "technology": "Web Applications / CMS",
-      "vulnerabilityName": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
-      "dateAdded": "2026-11-03",
-      "dueDate": "2026-11-06",
+      "cveID": "CVE-2026-111560",
+      "vendorProject": "Barracuda Networks",
+      "product": "Multiple Products",
+      "technology": "Other",
+      "vulnerabilityName": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "dateAdded": "2026-11-10",
+      "dueDate": "2026-11-13",
       "threatSignal": 66,
-      "movement24h": -3,
-      "movement7d": 45,
-      "cvssScore": 8.1,
-      "epss": 0.01199,
-      "epssPercentile": 0.68421,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.6,
+      "epss": 0.0106,
+      "epssPercentile": 0.6483,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-111560"
+    },
+    {
+      "cveID": "CVE-2026-125350",
+      "vendorProject": "Google",
+      "product": "Chromium",
+      "technology": "Browsers",
+      "vulnerabilityName": "Google Chromium Use-After-Free Vulnerability",
+      "dateAdded": "2026-11-10",
+      "dueDate": "2026-11-24",
+      "threatSignal": 65,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.8,
+      "epss": null,
+      "epssPercentile": null,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": true,
-      "shortDescription": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-119977"
+      "shortDescription": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-125350"
+    },
+    {
+      "cveID": "CVE-2026-20320",
+      "vendorProject": "Cisco",
+      "product": "BroadWorks",
+      "technology": "Other",
+      "vulnerabilityName": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "dateAdded": "2026-11-10",
+      "dueDate": "2026-11-24",
+      "threatSignal": 62,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 7.5,
+      "epss": 0.00385,
+      "epssPercentile": 0.32917,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": true,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-20320"
     },
     {
       "cveID": "CVE-2026-19868",
@@ -379,7 +458,7 @@
       "dateAdded": "2026-11-06",
       "dueDate": "2026-11-20",
       "threatSignal": 62,
-      "movement24h": -1,
+      "movement24h": -4,
       "movement7d": 0,
       "cvssScore": 7.5,
       "epss": 0.00532,
@@ -392,32 +471,32 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-19868"
     },
     {
-      "cveID": "CVE-2024-27834",
-      "vendorProject": "Apple",
-      "product": "Multiple Products",
-      "technology": "Identity / Access",
-      "vulnerabilityName": "Apple Multiple Products Improper Authentication Vulnerability",
-      "dateAdded": "2026-11-04",
-      "dueDate": "2026-11-18",
-      "threatSignal": 58,
+      "cveID": "CVE-2026-124194",
+      "vendorProject": "Microsoft",
+      "product": "Office",
+      "technology": "Email / Collaboration",
+      "vulnerabilityName": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "dateAdded": "2026-11-10",
+      "dueDate": "2026-11-24",
+      "threatSignal": 60,
       "movement24h": 0,
       "movement7d": 0,
-      "cvssScore": 5.5,
-      "epss": 0.01502,
-      "epssPercentile": 0.74519,
+      "cvssScore": 6.5,
+      "epss": null,
+      "epssPercentile": null,
       "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
+      "networkExploitable": true,
       "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2024-27834"
+      "noPrivilegesRequired": true,
+      "shortDescription": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-124194"
     }
   ],
   "observations": [
-    "CISA added 7 actively exploited vulnerabilities during the last 7 days.",
-    "Other is the most represented technology category among this week's new KEVs (3).",
-    "GPUStack has the most new KEV entries this week (1).",
-    "CVE-2026-75650 is the largest 7-day rank riser, up 903 positions."
+    "CISA added 12 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (6).",
+    "Barracuda Networks has the most new KEV entries this week (2).",
+    "CVE-2026-75650 is the largest 7-day rank riser, up 902 positions."
   ],
-  "executiveSummary": "CISA added 7 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (3). GPUStack has the most new KEV entries this week (1). CVE-2026-75650 is the largest 7-day rank riser, up 903 positions."
+  "executiveSummary": "CISA added 12 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (6). Barracuda Networks has the most new KEV entries this week (2). CVE-2026-75650 is the largest 7-day rank riser, up 902 positions."
 }
