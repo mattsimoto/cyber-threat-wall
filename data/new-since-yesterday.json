@@ -1,49 +1,6 @@
 {
-  "generatedAt": "2026-11-13T19:46:06.850051+00:00",
-  "since": "2026-11-12",
-  "count": 2,
-  "vulnerabilities": [
-    {
-      "cveID": "CVE-2026-114713",
-      "vendorProject": "UnrealIRCd",
-      "product": "UnrealIRCd",
-      "technology": "Other",
-      "vulnerabilityName": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
-      "dateAdded": "2026-11-13",
-      "dueDate": "2026-11-16",
-      "threatSignal": 66,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 8.6,
-      "epss": 0.00302,
-      "epssPercentile": 0.23297,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-114713"
-    },
-    {
-      "cveID": "CVE-2026-123039",
-      "vendorProject": "Check Point",
-      "product": "Multiple Products",
-      "technology": "Other",
-      "vulnerabilityName": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-      "dateAdded": "2026-11-13",
-      "dueDate": "2026-11-16",
-      "threatSignal": 65,
-      "movement24h": 0,
-      "movement7d": 0,
-      "cvssScore": 7.8,
-      "epss": 0.01274,
-      "epssPercentile": 0.70349,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
-      "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-123039"
-    }
-  ]
+  "generatedAt": "2026-11-14T06:29:13.621050+00:00",
+  "since": "2026-11-13",
+  "count": 0,
+  "vulnerabilities": []
 }
