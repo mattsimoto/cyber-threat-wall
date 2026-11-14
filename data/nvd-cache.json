@@ -24174,22 +24174,22 @@
     "noPrivilegesRequired": true
   },
   "CVE-2026-105134": {
-    "fetchedAt": "2026-10-15T04:44:06.323920+00:00",
-    "cvssScore": 9.3,
-    "cvssVector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "fetchedAt": "2026-11-14T22:28:31.560587+00:00",
+    "cvssScore": 10.0,
+    "cvssVector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:A/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
     "cvssVersion": "4.0",
     "cwes": [
       "CWE-77",
       "CWE-78"
     ],
     "nvdPublished": "2026-10-04T07:16:33.480",
-    "nvdLastModified": "2026-10-15T04:18:15.337",
+    "nvdLastModified": "2026-10-26T18:06:57.930",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
   },
   "CVE-2026-76519": {
-    "fetchedAt": "2026-10-15T04:44:12.693041+00:00",
+    "fetchedAt": "2026-11-14T22:28:48.449973+00:00",
     "cvssScore": 9.8,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -24197,7 +24197,7 @@
       "CWE-23"
     ],
     "nvdPublished": "2026-10-14T17:19:10.747",
-    "nvdLastModified": "2026-10-15T04:18:26.410",
+    "nvdLastModified": "2026-10-15T13:47:19.470",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
@@ -24231,7 +24231,7 @@
     "noPrivilegesRequired": false
   },
   "CVE-2026-21589": {
-    "fetchedAt": "2026-10-15T21:25:48.773792+00:00",
+    "fetchedAt": "2026-11-14T22:28:14.324963+00:00",
     "cvssScore": 9.3,
     "cvssVector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
     "cvssVersion": "4.0",
@@ -24239,7 +24239,7 @@
       "CWE-552"
     ],
     "nvdPublished": "2026-10-05T22:16:58.423",
-    "nvdLastModified": "2026-10-15T19:40:28.740",
+    "nvdLastModified": "2026-10-29T13:17:09.847",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true
