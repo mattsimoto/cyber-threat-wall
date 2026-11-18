@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T07:37:17.393068+00:00",
+  "generatedAt": "2026-11-18T20:39:36.463182+00:00",
   "since": "2026-11-17",
   "count": 1,
   "vulnerabilities": [
@@ -15,8 +15,8 @@
       "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.4,
-      "epss": 0.00366,
-      "epssPercentile": 0.30882,
+      "epss": 0.00691,
+      "epssPercentile": 0.53546,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
