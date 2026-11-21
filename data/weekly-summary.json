@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-20T20:29:19.863224+00:00",
-  "periodStart": "2026-11-14",
-  "periodEnd": "2026-11-20",
-  "newKEVs": 11,
+  "generatedAt": "2026-11-21T07:18:11.468262+00:00",
+  "periodStart": "2026-11-15",
+  "periodEnd": "2026-11-21",
+  "newKEVs": 9,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
@@ -30,15 +30,7 @@
       "count": 1
     },
     {
-      "vendor": "UnrealIRCd",
-      "count": 1
-    },
-    {
       "vendor": "Perforce",
-      "count": 1
-    },
-    {
-      "vendor": "Check Point",
       "count": 1
     },
     {
@@ -49,7 +41,7 @@
   "topTechnologies": [
     {
       "technology": "Other",
-      "count": 7
+      "count": 5
     },
     {
       "technology": "Web Applications / CMS",
@@ -74,8 +66,8 @@
       "dateAdded": "2026-07-22",
       "dueDate": "2026-07-25",
       "threatSignal": 78,
-      "movement24h": -2,
-      "movement7d": 725,
+      "movement24h": 0,
+      "movement7d": 724,
       "cvssScore": 9.8,
       "epss": 0.8187,
       "epssPercentile": 0.99657,
@@ -96,7 +88,7 @@
       "dueDate": "2026-09-27",
       "threatSignal": 80,
       "movement24h": 0,
-      "movement7d": 680,
+      "movement7d": 681,
       "cvssScore": 10.0,
       "epss": 0.7884,
       "epssPercentile": 0.996,
@@ -116,8 +108,8 @@
       "dateAdded": "2026-10-08",
       "dueDate": "2026-10-11",
       "threatSignal": 82,
-      "movement24h": 1,
-      "movement7d": 653,
+      "movement24h": 0,
+      "movement7d": 654,
       "cvssScore": 9.8,
       "epss": 0.88139,
       "epssPercentile": 0.99771,
@@ -179,7 +171,7 @@
       "dateAdded": "2022-06-09",
       "dueDate": "2022-06-30",
       "threatSignal": 68,
-      "movement24h": -2,
+      "movement24h": 0,
       "movement7d": 357,
       "cvssScore": 5.3,
       "epss": 0.86274,
@@ -192,27 +184,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2016-2388"
     },
     {
-      "cveID": "CVE-2026-28318",
-      "vendorProject": "SolarWinds",
-      "product": "Serv-U",
-      "technology": "Other",
-      "vulnerabilityName": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
-      "dateAdded": "2026-06-05",
-      "dueDate": "2026-06-19",
-      "threatSignal": 74,
-      "movement24h": 0,
-      "movement7d": 314,
-      "cvssScore": 7.5,
-      "epss": 0.87267,
-      "epssPercentile": 0.99757,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-28318"
-    },
-    {
       "cveID": "CVE-2026-48356",
       "vendorProject": "Adobe",
       "product": "Commerce and Magento",
@@ -221,7 +192,7 @@
       "dateAdded": "2026-10-27",
       "dueDate": "2026-11-10",
       "threatSignal": 79,
-      "movement24h": -1,
+      "movement24h": 0,
       "movement7d": 211,
       "cvssScore": 9.3,
       "epss": 0.6639,
@@ -242,8 +213,8 @@
       "dateAdded": "2022-04-15",
       "dueDate": "2022-05-06",
       "threatSignal": 79,
-      "movement24h": 213,
-      "movement7d": 210,
+      "movement24h": 0,
+      "movement7d": 209,
       "cvssScore": 9.8,
       "epss": 0.97027,
       "epssPercentile": 0.99892,
@@ -253,6 +224,27 @@
       "noPrivilegesRequired": true,
       "shortDescription": "InduSoft Web Studio NTWebServer contains a directory traversal vulnerability that allows remote attackers to read administrative passwords in APP files, allowing for remote code execution.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2014-0780"
+    },
+    {
+      "cveID": "CVE-2026-105133",
+      "vendorProject": "Ahsay",
+      "product": "AhsayCBS",
+      "technology": "Identity / Access",
+      "vulnerabilityName": "Ahsay AhsayCBS Improper Authentication Vulnerability",
+      "dateAdded": "2026-10-14",
+      "dueDate": "2026-10-17",
+      "threatSignal": 75,
+      "movement24h": 0,
+      "movement7d": 165,
+      "cvssScore": 6.9,
+      "epss": 0.84478,
+      "epssPercentile": 0.99709,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component\u2019s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-105133"
     },
     {
       "cveID": "CVE-2015-4852",
@@ -286,7 +278,7 @@
       "dateAdded": "2026-11-18",
       "dueDate": "2026-12-02",
       "threatSignal": 79,
-      "movement24h": 124,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 8.8,
       "epss": 0.68902,
@@ -391,7 +383,7 @@
       "dateAdded": "2026-11-18",
       "dueDate": "2026-11-21",
       "threatSignal": 69,
-      "movement24h": -3,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.02415,
@@ -412,7 +404,7 @@
       "dateAdded": "2026-11-18",
       "dueDate": "2026-11-21",
       "threatSignal": 69,
-      "movement24h": -3,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.01833,
@@ -425,27 +417,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-90436"
     },
     {
-      "cveID": "CVE-2026-114713",
-      "vendorProject": "UnrealIRCd",
-      "product": "UnrealIRCd",
-      "technology": "Other",
-      "vulnerabilityName": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
-      "dateAdded": "2026-11-13",
-      "dueDate": "2026-11-16",
-      "threatSignal": 67,
-      "movement24h": -2,
-      "movement7d": 52,
-      "cvssScore": 8.6,
-      "epss": 0.00467,
-      "epssPercentile": 0.41335,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-114713"
-    },
-    {
       "cveID": "CVE-2026-115731",
       "vendorProject": "Perforce",
       "product": "Puppet Enterprise",
@@ -454,7 +425,7 @@
       "dateAdded": "2026-11-17",
       "dueDate": "2026-12-01",
       "threatSignal": 66,
-      "movement24h": -2,
+      "movement24h": 1,
       "movement7d": 0,
       "cvssScore": 9.4,
       "epss": 0.00691,
@@ -467,32 +438,32 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-115731"
     },
     {
-      "cveID": "CVE-2026-123039",
-      "vendorProject": "Check Point",
-      "product": "Multiple Products",
-      "technology": "Other",
-      "vulnerabilityName": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
-      "dateAdded": "2026-11-13",
-      "dueDate": "2026-11-16",
-      "threatSignal": 66,
-      "movement24h": -2,
-      "movement7d": 43,
-      "cvssScore": 7.8,
-      "epss": 0.01938,
-      "epssPercentile": 0.80628,
+      "cveID": "CVE-2025-42884",
+      "vendorProject": "SAP",
+      "product": "NetWeaver",
+      "technology": "Enterprise Software",
+      "vulnerabilityName": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+      "dateAdded": "2026-11-20",
+      "dueDate": "2026-11-23",
+      "threatSignal": 62,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 6.5,
+      "epss": 0.00276,
+      "epssPercentile": 0.2048,
       "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": false,
+      "networkExploitable": true,
       "publicExploit": false,
-      "noPrivilegesRequired": false,
-      "shortDescription": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-123039"
+      "noPrivilegesRequired": true,
+      "shortDescription": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2025-42884"
     }
   ],
   "observations": [
-    "CISA added 11 actively exploited vulnerabilities during the last 7 days.",
-    "Other is the most represented technology category among this week's new KEVs (7).",
+    "CISA added 9 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (5).",
     "Apache has the most new KEV entries this week (2).",
-    "CVE-2026-50522 is the largest 7-day rank riser, up 725 positions."
+    "CVE-2026-50522 is the largest 7-day rank riser, up 724 positions."
   ],
-  "executiveSummary": "CISA added 11 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (7). Apache has the most new KEV entries this week (2). CVE-2026-50522 is the largest 7-day rank riser, up 725 positions."
+  "executiveSummary": "CISA added 9 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (5). Apache has the most new KEV entries this week (2). CVE-2026-50522 is the largest 7-day rank riser, up 724 positions."
 }
