@@ -1,6 +1,49 @@
 {
-  "generatedAt": "2026-11-23T07:47:35.528913+00:00",
-  "since": "2026-11-22",
-  "count": 0,
-  "vulnerabilities": []
+  "generatedAt": "2026-11-24T00:01:28.561132+00:00",
+  "since": "2026-11-23",
+  "count": 2,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-133968",
+      "vendorProject": "Project MONAI",
+      "product": "MONAI Label",
+      "technology": "Other",
+      "vulnerabilityName": "Project MONAI MONAI Label Path Traversal Vulnerability",
+      "dateAdded": "2026-11-23",
+      "dueDate": "2026-11-26",
+      "threatSignal": 70,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.8,
+      "epss": 0.03664,
+      "epssPercentile": 0.89921,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-133968"
+    },
+    {
+      "cveID": "CVE-2026-134624",
+      "vendorProject": "N-able",
+      "product": "MailAssure",
+      "technology": "Email / Collaboration",
+      "vulnerabilityName": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+      "dateAdded": "2026-11-23",
+      "dueDate": "2026-11-26",
+      "threatSignal": 68,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.3,
+      "epss": 0.00354,
+      "epssPercentile": 0.2969,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-134624"
+    }
+  ]
 }
