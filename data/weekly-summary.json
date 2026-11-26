@@ -1,16 +1,20 @@
 {
-  "generatedAt": "2026-11-25T21:48:30.669752+00:00",
-  "periodStart": "2026-11-19",
-  "periodEnd": "2026-11-25",
-  "newKEVs": 13,
-  "ransomwareLinkedNewKEVs": 1,
+  "generatedAt": "2026-11-26T08:29:01.575993+00:00",
+  "periodStart": "2026-11-20",
+  "periodEnd": "2026-11-26",
+  "newKEVs": 19,
+  "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
-      "vendor": "Apache",
-      "count": 2
+      "vendor": "Mitel",
+      "count": 5
     },
     {
-      "vendor": "Synology",
+      "vendor": "Danfoss",
+      "count": 3
+    },
+    {
+      "vendor": "Apache",
       "count": 1
     },
     {
@@ -18,19 +22,19 @@
       "count": 1
     },
     {
-      "vendor": "Vanderbilt University",
-      "count": 1
-    },
-    {
       "vendor": "Broadcom",
       "count": 1
     },
     {
-      "vendor": "BerriAI",
+      "vendor": "Cisco",
       "count": 1
     },
     {
-      "vendor": "Cisco",
+      "vendor": "Hewlett Packard Enterprise (HPE)",
+      "count": 1
+    },
+    {
+      "vendor": "Vates",
       "count": 1
     },
     {
@@ -40,23 +44,27 @@
     {
       "vendor": "N-able",
       "count": 1
-    },
-    {
-      "vendor": "Optimizely",
-      "count": 1
     }
   ],
   "topTechnologies": [
     {
       "technology": "Other",
-      "count": 6
+      "count": 10
     },
     {
       "technology": "Web Applications / CMS",
-      "count": 3
+      "count": 2
+    },
+    {
+      "technology": "Identity / Access",
+      "count": 2
     },
     {
       "technology": "Cloud / Virtualization",
+      "count": 1
+    },
+    {
+      "technology": "Network Edge / VPN",
       "count": 1
     },
     {
@@ -82,8 +90,8 @@
       "dateAdded": "2026-07-22",
       "dueDate": "2026-07-25",
       "threatSignal": 77,
-      "movement24h": 908,
-      "movement7d": 893,
+      "movement24h": 0,
+      "movement7d": 896,
       "cvssScore": 9.3,
       "epss": 0.80106,
       "epssPercentile": 0.99736,
@@ -103,8 +111,8 @@
       "dateAdded": "2026-07-10",
       "dueDate": "2026-07-13",
       "threatSignal": 80,
-      "movement24h": 880,
-      "movement7d": 867,
+      "movement24h": 1,
+      "movement7d": 872,
       "cvssScore": 10.0,
       "epss": 0.91199,
       "epssPercentile": 0.99877,
@@ -124,8 +132,8 @@
       "dateAdded": "2026-07-10",
       "dueDate": "2026-07-13",
       "threatSignal": 78,
-      "movement24h": 802,
-      "movement7d": 784,
+      "movement24h": 0,
+      "movement7d": 788,
       "cvssScore": 10.0,
       "epss": 0.81423,
       "epssPercentile": 0.99754,
@@ -145,8 +153,8 @@
       "dateAdded": "2022-03-03",
       "dueDate": "2022-03-17",
       "threatSignal": 80,
-      "movement24h": 133,
-      "movement7d": 628,
+      "movement24h": 1,
+      "movement7d": 631,
       "cvssScore": 7.4,
       "epss": 0.72708,
       "epssPercentile": 0.99609,
@@ -166,8 +174,8 @@
       "dateAdded": "2021-11-03",
       "dueDate": "2022-05-03",
       "threatSignal": 72,
-      "movement24h": 252,
-      "movement7d": 608,
+      "movement24h": 2,
+      "movement7d": 613,
       "cvssScore": 9.8,
       "epss": 0.6224,
       "epssPercentile": 0.99395,
@@ -179,6 +187,27 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2020-10181"
     },
     {
+      "cveID": "CVE-2024-10441",
+      "vendorProject": "Synology",
+      "product": "DiskStation Manager (DSM)",
+      "technology": "Other",
+      "vulnerabilityName": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+      "dateAdded": "2026-11-18",
+      "dueDate": "2026-11-21",
+      "threatSignal": 78,
+      "movement24h": -151,
+      "movement7d": 587,
+      "cvssScore": 9.8,
+      "epss": 0.0276,
+      "epssPercentile": 0.86985,
+      "knownRansomwareCampaignUse": "Known",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2024-10441"
+    },
+    {
       "cveID": "CVE-2016-3976",
       "vendorProject": "SAP",
       "product": "NetWeaver",
@@ -187,8 +216,8 @@
       "dateAdded": "2021-11-03",
       "dueDate": "2022-05-03",
       "threatSignal": 73,
-      "movement24h": 253,
-      "movement7d": 554,
+      "movement24h": 2,
+      "movement7d": 561,
       "cvssScore": 7.5,
       "epss": 0.87713,
       "epssPercentile": 0.99841,
@@ -200,48 +229,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2016-3976"
     },
     {
-      "cveID": "CVE-2019-19006",
-      "vendorProject": "Sangoma",
-      "product": "FreePBX",
-      "technology": "Identity / Access",
-      "vulnerabilityName": "Sangoma FreePBX Improper Authentication Vulnerability",
-      "dateAdded": "2026-02-03",
-      "dueDate": "2026-02-24",
-      "threatSignal": 80,
-      "movement24h": 66,
-      "movement7d": 546,
-      "cvssScore": 9.8,
-      "epss": 0.92374,
-      "epssPercentile": 0.99889,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": true,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Sangoma FreePBX contains an improper authentication vulnerability that potentially allows unauthorized users to bypass password authentication and access services provided by the FreePBX admin.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2019-19006"
-    },
-    {
-      "cveID": "CVE-2016-2388",
-      "vendorProject": "SAP",
-      "product": "NetWeaver",
-      "technology": "Enterprise Software",
-      "vulnerabilityName": "SAP NetWeaver Information Disclosure Vulnerability",
-      "dateAdded": "2022-06-09",
-      "dueDate": "2022-06-30",
-      "threatSignal": 68,
-      "movement24h": 179,
-      "movement7d": 525,
-      "cvssScore": 5.3,
-      "epss": 0.86294,
-      "epssPercentile": 0.99822,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": true,
-      "noPrivilegesRequired": true,
-      "shortDescription": "The Universal Worklist Configuration in SAP NetWeaver AS JAVA 7.4 allows remote attackers to obtain sensitive user information via a crafted HTTP request.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2016-2388"
-    },
-    {
       "cveID": "CVE-2020-8195",
       "vendorProject": "Citrix",
       "product": "Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance",
@@ -250,8 +237,8 @@
       "dateAdded": "2021-11-03",
       "dueDate": "2022-05-03",
       "threatSignal": 66,
-      "movement24h": 173,
-      "movement7d": 491,
+      "movement24h": -6,
+      "movement7d": 488,
       "cvssScore": 6.5,
       "epss": 0.63861,
       "epssPercentile": 0.99425,
@@ -271,8 +258,8 @@
       "dateAdded": "2022-06-08",
       "dueDate": "2022-06-22",
       "threatSignal": 79,
-      "movement24h": 153,
-      "movement7d": 468,
+      "movement24h": 1,
+      "movement7d": 471,
       "cvssScore": 9.8,
       "epss": 0.44714,
       "epssPercentile": 0.99072,
@@ -282,30 +269,30 @@
       "noPrivilegesRequired": true,
       "shortDescription": "QNAP QTS contains an improper input validation vulnerability allowing remote attackers to inject code on the system.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2019-7193"
+    },
+    {
+      "cveID": "CVE-2026-86060",
+      "vendorProject": "MikroTik",
+      "product": "RouterOS",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
+      "dateAdded": "2026-09-10",
+      "dueDate": "2026-09-13",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 460,
+      "cvssScore": 9.2,
+      "epss": 0.3552,
+      "epssPercentile": 0.98827,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": true,
+      "noPrivilegesRequired": true,
+      "shortDescription": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-86060"
     }
   ],
   "highestSignals": [
-    {
-      "cveID": "CVE-2024-10441",
-      "vendorProject": "Synology",
-      "product": "DiskStation Manager (DSM)",
-      "technology": "Other",
-      "vulnerabilityName": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-      "dateAdded": "2026-11-18",
-      "dueDate": "2026-11-21",
-      "threatSignal": 81,
-      "movement24h": 72,
-      "movement7d": 0,
-      "cvssScore": 9.8,
-      "epss": 0.0276,
-      "epssPercentile": 0.86985,
-      "knownRansomwareCampaignUse": "Known",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2024-10441"
-    },
     {
       "cveID": "CVE-2026-129448",
       "vendorProject": "Apache",
@@ -315,7 +302,7 @@
       "dateAdded": "2026-11-20",
       "dueDate": "2026-11-23",
       "threatSignal": 75,
-      "movement24h": 45,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.24159,
@@ -336,7 +323,7 @@
       "dateAdded": "2026-11-23",
       "dueDate": "2026-11-26",
       "threatSignal": 74,
-      "movement24h": -95,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.27157,
@@ -349,27 +336,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-133968"
     },
     {
-      "cveID": "CVE-2026-90817",
-      "vendorProject": "Vanderbilt University",
-      "product": "Research Electronic Data Capture (REDCap)",
-      "technology": "Other",
-      "vulnerabilityName": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
-      "dateAdded": "2026-11-18",
-      "dueDate": "2026-11-21",
-      "threatSignal": 74,
-      "movement24h": 31,
-      "movement7d": 0,
-      "cvssScore": 9.8,
-      "epss": 0.18881,
-      "epssPercentile": 0.97862,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a public survey context and supply a crafted file-path or stream parameter during data import processing. Exploitation requires knowledge of a valid public survey hash.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-90817"
-    },
-    {
       "cveID": "CVE-2026-123890",
       "vendorProject": "Broadcom",
       "product": "VMware vCenter",
@@ -378,7 +344,7 @@
       "dateAdded": "2026-11-20",
       "dueDate": "2026-11-23",
       "threatSignal": 71,
-      "movement24h": 207,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.05009,
@@ -391,46 +357,25 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-123890"
     },
     {
-      "cveID": "CVE-2026-40217",
-      "vendorProject": "BerriAI",
-      "product": "LiteLLM",
+      "cveID": "CVE-2026-133323",
+      "vendorProject": "Mitel",
+      "product": "MiCollab",
       "technology": "Other",
-      "vulnerabilityName": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-      "dateAdded": "2026-11-18",
-      "dueDate": "2026-12-02",
-      "threatSignal": 71,
-      "movement24h": -418,
-      "movement7d": 0,
-      "cvssScore": 8.8,
-      "epss": 0.20215,
-      "epssPercentile": 0.98011,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": true,
-      "noPrivilegesRequired": false,
-      "shortDescription": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-40217"
-    },
-    {
-      "cveID": "CVE-2026-90436",
-      "vendorProject": "Apache",
-      "product": "Axis",
-      "technology": "Web Applications / CMS",
-      "vulnerabilityName": "Apache Axis Unsafe Reflection Vulnerability",
-      "dateAdded": "2026-11-18",
-      "dueDate": "2026-11-21",
-      "threatSignal": 71,
-      "movement24h": 206,
+      "vulnerabilityName": "Mitel MiCollab OS Command Injection Vulnerability",
+      "dateAdded": "2026-11-25",
+      "dueDate": "2026-11-28",
+      "threatSignal": 70,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.8,
-      "epss": 0.02695,
-      "epssPercentile": 0.86635,
+      "epss": 0.02546,
+      "epssPercentile": 0.85725,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": true,
-      "shortDescription": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-90436"
+      "shortDescription": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-133323"
     },
     {
       "cveID": "CVE-2026-76466",
@@ -441,7 +386,7 @@
       "dateAdded": "2026-11-20",
       "dueDate": "2026-11-23",
       "threatSignal": 70,
-      "movement24h": 199,
+      "movement24h": 2,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.01116,
@@ -454,6 +399,69 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76466"
     },
     {
+      "cveID": "CVE-2026-103406",
+      "vendorProject": "Hewlett Packard Enterprise (HPE)",
+      "product": "Juniper Session Smart Conductor and Session Smart Router",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+      "dateAdded": "2026-11-25",
+      "dueDate": "2026-11-28",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.8,
+      "epss": 0.0086,
+      "epssPercentile": 0.56019,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-103406"
+    },
+    {
+      "cveID": "CVE-2026-133469",
+      "vendorProject": "Vates",
+      "product": "Xen Orchestra",
+      "technology": "Other",
+      "vulnerabilityName": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+      "dateAdded": "2026-11-25",
+      "dueDate": "2026-11-28",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.8,
+      "epss": 0.01101,
+      "epssPercentile": 0.65258,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": true,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-133469"
+    },
+    {
+      "cveID": "CVE-2026-133303",
+      "vendorProject": "Mitel",
+      "product": "MiCollab",
+      "technology": "Other",
+      "vulnerabilityName": "Mitel MiCollab XML Injection Vulnerability",
+      "dateAdded": "2026-11-25",
+      "dueDate": "2026-11-28",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.8,
+      "epss": 0.00515,
+      "epssPercentile": 0.37111,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-133303"
+    },
+    {
       "cveID": "CVE-2026-131914",
       "vendorProject": "Idunno",
       "product": "AntiCsrf",
@@ -462,7 +470,7 @@
       "dateAdded": "2026-11-24",
       "dueDate": "2026-11-27",
       "threatSignal": 69,
-      "movement24h": 229,
+      "movement24h": -1,
       "movement7d": 0,
       "cvssScore": 9.3,
       "epss": 0.04292,
@@ -483,7 +491,7 @@
       "dateAdded": "2026-11-23",
       "dueDate": "2026-11-26",
       "threatSignal": 68,
-      "movement24h": 190,
+      "movement24h": -1,
       "movement7d": 0,
       "cvssScore": 9.3,
       "epss": 0.01793,
@@ -497,11 +505,10 @@
     }
   ],
   "observations": [
-    "CISA added 13 actively exploited vulnerabilities during the last 7 days.",
-    "1 of this week's additions are associated with known ransomware campaigns.",
-    "Other is the most represented technology category among this week's new KEVs (6).",
-    "Apache has the most new KEV entries this week (2).",
-    "CVE-2026-16232 is the largest 7-day rank riser, up 893 positions."
+    "CISA added 19 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (10).",
+    "Mitel has the most new KEV entries this week (5).",
+    "CVE-2026-16232 is the largest 7-day rank riser, up 896 positions."
   ],
-  "executiveSummary": "CISA added 13 actively exploited vulnerabilities during the last 7 days. 1 of this week's additions are associated with known ransomware campaigns. Other is the most represented technology category among this week's new KEVs (6). Apache has the most new KEV entries this week (2)."
+  "executiveSummary": "CISA added 19 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (10). Mitel has the most new KEV entries this week (5). CVE-2026-16232 is the largest 7-day rank riser, up 896 positions."
 }
