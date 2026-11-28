@@ -24448,7 +24448,7 @@
     "noPrivilegesRequired": true
   },
   "CVE-2026-41709": {
-    "fetchedAt": "2026-10-28T22:37:40.146346+00:00",
+    "fetchedAt": "2026-11-28T07:53:58.139297+00:00",
     "cvssScore": 2.7,
     "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N",
     "cvssVersion": "3.1",
@@ -24456,13 +24456,13 @@
       "CWE-778"
     ],
     "nvdPublished": "2026-07-30T14:16:57.420",
-    "nvdLastModified": "2026-10-28T20:17:25.583",
+    "nvdLastModified": "2026-10-29T17:29:11.590",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": false
   },
   "CVE-2026-46300": {
-    "fetchedAt": "2026-10-28T22:37:46.475929+00:00",
+    "fetchedAt": "2026-11-28T07:54:04.640971+00:00",
     "cvssScore": 7.8,
     "cvssVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "cvssVersion": "3.1",
@@ -24472,7 +24472,7 @@
       "CWE-123"
     ],
     "nvdPublished": "2026-05-23T12:17:02.660",
-    "nvdLastModified": "2026-10-28T20:17:26.883",
+    "nvdLastModified": "2026-10-29T17:30:34.060",
     "publicExploit": false,
     "networkExploitable": false,
     "noPrivilegesRequired": false
@@ -25066,6 +25066,30 @@
     ],
     "nvdPublished": "2026-11-19T17:18:52.880",
     "nvdLastModified": "2026-11-26T05:18:21.963",
+    "publicExploit": false,
+    "networkExploitable": true,
+    "noPrivilegesRequired": true
+  },
+  "CVE-2026-120705": {
+    "fetchedAt": "2026-11-28T07:53:38.765428+00:00",
+    "cvssScore": null,
+    "cwes": []
+  },
+  "CVE-2026-129243": {
+    "fetchedAt": "2026-11-28T07:53:45.203185+00:00",
+    "cvssScore": null,
+    "cwes": []
+  },
+  "CVE-2026-136716": {
+    "fetchedAt": "2026-11-28T07:53:51.652621+00:00",
+    "cvssScore": 9.8,
+    "cvssVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvssVersion": "3.1",
+    "cwes": [
+      "CWE-754"
+    ],
+    "nvdPublished": "2026-11-26T01:17:10.517",
+    "nvdLastModified": "2026-11-28T05:17:40.107",
     "publicExploit": false,
     "networkExploitable": true,
     "noPrivilegesRequired": true

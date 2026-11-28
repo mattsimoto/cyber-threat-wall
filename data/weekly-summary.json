@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-27T21:20:43.591635+00:00",
-  "periodStart": "2026-11-21",
-  "periodEnd": "2026-11-27",
-  "newKEVs": 19,
+  "generatedAt": "2026-11-28T07:54:14.759515+00:00",
+  "periodStart": "2026-11-22",
+  "periodEnd": "2026-11-28",
+  "newKEVs": 18,
   "ransomwareLinkedNewKEVs": 0,
   "topVendors": [
     {
@@ -14,6 +14,14 @@
       "count": 3
     },
     {
+      "vendor": "Drupal",
+      "count": 2
+    },
+    {
+      "vendor": "OSGeo",
+      "count": 2
+    },
+    {
       "vendor": "Vates",
       "count": 1
     },
@@ -22,15 +30,7 @@
       "count": 1
     },
     {
-      "vendor": "Apache",
-      "count": 1
-    },
-    {
-      "vendor": "Broadcom",
-      "count": 1
-    },
-    {
-      "vendor": "Cisco",
+      "vendor": "Idunno",
       "count": 1
     },
     {
@@ -38,18 +38,18 @@
       "count": 1
     },
     {
-      "vendor": "Idunno",
+      "vendor": "N-able",
       "count": 1
     },
     {
-      "vendor": "N-able",
+      "vendor": "Optimizely",
       "count": 1
     }
   ],
   "topTechnologies": [
     {
       "technology": "Other",
-      "count": 10
+      "count": 9
     },
     {
       "technology": "Web Applications / CMS",
@@ -60,7 +60,11 @@
       "count": 2
     },
     {
-      "technology": "Cloud / Virtualization",
+      "technology": "Enterprise Software",
+      "count": 2
+    },
+    {
+      "technology": "OT / ICS",
       "count": 1
     },
     {
@@ -68,15 +72,7 @@
       "count": 1
     },
     {
-      "technology": "OT / ICS",
-      "count": 1
-    },
-    {
       "technology": "Email / Collaboration",
-      "count": 1
-    },
-    {
-      "technology": "Enterprise Software",
       "count": 1
     }
   ],
@@ -90,8 +86,8 @@
       "dateAdded": "2026-07-22",
       "dueDate": "2026-07-25",
       "threatSignal": 77,
-      "movement24h": -4,
-      "movement7d": 893,
+      "movement24h": 0,
+      "movement7d": 894,
       "cvssScore": 9.3,
       "epss": 0.78945,
       "epssPercentile": 0.99719,
@@ -111,8 +107,8 @@
       "dateAdded": "2026-07-10",
       "dueDate": "2026-07-13",
       "threatSignal": 80,
-      "movement24h": -3,
-      "movement7d": 869,
+      "movement24h": 0,
+      "movement7d": 871,
       "cvssScore": 10.0,
       "epss": 0.91199,
       "epssPercentile": 0.99876,
@@ -124,27 +120,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-48939"
     },
     {
-      "cveID": "CVE-2026-123158",
-      "vendorProject": "OpenBSD",
-      "product": "OpenSSH",
-      "technology": "Other",
-      "vulnerabilityName": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-      "dateAdded": "2026-11-09",
-      "dueDate": "2026-11-12",
-      "threatSignal": 81,
-      "movement24h": 716,
-      "movement7d": 819,
-      "cvssScore": 8.1,
-      "epss": 0.89631,
-      "epssPercentile": 0.99861,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": true,
-      "noPrivilegesRequired": true,
-      "shortDescription": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-123158"
-    },
-    {
       "cveID": "CVE-2026-56291",
       "vendorProject": "Balbooa",
       "product": "Forms",
@@ -153,8 +128,8 @@
       "dateAdded": "2026-07-10",
       "dueDate": "2026-07-13",
       "threatSignal": 78,
-      "movement24h": -4,
-      "movement7d": 784,
+      "movement24h": 0,
+      "movement7d": 787,
       "cvssScore": 10.0,
       "epss": 0.81423,
       "epssPercentile": 0.99753,
@@ -174,8 +149,8 @@
       "dateAdded": "2022-03-03",
       "dueDate": "2022-03-17",
       "threatSignal": 80,
-      "movement24h": -4,
-      "movement7d": 624,
+      "movement24h": 0,
+      "movement7d": 630,
       "cvssScore": 7.4,
       "epss": 0.72708,
       "epssPercentile": 0.99607,
@@ -195,8 +170,8 @@
       "dateAdded": "2021-11-03",
       "dueDate": "2022-05-03",
       "threatSignal": 72,
-      "movement24h": -2,
-      "movement7d": 610,
+      "movement24h": 0,
+      "movement7d": 611,
       "cvssScore": 9.8,
       "epss": 0.6224,
       "epssPercentile": 0.99394,
@@ -216,8 +191,8 @@
       "dateAdded": "2026-11-18",
       "dueDate": "2026-11-21",
       "threatSignal": 78,
-      "movement24h": -4,
-      "movement7d": 584,
+      "movement24h": 0,
+      "movement7d": 549,
       "cvssScore": 9.8,
       "epss": 0.0276,
       "epssPercentile": 0.87012,
@@ -229,27 +204,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2024-10441"
     },
     {
-      "cveID": "CVE-2016-3976",
-      "vendorProject": "SAP",
-      "product": "NetWeaver",
-      "technology": "Enterprise Software",
-      "vulnerabilityName": "SAP NetWeaver Directory Traversal Vulnerability",
-      "dateAdded": "2021-11-03",
-      "dueDate": "2022-05-03",
-      "threatSignal": 73,
-      "movement24h": -3,
-      "movement7d": 557,
-      "cvssScore": 7.5,
-      "epss": 0.87713,
-      "epssPercentile": 0.9984,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": true,
-      "noPrivilegesRequired": true,
-      "shortDescription": "SAP NetWeaver Application Server Java Platforms contains a directory traversal vulnerability via a ..\\ (dot dot backslash) in the fileName parameter to CrashFileDownloadServlet. This allows remote attackers to read files.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2016-3976"
-    },
-    {
       "cveID": "CVE-2020-8195",
       "vendorProject": "Citrix",
       "product": "Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance",
@@ -258,8 +212,8 @@
       "dateAdded": "2021-11-03",
       "dueDate": "2022-05-03",
       "threatSignal": 66,
-      "movement24h": 1,
-      "movement7d": 489,
+      "movement24h": -1,
+      "movement7d": 488,
       "cvssScore": 6.5,
       "epss": 0.63861,
       "epssPercentile": 0.99424,
@@ -271,25 +225,67 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2020-8195"
     },
     {
-      "cveID": "CVE-2026-129448",
-      "vendorProject": "Apache",
-      "product": "Roller",
-      "technology": "Web Applications / CMS",
-      "vulnerabilityName": "Apache Roller Deserialization of Untrusted Data Vulnerability",
-      "dateAdded": "2026-11-20",
-      "dueDate": "2026-11-23",
-      "threatSignal": 75,
-      "movement24h": -5,
-      "movement7d": 471,
+      "cveID": "CVE-2019-7193",
+      "vendorProject": "QNAP",
+      "product": "QTS",
+      "technology": "Other",
+      "vulnerabilityName": "QNAP QTS Improper Input Validation Vulnerability",
+      "dateAdded": "2022-06-08",
+      "dueDate": "2022-06-22",
+      "threatSignal": 79,
+      "movement24h": 0,
+      "movement7d": 469,
       "cvssScore": 9.8,
-      "epss": 0.24159,
-      "epssPercentile": 0.98333,
+      "epss": 0.44714,
+      "epssPercentile": 0.99072,
+      "knownRansomwareCampaignUse": "Known",
+      "networkExploitable": true,
+      "publicExploit": true,
+      "noPrivilegesRequired": true,
+      "shortDescription": "QNAP QTS contains an improper input validation vulnerability allowing remote attackers to inject code on the system.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2019-7193"
+    },
+    {
+      "cveID": "CVE-2026-86060",
+      "vendorProject": "MikroTik",
+      "product": "RouterOS",
+      "technology": "Network Edge / VPN",
+      "vulnerabilityName": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
+      "dateAdded": "2026-09-10",
+      "dueDate": "2026-09-13",
+      "threatSignal": 69,
+      "movement24h": 1,
+      "movement7d": 458,
+      "cvssScore": 9.2,
+      "epss": 0.3552,
+      "epssPercentile": 0.98828,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
-      "publicExploit": false,
+      "publicExploit": true,
       "noPrivilegesRequired": true,
-      "shortDescription": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-129448"
+      "shortDescription": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-86060"
+    },
+    {
+      "cveID": "CVE-2016-20017",
+      "vendorProject": "D-Link",
+      "product": "DSL-2750B Devices",
+      "technology": "Other",
+      "vulnerabilityName": "D-Link DSL-2750B Devices Command Injection Vulnerability",
+      "dateAdded": "2024-01-08",
+      "dueDate": "2024-01-29",
+      "threatSignal": 77,
+      "movement24h": 0,
+      "movement7d": 378,
+      "cvssScore": 9.8,
+      "epss": 0.83723,
+      "epssPercentile": 0.99789,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": true,
+      "noPrivilegesRequired": true,
+      "shortDescription": "D-Link DSL-2750B devices contain a command injection vulnerability that allows remote, unauthenticated command injection via the login.cgi cli parameter.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2016-20017"
     }
   ],
   "highestSignals": [
@@ -302,7 +298,7 @@
       "dateAdded": "2026-11-25",
       "dueDate": "2026-11-28",
       "threatSignal": 75,
-      "movement24h": -4,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.31768,
@@ -323,7 +319,7 @@
       "dateAdded": "2026-11-23",
       "dueDate": "2026-11-26",
       "threatSignal": 75,
-      "movement24h": 58,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.27157,
@@ -336,48 +332,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-133968"
     },
     {
-      "cveID": "CVE-2026-129448",
-      "vendorProject": "Apache",
-      "product": "Roller",
-      "technology": "Web Applications / CMS",
-      "vulnerabilityName": "Apache Roller Deserialization of Untrusted Data Vulnerability",
-      "dateAdded": "2026-11-20",
-      "dueDate": "2026-11-23",
-      "threatSignal": 75,
-      "movement24h": -5,
-      "movement7d": 471,
-      "cvssScore": 9.8,
-      "epss": 0.24159,
-      "epssPercentile": 0.98333,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-129448"
-    },
-    {
-      "cveID": "CVE-2026-123890",
-      "vendorProject": "Broadcom",
-      "product": "VMware vCenter",
-      "technology": "Cloud / Virtualization",
-      "vulnerabilityName": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "dateAdded": "2026-11-20",
-      "dueDate": "2026-11-23",
-      "threatSignal": 71,
-      "movement24h": -2,
-      "movement7d": 274,
-      "cvssScore": 9.8,
-      "epss": 0.05009,
-      "epssPercentile": 0.93025,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-123890"
-    },
-    {
       "cveID": "CVE-2026-133323",
       "vendorProject": "Mitel",
       "product": "MiCollab",
@@ -386,7 +340,7 @@
       "dateAdded": "2026-11-25",
       "dueDate": "2026-11-28",
       "threatSignal": 70,
-      "movement24h": -2,
+      "movement24h": 1,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.05628,
@@ -399,25 +353,46 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-133323"
     },
     {
-      "cveID": "CVE-2026-76466",
-      "vendorProject": "Cisco",
-      "product": "Expressway Series",
-      "technology": "Other",
-      "vulnerabilityName": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
-      "dateAdded": "2026-11-20",
-      "dueDate": "2026-11-23",
+      "cveID": "CVE-2026-131914",
+      "vendorProject": "Idunno",
+      "product": "AntiCsrf",
+      "technology": "OT / ICS",
+      "vulnerabilityName": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+      "dateAdded": "2026-11-24",
+      "dueDate": "2026-11-27",
       "threatSignal": 70,
-      "movement24h": -2,
-      "movement7d": 222,
-      "cvssScore": 9.8,
-      "epss": 0.01116,
-      "epssPercentile": 0.65743,
+      "movement24h": 47,
+      "movement7d": 0,
+      "cvssScore": 9.3,
+      "epss": 0.04238,
+      "epssPercentile": 0.91803,
       "knownRansomwareCampaignUse": "Unknown",
       "networkExploitable": true,
       "publicExploit": false,
       "noPrivilegesRequired": true,
-      "shortDescription": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-76466"
+      "shortDescription": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-131914"
+    },
+    {
+      "cveID": "CVE-2026-136716",
+      "vendorProject": "Drupal",
+      "product": "Core",
+      "technology": "Web Applications / CMS",
+      "vulnerabilityName": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+      "dateAdded": "2026-11-27",
+      "dueDate": "2026-11-30",
+      "threatSignal": 69,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 9.8,
+      "epss": 0.01212,
+      "epssPercentile": 0.68449,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": true,
+      "shortDescription": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-136716"
     },
     {
       "cveID": "CVE-2026-103406",
@@ -428,7 +403,7 @@
       "dateAdded": "2026-11-25",
       "dueDate": "2026-11-28",
       "threatSignal": 69,
-      "movement24h": -2,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.01535,
@@ -449,7 +424,7 @@
       "dateAdded": "2026-11-25",
       "dueDate": "2026-11-28",
       "threatSignal": 69,
-      "movement24h": -2,
+      "movement24h": 0,
       "movement7d": 0,
       "cvssScore": 9.8,
       "epss": 0.01326,
@@ -462,27 +437,6 @@
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-133303"
     },
     {
-      "cveID": "CVE-2026-131914",
-      "vendorProject": "Idunno",
-      "product": "AntiCsrf",
-      "technology": "OT / ICS",
-      "vulnerabilityName": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
-      "dateAdded": "2026-11-24",
-      "dueDate": "2026-11-27",
-      "threatSignal": 69,
-      "movement24h": -2,
-      "movement7d": 0,
-      "cvssScore": 9.3,
-      "epss": 0.04238,
-      "epssPercentile": 0.91803,
-      "knownRansomwareCampaignUse": "Unknown",
-      "networkExploitable": true,
-      "publicExploit": false,
-      "noPrivilegesRequired": true,
-      "shortDescription": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
-      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-131914"
-    },
-    {
       "cveID": "CVE-2026-134624",
       "vendorProject": "N-able",
       "product": "MailAssure",
@@ -491,7 +445,7 @@
       "dateAdded": "2026-11-23",
       "dueDate": "2026-11-26",
       "threatSignal": 69,
-      "movement24h": 35,
+      "movement24h": 1,
       "movement7d": 0,
       "cvssScore": 9.3,
       "epss": 0.01793,
@@ -502,13 +456,55 @@
       "noPrivilegesRequired": false,
       "shortDescription": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to internal services.",
       "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2026-134624"
+    },
+    {
+      "cveID": "CVE-2023-25914",
+      "vendorProject": "Danfoss",
+      "product": "AK-SM 800A Series",
+      "technology": "Other",
+      "vulnerabilityName": "Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+      "dateAdded": "2026-11-25",
+      "dueDate": "2026-11-28",
+      "threatSignal": 67,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.8,
+      "epss": 0.01845,
+      "epssPercentile": 0.79594,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2023-25914"
+    },
+    {
+      "cveID": "CVE-2023-25915",
+      "vendorProject": "Danfoss",
+      "product": "AK-SM 800A Series",
+      "technology": "Other",
+      "vulnerabilityName": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+      "dateAdded": "2026-11-25",
+      "dueDate": "2026-11-28",
+      "threatSignal": 67,
+      "movement24h": 0,
+      "movement7d": 0,
+      "cvssScore": 8.8,
+      "epss": 0.02485,
+      "epssPercentile": 0.85348,
+      "knownRansomwareCampaignUse": "Unknown",
+      "networkExploitable": true,
+      "publicExploit": false,
+      "noPrivilegesRequired": false,
+      "shortDescription": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+      "url": "https://mattsimoto.github.io/cyber-threat-wall/?cve=CVE-2023-25915"
     }
   ],
   "observations": [
-    "CISA added 19 actively exploited vulnerabilities during the last 7 days.",
-    "Other is the most represented technology category among this week's new KEVs (10).",
+    "CISA added 18 actively exploited vulnerabilities during the last 7 days.",
+    "Other is the most represented technology category among this week's new KEVs (9).",
     "Mitel has the most new KEV entries this week (5).",
-    "CVE-2026-16232 is the largest 7-day rank riser, up 893 positions."
+    "CVE-2026-16232 is the largest 7-day rank riser, up 894 positions."
   ],
-  "executiveSummary": "CISA added 19 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (10). Mitel has the most new KEV entries this week (5). CVE-2026-16232 is the largest 7-day rank riser, up 893 positions."
+  "executiveSummary": "CISA added 18 actively exploited vulnerabilities during the last 7 days. Other is the most represented technology category among this week's new KEVs (9). Mitel has the most new KEV entries this week (5). CVE-2026-16232 is the largest 7-day rank riser, up 894 positions."
 }
